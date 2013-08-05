@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ====== DIR NAME ======
 almond (the root directory)
 --------------------
@@ -30,3 +31,9 @@ server.js (the main program)
 
 ------------------------
 
+=======
+almond
+======
+
+my localized server
+>>>>>>> 846d6a2... Initial commit
