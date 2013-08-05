@@ -1,3 +1,4 @@
+
 ====== DIR NAME ======
 almond (the root directory)
 --------------------
@@ -29,4 +30,10 @@ server.js (the main program)
 ====== PURPOSE =========
 
 ------------------------
+
+=======
+almond
+======
+
+my localized server
 
