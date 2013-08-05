@@ -1,0 +1,33 @@
+{
+  "name": "build-require",
+  "version": "0.0.0",
+  "private": true,
+  
+  
+
+  "description": "requirejs optimization script",
+  "main": "build-require.js",
+
+
+  "dependencies": {
+    "express": "3.x",
+    "habitat": "0.4.1",
+    "i18n-abide": "git://github.com/humphd/i18n-abide.git#05344a817dca4571a1ae9f502fed1cb118294033",
+    "nunjucks": "git://github.com/jlongster/nunjucks.git#0fc9622f3471d67058e431f765bc45d928d23a61",
+    "path": "*",
+    "winston": "0.7.1"
+  },
+
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "defaultBranch": "gh-pages"
+  },
+
+  "scripts": {
+    "start": "node server.js"
+  }
+}

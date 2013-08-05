@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ gettext("Me") }}{% endblock %}
+
+
+
+{% block body %}
+
+  <div class="index_page">
+
+    <p>
+      <h3>views/me.html</h3></a>
+    </p>
+
+
+    <p>
+      <h1>{{ gettext("My name is Igor") }}</h1></a>
+    </p>
+
+    <p>
+      <h3><a href="/{{lang}}/">{{ gettext("Home") }}</a></h3></a>
+    </p>
+
+    <p>
+      <h3><a href="/{{lang}}/mylinks">{{ gettext("My Links") }}</a></h3></a>
+    </p>
+
+
+
+  </div>
+
+{% endblock %}

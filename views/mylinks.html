@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ gettext("My links") }}{% endblock %}
+
+
+{% block body%}
+
+
+    <div class="main_page">
+      <h3>views/mylinks.html</h3>
+      <a href="/{{lang}}/">{{ gettext("Home") }}</a>
+
+      <div class="navigation_pane"><script src="../all_links.js"></script></div>
+      <div id="display_pane"></div>
+
+    </div>
+{% endblock %}

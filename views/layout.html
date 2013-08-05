@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=en>
+
+  <head>
+    <meta http-equiv="content-type" content="text-html; charset=utf-8">
+
+
+      <!-- ...TITLE......................................... -->
+
+    <title>
+      {% block title %}
+         {{tite}}
+      {% endblock %} - Almond
+    </title>
+    <!-- ...end TITLE......................................... -->
+
+
+
+    <!-- ...CSS......................................... -->
+    {% block css %}
+
+      <link rel="shortcut icon" href="img/links.png" />
+      <!-- NOT "../css/mycss.css" because  ... -->
+      <link rel="stylesheet" type="text/css" href="css/mycss.css">
+
+    {% endblock %}
+    <!-- ...end CSS......................................... -->
+
+
+
+    <!-- ....HEADER........................................ -->
+    {% block header %}
+
+    {% endblock %}
+    <!-- ....end HEADER........................................ -->
+
+
+    <!-- ...BODY......................................... -->
+
+    {% block body %}
+    {% endblock %}
+      <!-- .end BODY........................................... -->
+
+
+
+    <!-- ..FOOTER.......................................... -->
+
+      {% block footer %}
+
+      <script src="/ext/js/jquery.js"></script>
+      <script src="/ext/js/bootstrap.min.js"></script>
+      {% endblock %}
+    <!-- ...end FOOTER......................................... -->
+
+
+  </body>
+</html>
+
+
