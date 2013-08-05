@@ -186,7 +186,7 @@ app.configure( function() {
     supported_languages: [
       'en-US', 'ru'
     ],
-    default_lang: "en_US",
+    default_lang: "en_US", // if I switch to a dash, links in the english version stop working.
     translation_type: "key-value-json",
     translation_directory: "locale",
     locale_on_url: true

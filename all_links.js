@@ -13,7 +13,7 @@ var buttons = {
  , "Java":"java()"
  , "JavaScript":"js()"
  , "Job Search" : "jobsearch()"
- , "Latina":"latina()"
+ , "Lingua":"lingua()"
  , "Localization":"l10n()"
  , "Mozilla" : "mozilla()"
  , "Mozilla bugs" : "mozBugs()" 
@@ -174,6 +174,7 @@ var funnyFunc = function(){
     , "Dramatic Cat ":"http://www.youtube.com/watch?v=plWnm7UpsXk"
     , "Dramatic Cat ":"http://www.youtube.com/watch?v=EmeLlUmg7Xc"
     , "Dramatic Gopher ":"http://www.youtube.com/watch?v=8lXdyD2Yzls"
+    , "Dreyfuss reads EULA": "http://www.youtube.com/watch?v=Cu0lqUlHEko"
     , "Exam Answer Best ":"https://www.youtube.com/watch?v=cMsxnDMBifk"
     , "Frankenthumb" : "http://www.youtube.com/watch?v=TDYzLJk36VI"
     , "Gerald the Gorilla":"http://www.youtube.com/watch?v=beCYGm1vMJ0"
@@ -262,6 +263,7 @@ var git2 = function (){
     , "Acerola":"https://github.com/igoryen/acerola"
     , "Ackee":"https://github.com/igoryen/ackee"
     , "Ali Al Dallal" : "https://github.com/alicoding"
+    , "Almond": "https://github.com/igoryen/almond"
     , "Ambarella":"https://github.com/igoryen/ambarella"
     , "Amore":"https://github.com/humphd/amore.webmaker.org"
     , "Apple":"https://github.com/igoryen/apple"
@@ -699,6 +701,8 @@ var healthFun = function(){
     , "breast":"http://nutritiondata.self.com/facts/poultry-products/703/2"
     , "leg":"http://nutritiondata.self.com/facts/poultry-products/721/2"
     , "Egg":"http://nutritiondata.self.com/facts/dairy-and-egg-products/117/2"
+    , "Exercise finder": "http://www.bodybuilding.com/exercises/finder/lookup/filter/muscle/id/6/muscle/neck"
+    , "Everest Climb": "http://www.youtube.com/watch?v=84Xh1PoQvlA"
     , "Grapes":"http://nutritiondata.self.com/facts/fruits-and-fruit-juices/1920/2"
     , "High-Protein Foods":"http://lowcarbdiets.about.com/od/whattoeat/a/highproteinfood.htm"
     , "Life Fitness":"http://www.lifefitness.com/index.html"
@@ -847,7 +851,6 @@ var its2 = function (){
     , "Sublime Text on Fedora":"https://gist.github.com/dantoncancella/4977978"
     , "Tech On The Net ":"http://www.techonthenet.com/index.php"
     , "ToDo list":"http://zenit.senecac.on.ca/wiki/index.php/Webmaker_Summer_2013_TODO"
-    , "Tracking for CDOT":"https://etherpad.mozilla.org/trackingForCDOT"
     , "tree on Mac":"http://shaunchapman.me/post/329270449/how-to-install-the-tree-command-on-mac-os-x"
     , "Tutorial`s Point":"http://www.tutorialspoint.com/java/index.htm"
     , "VLSM subnet calculator":"http://www.vlsm-calc.net/"
@@ -871,8 +874,7 @@ function itt(){
 var itt2 = function (){
 
   var ittermsObj = {
-    "5xx Server Error":"http://en.wikipedia.org/wiki/500_Internal_Server_Error#5xx_Server_Error"
-    , "ABNF":"http://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_Form"
+      "ABNF":"http://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_Form"
     , "Abstraction":"http://en.wikipedia.org/wiki/Abstraction_%28computer_science%29"
     , "Abstraction layer":"http://en.wikipedia.org/wiki/Abstraction_layer"
     , "Address bar" : "http://en.wikipedia.org/wiki/Address_bar"
@@ -1100,6 +1102,7 @@ var itt2 = function (){
     , "UI":"http://en.wikipedia.org/wiki/User_interface"
     , "Uname":"http://en.wikipedia.org/wiki/Uname"
     , "URI":"http://en.wikipedia.org/wiki/Uniform_resource_identifier"
+    , "URI Scheme": "http://en.wikipedia.org/wiki/URI_scheme"
     , "URL" : "http://en.wikipedia.org/wiki/Url"
     , "User" : "http://en.wikipedia.org/wiki/User_%28computing%29"
     , "User agent":"http://en.wikipedia.org/wiki/User_agent"
@@ -1126,6 +1129,7 @@ var itt2 = function (){
     , "Web syndication":"http://en.wikipedia.org/wiki/Web_syndication"
     , "Wrapper library":"http://en.wikipedia.org/wiki/Wrapper_library"
     , "Xcode":"http://en.wikipedia.org/wiki/Xcode"
+    , "XHR": "http://en.wikipedia.org/wiki/XMLHttpRequest"
     , "XML":"http://en.wikipedia.org/wiki/Xml"
   };
 
@@ -1230,26 +1234,34 @@ var jsFunc = function() {
 
 //----------------------------------------------------------------------------
 
-function latina() {
-  document.getElementById("display_pane").innerHTML = latinaFunc();
+function lingua() {
+  document.getElementById("display_pane").innerHTML = linguaFunc();
 }
 ;
-var latinaFunc = function() {
-  var latinaObj = {
-    "Aloisius": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"
-    , "Grammar (Orbilat)": "http://www.orbilat.com/Languages/Latin/Grammar/index.html"
+var linguaFunc = function() {
+  var linguaObj = {
+    "Aloisius Latine": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"    
+    , "Jamaikanize": "http://www.jamaicanize.com/"
+    , "Kanji Recognizer": "http://kanji.sljfaq.org/"
+    , "Latin Grammar (Orbilat)": "http://www.orbilat.com/Languages/Latin/Grammar/index.html"
     , "Latin Links": "http://www.frcoulter.com/latin/links.html"
     , "Latinum": "https://sites.google.com/site/janualinguae/latin"
+    , "Merriam-Webster 1": "http://www.merriam-webster.com/"
+    , "Merriam-Webster 2": "http://www.learnersdictionary.com/"
+    , "Multitran": "http://www.multitran.ru/c/m.exe?a=1"
     , "Nuntii Latini": "http://yle.fi/radio1/tiede/nuntii_latini/"
+    , "Omniglot": "http://www.omniglot.com/writing/index.htm"
     , "Orbilat": "http://www.orbilat.com/"
     , "Romanian closest to Classical Latin": "http://www.antimoon.com/forum/t2129-0.htm"
     , "Recens Latinitas ": "file:///D:/Language/Latina/html/latinitas_recens_latine.html"
     , "Schola": "http://schola.ning.com/"
     , "Terentius et Milena ": "https://www.youtube.com/watch?v=mi_6LIPEP7M"
+    , "Translate.ru": "http://www.translate.ru/"
+    , "Translit.ru ": "http://www.translit.ru/"
 
   };
 
-  return printObj(latinaObj);
+  return printObj(linguaObj);
 
 };
 //----------------------------------------------------------------------------
@@ -1316,6 +1328,8 @@ var mozillaFunc = function() {
     , "popcorn.webmaker.org - moz": "https://github.com/mozilla/popcorn.webmaker.org"
     , "thimble.webmaker.org - moz": "https://github.com/mozilla/thimble.webmaker.org"
     , "VidyoConferencing - Brett": "https://v.mozilla.com/flex.html?roomdirect.html&key=D2NgxbqMh8j2"
+    , "webmaker-events - moz": "https://github.com/mozilla/webmaker-events"
+    , "webmaker-events - igoryen": "https://github.com/igoryen/webmaker-events"
     , "Webmaker Meetings 13/06/25-27": "https://etherpad.mozilla.org/webmaker-post15th-meetings"
     , "webmaker.org - ali": "https://github.com/alicoding/webmaker.org"
     , "webmaker.org - moz": "https://github.com/mozilla/webmaker.org"
@@ -1360,10 +1374,13 @@ var bugsFunc = function() {
     , "892631 - Localize privacy and /terms": "https://bugzilla.mozilla.org/show_bug.cgi?id=892631"
     , "896623 - take string off the static" : "https://bugzilla.mozilla.org/show_bug.cgi?id=896623"
     , "899703 - Duplicate paragraph": "https://bugzilla.mozilla.org/show_bug.cgi?id=899703"
+    , "900668 - Reorder cond. checks": "https://bugzilla.mozilla.org/show_bug.cgi?id=900668"
+    , "901975 - created event confirm": "https://bugzilla.mozilla.org/show_bug.cgi?id=901975"
 
+    , "902115 - Remove 'Layer #'": "https://bugzilla.mozilla.org/show_bug.cgi?id=902115"
+    , "902458 - localize wm-events": "https://bugzilla.mozilla.org/show_bug.cgi?id=902458"
     , "Bugzilla": "https://bugzilla.mozilla.org/"
     , "Bugzilla: work with bugs": "http://sedgestuff.wordpress.com/2013/05/09/howto-working-with-open-bugs-on-bugzilla/"
-
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
     , "Scrumbu.gs" : "http://scrumbu.gs/"
     , "Scrumbu.gs Webmaker" : "http://scrumbu.gs/t/webmaker/"
@@ -1439,6 +1456,7 @@ var mus2 = function() {
     , "Enya, the Best of": "https://www.youtube.com/watch?v=wOtQ2vMxOl0"
     , "Enya, the Very Best of": "https://www.youtube.com/watch?v=img8hbAiRIk"
     , "Er. Lounge": "http://www.youtube.com/watch?v=SP0nLHHzDPY"
+    , "Er. Night Mix": "https://www.youtube.com/watch?v=wVJn0P0y-D4"
     , "Eternal Flame": "http://www.youtube.com/watch?v=DPxVIx06_CQ"
     , "Everything`s gonna be all right in Christ": "https://www.youtube.com/watch?v=uYXyo4kCffg"
     , "Extreme Ways": "https://www.youtube.com/watch?v=Au-v2RS0mJQ"
@@ -1725,7 +1743,9 @@ function p_t(){
 };
 var p_tFunc = function(){
   var p_tObj =  {
-    "Devil`s under my feet":"http://www.youtube.com/watch?v=D_TXYEmqn6U"
+    "Dawkins owned": "http://www.youtube.com/watch?v=4NzFr4lM-lc"
+    , "Dawkins afraid to debate": "http://www.youtube.com/watch?v=E7SnTzNHUJ8"
+    , "Devil`s under my feet":"http://www.youtube.com/watch?v=D_TXYEmqn6U"
     , "Doubt, Fear, and Unbelief":"http://www.youtube.com/watch?v=NomZHolreBk"
     , "God`s healing Power" : "http://www.youtube.com/watch?v=553lN-JaHAI"
     , "God`s Medicine":"http://www.youtube.com/watch?v=d2Wp5_bL338"
@@ -1814,7 +1834,8 @@ var senecaFunc = function(){
     , "Book Buyback":"https://www2.senecacollege.ca/buyback/index.jsp"
     , "Boyczuk, Bob rating":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=13003"
     , "Buchner, Mark rating":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1613500"
-    , "CDOT activity" : "http://rome.proximity.on.ca/projects/cdot_activity/wiki"
+    , "CDOT activity tracking" : "http://rome.proximity.on.ca/projects/cdot_activity/wiki/Activity%20Reports/Webmaker"
+    , "CDOT tracking (ehterp)":"https://etherpad.mozilla.org/trackingForCDOT"
     , "Client Services":"https://inside.senecac.on.ca/clientservices"
     , "Conkic, Nebojsa":"https://scs.senecac.on.ca/~nebojsa.conkic/dbs301_work.html"
     , "Conkic, Nebojsa rating":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=13042"
@@ -2013,6 +2034,7 @@ var unsortedFunc = function() {
     , "GIF bin": "http://www.gifbin.com/"
     , "Gmail ": "http://mail.google.com/mail/u/0/?shva=1#inbox"
     , "Gmail Inbox ": "https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=http://mail.google.com/mail/&scc=1<mpl=default<mplcache=2"
+    , "God Delusion Debate": "https://www.youtube.com/watch?v=YzSz8ED0bQE"
     , "Google Translate": "http://translate.google.com/"
     , "Gorodok": "http://gorodok.tv/"
     , "Got Questions? ": "http://gotquestions.org/"
@@ -2049,11 +2071,8 @@ var unsortedFunc = function() {
     , "Lumosity": "https://www.lumosity.com/login"
     , "Maniac World": "http://www.maniacworld.com/"
     , "Math is fun": "http://www.mathsisfun.com/index.htm"
-    , "Merriam-Webster 1": "http://www.merriam-webster.com/"
-    , "Merriam-Webster 2": "http://www.learnersdictionary.com/"
     , "Movie25 ": "http://movie25.com/"
     , "Mozilla Press Center": "https://blog.mozilla.org/press/"
-    , "Multitran": "http://www.multitran.ru/c/m.exe?a=1"
     , "MyAccount": "http://www.cra-arc.gc.ca/myaccount/"
     , "My Drive @ Google": "https://docs.google.com/?tab=mo&authuser=0#home"
     , "mx-mx": "http://mx-mx.com/lab/cizzle/#/curiosity"
@@ -2062,7 +2081,7 @@ var unsortedFunc = function() {
     , "Nexus 4 (Google)": "http://www.google.ca/nexus/4/"
     , "Nurgitz, Richard": "http://brimleydental.com/dr_n.html"
     , "Odnoklassninki": "http://www.odnoklassniki.ru"
-    , "Omniglot": "http://www.omniglot.com/writing/index.htm"
+    , "On becoming Baby-wise": "http://en.wikipedia.org/wiki/On_Becoming_Baby_Wise"
     , "Ontario": "http://www.ontario.ca/welcome-ontario"
     , "OpenDNS": "http://www.opendns.com/"
     , "Oracle.com": "http://www.oracle.com/index.html"
@@ -2114,8 +2133,7 @@ var unsortedFunc = function() {
     , "Thimble": "https://thimble.webmaker.org/en-US/"
     , "Tim Hortons": "http://www.timhortons.com/ca/en/index.html"
     , "Toronto Festivals and Events Calendar": "http://wx.toronto.ca/festevents.nsf/all?openform"
-    , "Translate.ru": "http://www.translate.ru/"
-    , "Translit.ru ": "http://www.translit.ru/"
+    
     , "TTC": "http://www.ttc.ca/"
     , "Tumblr": "https://www.tumblr.com/"
     , "Twelve Chairs, The 1": "http://lib.ru/ILFPETROV/ilf_petrov_12_chairs_engl.txt"
@@ -2148,8 +2166,6 @@ var unsortedFunc = function() {
     , "Yummy Market ": "http://www.yummymarket.com/"
     , "Z Movie TV ": "http://www1.zmovie.tv/"
     , "Zhong Wen": "http://www.zhongwen.com/"
-    , "Jamaikanize": "http://www.jamaicanize.com/"
-    , "Exercise finder": "http://www.bodybuilding.com/exercises/finder/lookup/filter/muscle/id/6/muscle/neck"
 
   };
 
@@ -2183,6 +2199,7 @@ var videoFunc = function(){
     , "Magneto`s Revenge ":"https://www.youtube.com/watch?v=Hyw8973Ql30"
     , "Minkova Milena Latine ":"https://www.youtube.com/watch?v=x3giQCbs7SA"
     , "Monty Python ":"https://www.youtube.com/watch?v=eOfI88NKRzY&feature=endscreen&NR=1"
+    , "Netflix - from outside US": "http://www.youtube.com/watch?v=4tBUbSrorV4"
     , "Our Father":"http://www.youtube.com/watch?v=7Wl-OZ3breE"
     , "Prometheus Explained":"http://www.youtube.com/watch?v=GpEx7pdp2-Q"
     , "Russian guy speaking Latin":"https://www.youtube.com/watch?v=yM_XkP6HMU4&list=PL1CE2A366DFCCCFB5"
@@ -2220,6 +2237,7 @@ var webdevFunc = function() {
     , "canvas": "http://www.w3schools.com/html/html5_canvas.asp"
     , "ceil()": "http://www.w3schools.com/jsref/jsref_ceil.asp"
     , "charset=": "http://www.w3schools.com/jsref/prop_anchor_charset.asp"
+    , "clara.io": "http://clara.io/"
     , "codeexamples (ether)": "https://etherpad.mozilla.org/codeexamples"
     , "confirm()": "http://www.w3schools.com/jsref/met_win_confirm.asp"
     , "createLinearGradient()": "http://www.w3schools.com/tags/canvas_createlineargradient.asp"
@@ -2251,6 +2269,7 @@ var webdevFunc = function() {
     , "host": "http://www.w3schools.com/jsref/prop_loc_host.asp"
     , "hostname": "http://www.w3schools.com/jsref/prop_loc_hostname.asp"
     , "innerHTML=": "http://www.w3schools.com/jsref/prop_html_innerhtml.asp"
+    , "jQuery user interface": "http://jqueryui.com/"
     , "lastModified": "http://www.w3schools.com/jsref/prop_doc_lastmodified.asp"
     , "length": "http://www.w3schools.com/jsref/jsref_length_string.asp"
     , "lineTo()": "http://www.w3schools.com/tags/canvas_lineto.asp"
@@ -2264,8 +2283,10 @@ var webdevFunc = function() {
     , "name": "http://www.w3schools.com/jsref/prop_meta_name.asp"
     , "onclick=": "http://www.w3schools.com/jsref/event_onclick.asp"
     , "onsubmit=": "http://www.w3schools.com/tags/ev_onsubmit.asp"
+    , "Parsing Markdown": "http://pzxc.com/simple-javascript-markdown-parsing-function"
     , "port": "http://www.w3schools.com/jsref/prop_loc_port.asp"
     , "pow()": "http://www.w3schools.com/jsref/jsref_pow.asp"
+    , "programming 7 things": "http://www.theguardian.com/info/developer-blog/2011/oct/07/programming-developer-journalist"
     , "prompt()": "http://www.w3schools.com/jsref/met_win_prompt.asp"
     , "protocol": "http://www.w3schools.com/jsref/prop_loc_protocol.asp"
     , "random()": "http://www.w3schools.com/jsref/jsref_random.asp"
@@ -2281,7 +2302,10 @@ var webdevFunc = function() {
     , "templates": "http://jinja.pocoo.org/docs/templates/"
     , "toLocaleString()": "http://www.w3schools.com/jsref/jsref_tolocalestring.asp"
     , "toUTCString()": "http://www.w3schools.com/jsref/jsref_toutcstring.asp"
+    , "tympanus": "http://tympanus.net/codrops/"
     , "Web_Console": "https://developer.mozilla.org/en-US/docs/Tools/Web_Console"
+    , "Tags Manager": "http://welldonethings.com/tags/manager"
+    , "Talent Is Overrated": "https://www.google.ca/search?q=talent+is+overrated&oq=talent+is+overrate&aqs=chrome.0.0j69i57j0l2.3517j0&sourceid=chrome&ie=UTF-8"
     , "while loop": "http://www.w3schools.com/js/js_loop_while.asp"
     , "write()": "http://www.w3schools.com/jsref/met_doc_write.asp"
     , "writeln()": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
