@@ -30,3 +30,8 @@ server.js (the main program)
 
 ------------------------
 
+=======
+almond
+======
+
+my localized server
