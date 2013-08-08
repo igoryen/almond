@@ -16,15 +16,22 @@
 
 
 
-    <!-- ...CSS......................................... -->
+    <!-- This is a list/store of files with CSS files that will be used -->
+    <!-- by pages based on this layout.html. This store will be introduced/loaded -->
+    <!-- into each new html file by default.............. -->
     {% block css %}
 
       <link rel="shortcut icon" href="img/links.png" />
+
       <!-- NOT "../css/mycss.css" because  ... -->
       <link rel="stylesheet" type="text/css" href="css/mycss.css">
+      <link rel="stylesheet" type="text/css" href="css/revealcontent.css">
+      <link rel="stylesheet" type="text/css" href="css/digitalclock.css">
+
 
     {% endblock %}
     <!-- ...end CSS......................................... -->
+
 
 
 
@@ -35,11 +42,14 @@
     <!-- ....end HEADER........................................ -->
 
 
+
+
     <!-- ...BODY......................................... -->
 
     {% block body %}
     {% endblock %}
       <!-- .end BODY........................................... -->
+
 
 
 

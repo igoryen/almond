@@ -174,6 +174,7 @@ var funnyFunc = function(){
     , "Dramatic Cat ":"http://www.youtube.com/watch?v=plWnm7UpsXk"
     , "Dramatic Cat ":"http://www.youtube.com/watch?v=EmeLlUmg7Xc"
     , "Dramatic Gopher ":"http://www.youtube.com/watch?v=8lXdyD2Yzls"
+    , "Dreyfuss reads EULA": "http://www.youtube.com/watch?v=Cu0lqUlHEko"
     , "Exam Answer Best ":"https://www.youtube.com/watch?v=cMsxnDMBifk"
     , "Frankenthumb" : "http://www.youtube.com/watch?v=TDYzLJk36VI"
     , "Gerald the Gorilla":"http://www.youtube.com/watch?v=beCYGm1vMJ0"
@@ -873,8 +874,7 @@ function itt(){
 var itt2 = function (){
 
   var ittermsObj = {
-    "5xx Server Error":"http://en.wikipedia.org/wiki/500_Internal_Server_Error#5xx_Server_Error"
-    , "ABNF":"http://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_Form"
+      "ABNF":"http://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_Form"
     , "Abstraction":"http://en.wikipedia.org/wiki/Abstraction_%28computer_science%29"
     , "Abstraction layer":"http://en.wikipedia.org/wiki/Abstraction_layer"
     , "Address bar" : "http://en.wikipedia.org/wiki/Address_bar"
@@ -1375,6 +1375,8 @@ var bugsFunc = function() {
     , "896623 - take string off the static" : "https://bugzilla.mozilla.org/show_bug.cgi?id=896623"
     , "899703 - Duplicate paragraph": "https://bugzilla.mozilla.org/show_bug.cgi?id=899703"
     , "900668 - Reorder cond. checks": "https://bugzilla.mozilla.org/show_bug.cgi?id=900668"
+    , "901975 - created event confirm": "https://bugzilla.mozilla.org/show_bug.cgi?id=901975"
+
     , "902115 - Remove 'Layer #'": "https://bugzilla.mozilla.org/show_bug.cgi?id=902115"
     , "902458 - localize wm-events": "https://bugzilla.mozilla.org/show_bug.cgi?id=902458"
     , "Bugzilla": "https://bugzilla.mozilla.org/"
@@ -1741,7 +1743,9 @@ function p_t(){
 };
 var p_tFunc = function(){
   var p_tObj =  {
-    "Devil`s under my feet":"http://www.youtube.com/watch?v=D_TXYEmqn6U"
+    "Dawkins owned": "http://www.youtube.com/watch?v=4NzFr4lM-lc"
+    , "Dawkins afraid to debate": "http://www.youtube.com/watch?v=E7SnTzNHUJ8"
+    , "Devil`s under my feet":"http://www.youtube.com/watch?v=D_TXYEmqn6U"
     , "Doubt, Fear, and Unbelief":"http://www.youtube.com/watch?v=NomZHolreBk"
     , "God`s healing Power" : "http://www.youtube.com/watch?v=553lN-JaHAI"
     , "God`s Medicine":"http://www.youtube.com/watch?v=d2Wp5_bL338"
@@ -2030,6 +2034,7 @@ var unsortedFunc = function() {
     , "GIF bin": "http://www.gifbin.com/"
     , "Gmail ": "http://mail.google.com/mail/u/0/?shva=1#inbox"
     , "Gmail Inbox ": "https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=http://mail.google.com/mail/&scc=1<mpl=default<mplcache=2"
+    , "God Delusion Debate": "https://www.youtube.com/watch?v=YzSz8ED0bQE"
     , "Google Translate": "http://translate.google.com/"
     , "Gorodok": "http://gorodok.tv/"
     , "Got Questions? ": "http://gotquestions.org/"
@@ -2232,6 +2237,7 @@ var webdevFunc = function() {
     , "canvas": "http://www.w3schools.com/html/html5_canvas.asp"
     , "ceil()": "http://www.w3schools.com/jsref/jsref_ceil.asp"
     , "charset=": "http://www.w3schools.com/jsref/prop_anchor_charset.asp"
+    , "clara.io": "http://clara.io/"
     , "codeexamples (ether)": "https://etherpad.mozilla.org/codeexamples"
     , "confirm()": "http://www.w3schools.com/jsref/met_win_confirm.asp"
     , "createLinearGradient()": "http://www.w3schools.com/tags/canvas_createlineargradient.asp"
@@ -2263,6 +2269,7 @@ var webdevFunc = function() {
     , "host": "http://www.w3schools.com/jsref/prop_loc_host.asp"
     , "hostname": "http://www.w3schools.com/jsref/prop_loc_hostname.asp"
     , "innerHTML=": "http://www.w3schools.com/jsref/prop_html_innerhtml.asp"
+    , "jQuery user interface": "http://jqueryui.com/"
     , "lastModified": "http://www.w3schools.com/jsref/prop_doc_lastmodified.asp"
     , "length": "http://www.w3schools.com/jsref/jsref_length_string.asp"
     , "lineTo()": "http://www.w3schools.com/tags/canvas_lineto.asp"
@@ -2276,8 +2283,10 @@ var webdevFunc = function() {
     , "name": "http://www.w3schools.com/jsref/prop_meta_name.asp"
     , "onclick=": "http://www.w3schools.com/jsref/event_onclick.asp"
     , "onsubmit=": "http://www.w3schools.com/tags/ev_onsubmit.asp"
+    , "Parsing Markdown": "http://pzxc.com/simple-javascript-markdown-parsing-function"
     , "port": "http://www.w3schools.com/jsref/prop_loc_port.asp"
     , "pow()": "http://www.w3schools.com/jsref/jsref_pow.asp"
+    , "programming 7 things": "http://www.theguardian.com/info/developer-blog/2011/oct/07/programming-developer-journalist"
     , "prompt()": "http://www.w3schools.com/jsref/met_win_prompt.asp"
     , "protocol": "http://www.w3schools.com/jsref/prop_loc_protocol.asp"
     , "random()": "http://www.w3schools.com/jsref/jsref_random.asp"
@@ -2293,7 +2302,10 @@ var webdevFunc = function() {
     , "templates": "http://jinja.pocoo.org/docs/templates/"
     , "toLocaleString()": "http://www.w3schools.com/jsref/jsref_tolocalestring.asp"
     , "toUTCString()": "http://www.w3schools.com/jsref/jsref_toutcstring.asp"
+    , "tympanus": "http://tympanus.net/codrops/"
     , "Web_Console": "https://developer.mozilla.org/en-US/docs/Tools/Web_Console"
+    , "Tags Manager": "http://welldonethings.com/tags/manager"
+    , "Talent Is Overrated": "https://www.google.ca/search?q=talent+is+overrated&oq=talent+is+overrate&aqs=chrome.0.0j69i57j0l2.3517j0&sourceid=chrome&ie=UTF-8"
     , "while loop": "http://www.w3schools.com/js/js_loop_while.asp"
     , "write()": "http://www.w3schools.com/jsref/met_doc_write.asp"
     , "writeln()": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
