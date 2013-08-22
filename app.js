@@ -261,6 +261,10 @@ app.get('/me', routes.pages("me"));
 app.get('/mylinks', routes.pages("mylinks"));
 //----------------------------------------------
 
+//-------------------------------------------------
+app.get('/revealcontent', routes.pages("revealcontent"));
+//-------------------------------------------------
+app.get('/digitalclock', routes.pages("digitalclock"));
 
 //--------------------------------------------------
 // due to this
