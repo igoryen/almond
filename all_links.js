@@ -1376,9 +1376,9 @@ var bugsFunc = function() {
     , "899703 - Duplicate paragraph": "https://bugzilla.mozilla.org/show_bug.cgi?id=899703"
     , "900668 - Reorder cond. checks": "https://bugzilla.mozilla.org/show_bug.cgi?id=900668"
     , "901975 - created event confirm": "https://bugzilla.mozilla.org/show_bug.cgi?id=901975"
-
     , "902115 - Remove 'Layer #'": "https://bugzilla.mozilla.org/show_bug.cgi?id=902115"
     , "902458 - localize wm-events": "https://bugzilla.mozilla.org/show_bug.cgi?id=902458"
+    , "908331 - guides -> event-guides": "https://bugzilla.mozilla.org/show_bug.cgi?id=908331"
     , "Bugzilla": "https://bugzilla.mozilla.org/"
     , "Bugzilla: work with bugs": "http://sedgestuff.wordpress.com/2013/05/09/howto-working-with-open-bugs-on-bugzilla/"
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
