@@ -1,131 +1,23 @@
+//======= VARIABLES ========================================================
 
-// ---- VARIABLES ------------------------------------------------
+var express = require('express');  // use this web application framework for node. assign: module 'express' to $express
+var nunjucks = require( "nunjucks" ); // a templating system
 
-
-//-------------------------------------------------
-// use this web application framework for node
-// assign: module 'express' to $express
-
-var express = require('express'); 
-
-//if (express) console.log('express .......... '+ express);
-//else console.log('no express');
-
-//-------------------------------------------------
- 
-
-
-
-//-------------------------------------------------------
-// a templating system
-
-var nunjucks = require( "nunjucks" );
-
-//if (nunjucks) console.log('nunjucks .......... '+ nunjucks);
-//else console.log('no nunjucks');
-
-//--------------------------------------------------------
-
-
-
-//--------------------------------------------------------
-// in case
 /*
 nunjucksEnv.addFilter("instantiate", function(input) {
     var tmpl = new nunjucks.Template(input);
     return tmpl.render(this.getVariables());
 });
 */
-//--------------------------------------------------------
 
-
-//-----------------------------------------------------------
-// The -path- module is required for handling and transforming file paths.
-
-var path = require('path'); 
-
-//if (path) console.log('path .......... '+ path);
-//else console.log('no path');
-
-//--------------------------------------------------------------
-
-
-//---------------------------------------------
-
+var path = require('path'); // The -path- module is required for handling and transforming file paths.
 var i18n = require( "i18n-abide" );
-//---------------------------------------------
-
-//---------------------------------------------------
-
 var routes  = require( "./routes" );
-
-//if (routes) console.log('routes .......... '+ routes);
-//else console.log('no routes');
-
-//--------------------------------------------------------
-
-
-
-//...
-
-//-----------------------------------------------
-
 var app = express();
-
-//if (app) console.log('app .......... '+ app);
-//else console.log('no app');
-//------------------------------------------------
-
-
-
-
-//-----------------------------------------------------------------
-// take all the environment variables supplied from ./config/environment.js
-// and assign them to -env
-
-var env = require('./config/environment');
-
-//if (env) console.log('env 2 .......... '+ env);
-//else console.log('no env');
-
-//console.log('PORT 2 ..........' + env.get('PORT'));
-
-//-----------------------------------------------------------------
-
-
-
-
-//-------------------------------------------------------
-// create the environment for the templating system
-
-var nunjucksEnv   = new nunjucks.Environment( new nunjucks.FileSystemLoader( path.join( __dirname, 'views' )));
-
-//if (nunjucksEnv) console.log('nunjucksEnv .......... '+ nunjucksEnv);
-//else console.log('no nunjucksEnv');
-//-------------------------------------------------------
-
-
-
-//-------------------------------------------------
-// take process.cwd [current working dir] and assign ... to $dirname
-
-var cwd_name = process.cwd();
-
-//if (cwd_name) console.log('cwd_name .......... '+ cwd_name);
-//else console.log('no cwd');
-
-//--------------------------------------------------
-
-
-
-//------------------------------------------------------
-
+var env = require('./config/environment'); // take all the environment variables supplied from ./config/environment.js  and assign them to -env
+var nunjucksEnv   = new nunjucks.Environment( new nunjucks.FileSystemLoader( path.join( __dirname, 'views' ))); // create the environment for the templating system
+var cwd_name = process.cwd(); // take process.cwd [current working dir] and assign ... to $dirname
 var logger  = require('./lib/logger');
-
-//if (logger) console.log('logger .......... '+ logger);
-//------------------------------------------------------
-
-
 
 //--------------------------------------------------
 // create a server and assign it to variable -app- 
@@ -140,9 +32,6 @@ var logger  = require('./lib/logger');
 // var app = express.createServer(express.logger());
 //--------------------------------------------------
 
-
-
-
 //-----------------------------------------------------
 // the server will be listening to port with this number
 // This is an example of hard-coding this value
@@ -151,18 +40,14 @@ var logger  = require('./lib/logger');
 //--------------------------------------------------------------
 
 
-//===VARIABLES==========================================================
+//===VARIABLES end==========================================================
 
 
 
-
-
-
-//=== EXPRESS CONFIGURATION ======================
+//=== EXPRESS CONFIGURATION ================================================
 app.configure( function() {
 
   nunjucksEnv.express( app );
-
   app.disable( "x-powered-by" ); //?
   app.use(express.logger('dev'));//?
   app.use( express.compress() ); //?
@@ -186,30 +71,24 @@ app.configure( function() {
     supported_languages: [
       'en-US', 'ru'
     ],
-    default_lang: "en_US", // if I switch to a dash, links in the english version stop working.
+    default_lang: "en_US", // PROBLEM (2012-08)! if I switch to a dash, links in the english version stop working.
     translation_type: "key-value-json",
     translation_directory: "locale",
     locale_on_url: true
   }));
   //-------------------------------------------
 
-
-
-
-
   app.use( express.bodyParser() );
   app.use( app.router );
 
-
   //---------------------------------------------------------------
   //  1. pass -dirname- to express.static()
-  //  2. pass the return value app.use 
-
+  //  2. pass the return value to app.use 
   app.use( express.static(cwd_name));  
   //---------------------------------------------------------------
 
 });
-//=== EXPRESS CONFIGURATION ===================
+//=== EXPRESS CONFIGURATION end ===================
 
 
 
@@ -240,31 +119,18 @@ app.configure( function() {
 // pages() receives string 'index' into its 'view' parameter
 // as defined in routes/index.js
 
+//----------------------------------------------
+
+
+//----------------------------------------------
+// -routes- is defined above
+// .pages() is defined at: routes/index.js
+// .pages() looks into the views directory by default??
 app.get('/', routes.pages("index"));
-//----------------------------------------------
-
-
-//----------------------------------------------
-// -routes- is defined above
-// -pages() is a method of -routes-
-// pages() looks into the views directory by default??
-
-app.get('/me', routes.pages("me"));
-//----------------------------------------------
-
-
-//----------------------------------------------
-// -routes- is defined above
-// pages() is defined at: routes/index.js
-// pages() looks into the views directory by default??
-
-app.get('/mylinks', routes.pages("mylinks"));
-//----------------------------------------------
-
-//-------------------------------------------------
-app.get('/revealcontent', routes.pages("revealcontent"));
-//-------------------------------------------------
 app.get('/digitalclock', routes.pages("digitalclock"));
+app.get('/me', routes.pages("me"));
+app.get('/mylinks', routes.pages("mylinks"));
+app.get('/revealcontent', routes.pages("revealcontent"));
 app.get('/tagsmanager', routes.pages("tagsmanager"));
 
 
@@ -278,8 +144,8 @@ app.get('/tagsmanager', routes.pages("tagsmanager"));
 
 
 app.listen( env.get('PORT'), function() { 
-  logger.info("______Serving on port >" + env.get('PORT') + "< files in >" + cwd_name);
-  logger.info("______The currently executing script resides in directory '" +__dirname + '"'); //11
+  logger.info("env.get('PORT') is " + env.get('PORT') + ", cwd_name (where files are) is " + cwd_name);
+  logger.info("______The currently executing script resides in __dirname '" +__dirname + '"'); //11
 });
 //========= APP.GET() et al ================================================
 
