@@ -127,8 +127,10 @@ app.configure( function() {
 // .pages() is defined at: routes/index.js
 // .pages() looks into the views directory by default??
 app.get('/', routes.pages("index"));
+app.get('/debug', routes.pages("debug"));
 app.get('/digitalclock', routes.pages("digitalclock"));
 app.get('/me', routes.pages("me"));
+app.get('/moveon', routes.pages("moveon"));
 app.get('/mylinks', routes.pages("mylinks"));
 app.get('/revealcontent', routes.pages("revealcontent"));
 app.get('/tagsmanager', routes.pages("tagsmanager"));

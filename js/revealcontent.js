@@ -19,7 +19,5 @@
         else if (elt.className == "revealed") 
           elt.className = "reveal";
       } // end of onclick
-
     } // end of for
-    
   };
