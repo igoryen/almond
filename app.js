@@ -134,6 +134,7 @@ app.configure( function() {
 app.get( "/strings/:lang?", i18n.stringsRoute( "en-US" ) );
 
 app.get('/', routes.pages("index"));
+app.get('/css', routes.pages("css"));
 app.get('/debug', routes.pages("debug"));
 app.get('/digitalclock', routes.pages("digitalclock"));
 app.get('/funny', routes.pages("funny"));
