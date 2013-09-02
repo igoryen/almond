@@ -15,11 +15,10 @@ exports.pages = function( view ) {
 
 //-------------------------------------------
 // create function index()
-// idex() will display the home page
+// index() will display the home page
 // which resides at the following address:
 
 exports.index = function(req, res) {
-  
   return res.render('public/index.html');
 };
 //-------------------------------------------

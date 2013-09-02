@@ -1,9 +1,36 @@
 {
-  "My name is Igor": "My name is Igor",
-  "HOME": "HOME",
-  "Home": "Home",
-  "My Links": "My Links",
-  "My links": "My links",
-  "Me": "Me",
-  "Russian version": "Russian version"
+  "My name is Igor": "My name is Igor"
+  , "HOME": "HOME"
+  , "Home": "Home"
+  , "My Links": "My Links"
+  , "My links": "My links"
+  , "Me": "Me"
+  , "Russian version": "Russian version"
+  , "Funny": "Funny"
+  , "Git": "Git"
+  , "Video": "Video"
+  , "Gregoriana": "Gregoriana"
+  , "HTML5": "HTML5"
+  , "Health": "Health"
+  , "IT stuff": "IT stuff"
+  , "IT terms": "IT terms" 
+  , "Java": "Java"
+  , "JavaScript": "JavaScript"
+  , "Job Search": "Job Search"
+  , "Lingua": "Lingua"
+  , "Localization": "Localization"
+  , "Mozilla": "Mozilla"
+  , "Mozilla bugs": "Mozilla bugs"
+  , "Music": "Music"
+  , "Node.js": "Node.js"
+  , "PHP": "PHP"
+  , "Praise & Worship": "Praise & Worship"
+  , "Preach & Teach": "Preach & Teach"
+  , "Self-Defense": "Self-Defense"
+  , "Seneca": "Seneca"
+  , "Tolkieniana": "Tolkieniana"
+  , "Transifex": "Transifex"
+  , "Uncategorized": "Uncategorized"
+  , "Video": "Video"
+  , "Webdev": "Webdev"
 }

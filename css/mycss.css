@@ -31,13 +31,22 @@ padding:5px 10px;
 }
 
 /*===== # ================================*/
+
+#navigation_pane{
+    border-right: 1px solid white;
+    float: left;
+    font-size: small;
+    padding-right: 5px;
+}
+
 #display_pane{
-  margin-left: 150px;
-  height: 100%;
-    
-  columns:10px 6;
-    -webkit-columns:10px 6; /* Safari and Chrome */
-    -moz-columns:10px 6; /* Firefox */
+    font-family: serif;
+    font-size: small;
+    columns:10px 5;
+        -webkit-columns:10px 5; /* Safari and Chrome */
+        -moz-columns:10px 5; /* Firefox */
+    padding-left: 5px;
+
 }
 
 /*===== A ================================*/
@@ -123,6 +132,7 @@ div.main_page
   height: 100%;  
 } 
 /*========== end dynamic columns ========================= */
+
 div.base{
     background-color: black;
     border-radius: 10px;

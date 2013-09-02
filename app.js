@@ -1,4 +1,6 @@
 //======= VARIABLES ========================================================
+var aux = require("./middleware");
+console.log('the type is: ' + typeof aux.printButtons); // success!
 
 var express = require('express');  // use this web application framework for node. assign: module 'express' to $express
 var nunjucks = require( "nunjucks" ); // a templating system
@@ -11,7 +13,8 @@ nunjucksEnv.addFilter("instantiate", function(input) {
 */
 
 var path = require('path'); // The -path- module is required for handling and transforming file paths.
-var i18n = require( "i18n-abide" );
+//var i18n = require( "i18n-abide" );
+var i18n = require( "webmaker-i18n" );
 var routes  = require( "./routes" );
 var app = express();
 var env = require('./config/environment'); // take all the environment variables supplied from ./config/environment.js  and assign them to -env
@@ -67,14 +70,16 @@ app.configure( function() {
   //-------------------------------------------
   // Setup locales with i18n
 
-  app.use( i18n.abide({
-    supported_languages: [
-      'en-US', 'ru'
-    ],
-    default_lang: "en_US", // PROBLEM (2012-08)! if I switch to a dash, links in the english version stop working.
-    translation_type: "key-value-json",
-    translation_directory: "locale",
-    locale_on_url: true
+  //app.use( i18n.abide({
+    app.use( i18n.middleware({
+      supported_languages: [
+        'en-US'
+      ],
+      default_lang: "en_US", // PROBLEM (2012-08)! if I switch to a dash, links in the english version stop working.
+      translation_type: "key-value-json",
+      //translation_directory: "locale",
+      translation_directory: path.resolve( __dirname, "locale"),
+      locale_on_url: true
   }));
   //-------------------------------------------
 
@@ -122,18 +127,46 @@ app.configure( function() {
 //----------------------------------------------
 
 
-//----------------------------------------------
+//------ROUTES----------------------------------------
 // -routes- is defined above
 // .pages() is defined at: routes/index.js
 // .pages() looks into the views directory by default??
+app.get( "/strings/:lang?", i18n.stringsRoute( "en-US" ) );
+
 app.get('/', routes.pages("index"));
 app.get('/debug', routes.pages("debug"));
 app.get('/digitalclock', routes.pages("digitalclock"));
+app.get('/funny', routes.pages("funny"));
+app.get('/git', routes.pages("git"));
+app.get('/gregoriana', routes.pages("gregoriana")); 
+app.get('/health', routes.pages("health"));
+app.get('/html5', routes.pages("html5"));
+app.get('/itstuff', routes.pages("itstuff"));
+app.get('/itterms', routes.pages("itterms"));
+app.get('/java', routes.pages("java"));
+app.get('/javascript', routes.pages("javascript"));
+app.get('/jobsearch', routes.pages("jobsearch"));
+app.get('/lingua', routes.pages("lingua"));
+app.get('/localization', routes.pages("localization")); 
 app.get('/me', routes.pages("me"));
 app.get('/moveon', routes.pages("moveon"));
+app.get('/mozilla', routes.pages("mozilla"));
+app.get('/mozillabugs', routes.pages("mozillabugs"));
+app.get('/music', routes.pages("music"));
 app.get('/mylinks', routes.pages("mylinks"));
+app.get('/nodejs', routes.pages("nodejs"));
+app.get('/php', routes.pages("php"));
+app.get('/praiseandworship', routes.pages("praiseandworship"));
+app.get('/preachandteach', routes.pages("preachandteach"));
 app.get('/revealcontent', routes.pages("revealcontent"));
+app.get('/selfdefense', routes.pages("selfdefense"));
+app.get('/seneca', routes.pages("seneca")); 
 app.get('/tagsmanager', routes.pages("tagsmanager"));
+app.get('/tolkieniana', routes.pages("tolkieniana"));
+app.get('/transifex', routes.pages("transifex"));
+app.get('/uncategorized', routes.pages("uncategorized"));
+app.get('/video', routes.pages("video"));
+app.get('/webdev', routes.pages("webdev"));
 
 
 //--------------------------------------------------
