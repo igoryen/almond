@@ -86,6 +86,8 @@
     , "while loop": "http://www.w3schools.com/js/js_loop_while.asp"
     , "write()": "http://www.w3schools.com/jsref/met_doc_write.asp"
     , "writeln()": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
+    , "zsh shell" : "https://github.com/robbyrussell/oh-my-zsh"
+    , "zsh syntax highlighting" : "https://github.com/zsh-users/zsh-syntax-highlighting"
   }; // end object
 
     //----------------------------------------------------------------------------

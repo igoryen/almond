@@ -11,6 +11,7 @@
     , "God`s Medicine":"http://www.youtube.com/watch?v=d2Wp5_bL338"
     , "Hagin (playlist)":"http://www.youtube.com/playlist?list=PL4C095CACCE805213"
     , "Hagin (JehToday)" : "http://www.youtube.com/user/JehToday/search?query=Hagin"
+    , "I'm not moved by what I see": "http://www.youtube.com/watch?v=NomZHolreBk#t=1h00m35s"
     , "Why speak in tongues" : "http://www.youtube.com/watch?v=ysI9wMt09OU"
     , "Words & Confessions" : "http://www.youtube.com/watch?v=bSkSreKP_3g"
 

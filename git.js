@@ -36,8 +36,7 @@
     , "Interactive Rebase":"https://help.github.com/articles/interactive-rebase"
     , "Igoryen":"https://github.com/igoryen"
     , "localhost:3000":"http://localhost:3000"
-    , "localhost:7777":"http://localhost:7777"
-    
+    , "localhost:7777":"http://localhost:7777"   
     , "Mango":"https://github.com/igoryen/mango"
     , "Markdown Syntax":"https://github.com/fletcher/MultiMarkdown/blob/master/Documentation/Markdown%20Syntax.md"
     , "My links": "https://github.com/igoryen/mylinks"
@@ -51,8 +50,6 @@
     , "10 things I hate about git":"http://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/"
     , "Test":"https://github.com/igoryen/Test"
     , "Toolness":"https://github.com/toolness"
-    , "zsh shell" : "https://github.com/robbyrussell/oh-my-zsh"
-    , "zsh syntax highlighting" : "https://github.com/zsh-users/zsh-syntax-highlighting"
   }; // end object
 
     //----------------------------------------------------------------------------

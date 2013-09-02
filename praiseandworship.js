@@ -16,7 +16,6 @@
     , "God will Come": "https://www.youtube.com/watch?v=qYS4BP-l37k"
     , "He picked me up": "http://www.youtube.com/watch?v=_oitOA-boqU#t=01m10s"
     , "I'll be around": "http://www.youtube.com/watch?v=1IrH1tKyJQ0"
-    , "I'm not moved by what I see": "http://www.youtube.com/watch?v=NomZHolreBk#t=1h00m35s"
     , "I Surrender": "https://www.youtube.com/watch?v=HcnfT4arZtI"
     , "I will enter His Gates 1": "https://www.youtube.com/watch?v=aLcpLD5DHDU"
     , "I will enter His Gates 2": "https://www.youtube.com/watch?v=nr_YiSZ8KBc"

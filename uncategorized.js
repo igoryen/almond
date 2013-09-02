@@ -176,7 +176,7 @@
     , "Thimble": "https://thimble.webmaker.org/en-US/"
     , "Tim Hortons": "http://www.timhortons.com/ca/en/index.html"
     , "Toronto Festivals and Events Calendar": "http://wx.toronto.ca/festevents.nsf/all?openform"
-    
+    , "Toronto Immunization": "https://wx.toronto.ca/inter/health/vac.nsf/$defaultform?openform"
     , "TTC": "http://www.ttc.ca/"
     , "Tumblr": "https://www.tumblr.com/"
     , "Twelve Chairs, The 1": "http://lib.ru/ILFPETROV/ilf_petrov_12_chairs_engl.txt"
