@@ -40,17 +40,15 @@ padding:5px 10px;
 }
 
 #display_pane{
-     column-fill:auto;
-
-    font-family: serif;
+    column-fill:auto;
+    font-family: "Arial Narrow", sans-serif;
     font-size: small;
     -moz-column-count:5; /* Firefox */
     -webkit-column-count:5; /* Safari and Chrome */
     column-count:5;
-
--moz-column-gap:5px; /* Firefox */
--webkit-column-gap:5px; /* Safari and Chrome */
-column-gap:5px;
+    -moz-column-gap:5px; /* Firefox */
+    -webkit-column-gap:5px; /* Safari and Chrome */
+    column-gap:5px;
 
     /*columns:10px 5;*/
     /*    -webkit-columns:10px 5; /* Safari and Chrome */
