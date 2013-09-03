@@ -3,7 +3,7 @@
 
 // create an object
   var object = {
-    "a": "a"
+    "Browser support": "http://www.browsersupport.net/"  
   }; // end object
 
     //----------------------------------------------------------------------------
