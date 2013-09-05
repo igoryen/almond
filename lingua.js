@@ -3,7 +3,12 @@
 
 // create an object
   var object = {
-    "Aloisius Latine": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"    
+      "Aloisius Latine": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"    
+    , "IPA converter 1": "http://theaccentlab.com/tools/phonemic-converter/"
+    , "IPA converter 2": "http://www.photransedit.com/online/text2phonetics.aspx"
+    , "IPA in Unicode": "http://www.phon.ucl.ac.uk/home/wells/ipa-unicode.htm"
+    , "IPA transcriber": "http://project-modelino.com/english-phonetic-transcription-converter.php?"
+    , "IPAcharts with audio": "http://www.yorku.ca/earmstro/ipa/index.html"
     , "Jamaikanize": "http://www.jamaicanize.com/"
     , "Kanji Recognizer": "http://kanji.sljfaq.org/"
     , "Latin Grammar (Orbilat)": "http://www.orbilat.com/Languages/Latin/Grammar/index.html"
@@ -15,8 +20,8 @@
     , "Nuntii Latini": "http://yle.fi/radio1/tiede/nuntii_latini/"
     , "Omniglot": "http://www.omniglot.com/writing/index.htm"
     , "Orbilat": "http://www.orbilat.com/"
-    , "Romanian closest to Classical Latin": "http://www.antimoon.com/forum/t2129-0.htm"
     , "Recens Latinitas ": "file:///D:/Language/Latina/html/latinitas_recens_latine.html"
+    , "Romanian closest to Classical Latin": "http://www.antimoon.com/forum/t2129-0.htm"
     , "Schola": "http://schola.ning.com/"
     , "Terentius et Milena ": "https://www.youtube.com/watch?v=mi_6LIPEP7M"
     , "Translate.ru": "http://www.translate.ru/"

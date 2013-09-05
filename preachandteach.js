@@ -3,15 +3,21 @@
 
 // create an object
   var object = {
-    "Dawkins owned": "http://www.youtube.com/watch?v=4NzFr4lM-lc"
+      "Bible Audio": "http://boglubittebja.ru/bible.php"
+    , "Bible in Japanese" : "http://bible.salterrae.net/en/"
+    , "bibledice": "http://www.bibledice.com/scripture.php"
+    , "Biblos: Hebrew translit": "http://transliterated.interlinearbible.org/proverbs/1.htm"
+    , "Christian Cussing?": "http://preservedwords.com/cussing-pv.htm" 
     , "Dawkins afraid to debate": "http://www.youtube.com/watch?v=E7SnTzNHUJ8"
+    , "Dawkins owned": "http://www.youtube.com/watch?v=4NzFr4lM-lc"
     , "Devil`s under my feet":"http://www.youtube.com/watch?v=D_TXYEmqn6U"
     , "Doubt, Fear, and Unbelief":"http://www.youtube.com/watch?v=NomZHolreBk"
     , "God`s healing Power" : "http://www.youtube.com/watch?v=553lN-JaHAI"
     , "God`s Medicine":"http://www.youtube.com/watch?v=d2Wp5_bL338"
-    , "Hagin (playlist)":"http://www.youtube.com/playlist?list=PL4C095CACCE805213"
     , "Hagin (JehToday)" : "http://www.youtube.com/user/JehToday/search?query=Hagin"
+    , "Hagin (playlist)":"http://www.youtube.com/playlist?list=PL4C095CACCE805213"
     , "I'm not moved by what I see": "http://www.youtube.com/watch?v=NomZHolreBk#t=1h00m35s"
+    , "Jesus Is Lord ": "http://www.jesus-is-lord.com/"
     , "Why speak in tongues" : "http://www.youtube.com/watch?v=ysI9wMt09OU"
     , "Words & Confessions" : "http://www.youtube.com/watch?v=bSkSreKP_3g"
 

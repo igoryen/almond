@@ -3,7 +3,8 @@
 
 // create an object
   var object = {
-     "amore (humph) webmaker needs": "https://github.com/humphd/amore.webmaker.org/tree/webmaker-needs"
+      "amore (humph) webmaker needs": "https://github.com/humphd/amore.webmaker.org/tree/webmaker-needs"
+    , "Browser Quest": "http://browserquest.mozilla.org/"
     , "Butter": "https://github.com/mozilla/butter"
     , "GLTHUB 13w29" : "http://glthub.com/?s=2013w29#bugs-todo"
     , "i18n-abide - humph": "https://github.com/humphd/i18n-abide"
@@ -43,7 +44,6 @@
     , "webmaker postmortem  group 3": "https://etherpad.mozilla.org/webmakerpostmortemgroup3"
     , "Wiki Mozilla": "https://wiki.mozilla.org/Main_Page"
     , "X-ray goggles - moz" : "https://github.com/mozilla/goggles.webmaker.org"
-
   }; // end object
 
     //----------------------------------------------------------------------------

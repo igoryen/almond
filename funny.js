@@ -3,7 +3,9 @@
 
 // create an object
   var object = {
-    "Chariots of Fire":"https://www.youtube.com/watch?v=CwzjlmBLfrQ"
+      "9gag":"http://9gag.com/"
+    , "9gag - my likes": "http://9gag.com/u/igoryen/likes"
+    , "Chariots of Fire":"https://www.youtube.com/watch?v=CwzjlmBLfrQ"
     , "A, Masliakov? ":"http://www.youtube.com/watch?v=PRm4N5CcZMY"
     , "Ain`t Nobody Got Time For That ":"http://www.youtube.com/watch?v=8cT_Ulmcrys"
     , "All is lost! ":"http://www.youtube.com/watch?v=EmJdZ7DcV7U"
@@ -74,7 +76,6 @@
     , "Medicinal grass from UZ" : "http://www.youtube.com/watch?v=SpdlG3IOQA4"
     , "Murmurs of the Middle Earth":"https://www.youtube.com/watch?v=XJfGnqKoXYY"
     , "My Heart Will Go On":"http://www.youtube.com/watch?v=tlDSsII-yBo"
-    , "9gag":"http://9gag.com/"
     , "Novosib ozvuchka ":"http://www.youtube.com/watch?v=6w-PpPizmPk"
     , "Nucular ":"http://www.youtube.com/watch?v=OoASZyihalc"
     , "Offensive Translator, The":"http://www.youtube.com/watch?v=XY66ZJ0TFUI"
