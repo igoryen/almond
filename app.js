@@ -141,6 +141,7 @@ app.get('/funny', routes.pages("funny"));
 app.get('/git', routes.pages("git"));
 app.get('/gregoriana', routes.pages("gregoriana")); 
 app.get('/health', routes.pages("health"));
+app.get('/hillsong', routes.pages("hillsong"));
 app.get('/html5', routes.pages("html5"));
 app.get('/itstuff', routes.pages("itstuff"));
 app.get('/itterms', routes.pages("itterms"));

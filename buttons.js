@@ -11,6 +11,7 @@ var buttons = {
  , "Git": "git"
  , "Gregoriana":"gregoriana"
  , "Health":"health"
+ , "Hillsong": "hillsong"
  , "HTML5":"html5"
  , "IT stuff":"itstuff"
  , "IT terms":"itterms"
