@@ -3,7 +3,8 @@
 
 // create an object
   var object = {
-    "Browser support": "http://www.browsersupport.net/"  
+      "Browser support": "http://www.browsersupport.net/"  
+    , "Less": "http://lesscss.org/"
   }; // end object
 
     //----------------------------------------------------------------------------

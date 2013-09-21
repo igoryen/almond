@@ -83,6 +83,7 @@
     , "Web_Console": "https://developer.mozilla.org/en-US/docs/Tools/Web_Console"
     , "Tags Manager": "http://welldonethings.com/tags/manager"
     , "Talent Is Overrated": "https://www.google.ca/search?q=talent+is+overrated&oq=talent+is+overrate&aqs=chrome.0.0j69i57j0l2.3517j0&sourceid=chrome&ie=UTF-8"
+    , "What's my user agent": "http://www.whatsmyuseragent.com/"
     , "while loop": "http://www.w3schools.com/js/js_loop_while.asp"
     , "write()": "http://www.w3schools.com/jsref/met_doc_write.asp"
     , "writeln()": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
