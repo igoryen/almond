@@ -6,7 +6,9 @@
       "amore (humph) webmaker needs": "https://github.com/humphd/amore.webmaker.org/tree/webmaker-needs"
     , "Browser Quest": "http://browserquest.mozilla.org/"
     , "Butter": "https://github.com/mozilla/butter"
+    , "Demos": "https://webmaker.etherpad.mozilla.org/demos"
     , "GLTHUB 13w29" : "http://glthub.com/?s=2013w29#bugs-todo"
+    , "Goggles": "https://goggles.webmaker.org/"
     , "i18n-abide - humph": "https://github.com/humphd/i18n-abide"
     , "i18n-abide - humph - webmaker needs": "https://github.com/humphd/i18n-abide/commit/fc932caa42a4cfa88161dfe1a27e88085e85e3bd"
     , "i18n-abide - moz - issue 38": "https://github.com/mozilla/i18n-abide/issues/38"
@@ -26,10 +28,14 @@
     , "MakeAPI - moz": "https://github.com/mozilla/MakeAPI"
     , "MakeAPI make_model": "https://gist.github.com/mjschranz/e37e7429373861a3d11e"
     , "MakeAPI API reference": "https://github.com/mozilla/MakeAPI/wiki/API-Reference"
+    , "MozFest": "http://mozillafestival.org/"
     , "node-webmaker-loginapi": "https://github.com/mozilla/node-webmaker-loginapi"
     , "PasteBin": "http://pastebin.mozilla.org/"
     , "popcorn_maker": "https://github.com/mozilla/popcorn_maker"
     , "popcorn.webmaker.org - moz": "https://github.com/mozilla/popcorn.webmaker.org"
+    , "Statistics": "https://mozillafoundation.geckoboard.com/dashboards/F62088172D822E2A"
+    , "Scrum-fest": "https://teach.etherpad.mozilla.org/Scrumfest"
+    , "Teach the web - build webmaker": "https://teach.etherpad.mozilla.org/teachtheweb-buildwebmaker"
     , "thimble.webmaker.org - moz": "https://github.com/mozilla/thimble.webmaker.org"
     , "VidyoConferencing - Brett": "https://v.mozilla.com/flex.html?roomdirect.html&key=D2NgxbqMh8j2"
     , "webmaker-events - moz": "https://github.com/mozilla/webmaker-events"
@@ -44,7 +50,6 @@
     , "webmaker postmortem  group 2": "https://etherpad.mozilla.org/webmakerpostmortemgroup2"
     , "webmaker postmortem  group 3": "https://etherpad.mozilla.org/webmakerpostmortemgroup3"
     , "Wiki Mozilla": "https://wiki.mozilla.org/Main_Page"
-    , "X-ray goggles - moz" : "https://github.com/mozilla/goggles.webmaker.org"
   }; // end object
 
     //----------------------------------------------------------------------------

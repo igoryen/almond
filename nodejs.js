@@ -13,6 +13,7 @@
     , "What is it good for?": "http://readwrite.com/2011/01/25/wait-whats-nodejs-good-for-aga"
     , "EJS [puke]": "http://embeddedjs.com/"
     , "Event-driven programming": "http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/"
+    , "Event emitters": "http://docs.nodejitsu.com/articles/getting-started/control-flow/what-are-event-emitters"
     , "Everyone`s talking about it": "http://mashable.com/2011/03/10/node-js/"
     , "exports (github)": "https://github.com/vesln/exports"
     , "express (npm.js)": "https://npmjs.org/package/express"
@@ -54,6 +55,7 @@
     , "20 challenges in Node.js": "http://nodejs.org/jsconf-eu-2010.pdf"
     , "typeof": "https://npmjs.org/package/typeof"
     , "understanding ~": "http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb"
+    , "Windows and Node.js": "http://dailyjs.com/2012/05/03/windows-and-node-1/"
   }; // end object
 
     //----------------------------------------------------------------------------

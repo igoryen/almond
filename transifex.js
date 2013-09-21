@@ -10,7 +10,7 @@
     , "Transifex": "https://www.transifex.com/"
     , "Transifex - help": "http://help.transifex.com/contents.html"
     , "Translations": "http://help.transifex.com/features/api/api-v2.html#translations"
-    , "Webmaker.org": "https://www.transifex.com/projects/p/webmakerorg/"
+    , "Webmaker.org": "https://www.transifex.com/organization/webmaker"
   }; // end object
 
     //----------------------------------------------------------------------------

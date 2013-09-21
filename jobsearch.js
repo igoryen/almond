@@ -7,6 +7,10 @@
     , "Brothel line-up?": "http://www.askamanager.org/2012/05/im-afraid-im-about-to-be-offered-a-job-i-wont-be-good-at.html"
     , "Embanet": "http://embanet.com/" 
     , "Fivel": "http://www.fivel.ca/"
+    , "Job Interview Tips ": "https://www.youtube.com/watch?v=wllwJM6EyOI"
+    , "Linked In": "http://www.linkedin.com/"
+    , "Monster": "http://www.monster.ca/"
+    , "RBC jobs ": "https://performancemanager4.successfactors.com/career?company=RBC"
   }; // end object
 
     //----------------------------------------------------------------------------

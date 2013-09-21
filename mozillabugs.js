@@ -26,6 +26,8 @@
     , "902115 - Remove 'Layer #'": "https://bugzilla.mozilla.org/show_bug.cgi?id=902115"
     , "902458 - localize wm-events": "https://bugzilla.mozilla.org/show_bug.cgi?id=902458"
     , "908331 - guides -> event-guides": "https://bugzilla.mozilla.org/show_bug.cgi?id=908331"
+    , "918052 - missing gettext()": "https://bugzilla.mozilla.org/show_bug.cgi?id=918052"
+    , "918424 - a string unlocalized": "https://bugzilla.mozilla.org/show_bug.cgi?id=918424"
     , "Bugzilla": "https://bugzilla.mozilla.org/"
     , "Bugzilla: work with bugs": "http://sedgestuff.wordpress.com/2013/05/09/howto-working-with-open-bugs-on-bugzilla/"
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"

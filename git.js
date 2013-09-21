@@ -32,6 +32,7 @@
     , "git: install":"https://help.github.com/articles/set-up-git"
     , "git reference":"http://gitref.org/basic/"
     , "Gobbledygook":"https://github.com/lloyd/gobbledygook"
+    , "Goggles - moz" : "https://github.com/mozilla/goggles.webmaker.org"
     , "Hello World!":"https://github.com/alicoding/Hello-World/"
     , "Interactive Rebase":"https://help.github.com/articles/interactive-rebase"
     , "Igoryen":"https://github.com/igoryen"
@@ -49,6 +50,7 @@
     , "SIL2013":"https://github.com/storytellinginnovationlab2013"
     , "10 things I hate about git":"http://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/"
     , "Test":"https://github.com/igoryen/Test"
+    , "Thimble - moz": "https://github.com/mozilla/thimble.webmaker.org"
     , "Toolness":"https://github.com/toolness"
   }; // end object
 
