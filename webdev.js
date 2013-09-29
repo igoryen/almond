@@ -61,6 +61,7 @@
     , "onclick=": "http://www.w3schools.com/jsref/event_onclick.asp"
     , "onsubmit=": "http://www.w3schools.com/tags/ev_onsubmit.asp"
     , "Parsing Markdown": "http://pzxc.com/simple-javascript-markdown-parsing-function"
+    , "Periodic Table of HTML elements": "http://joshduck.com/periodic-table.html"
     , "port": "http://www.w3schools.com/jsref/prop_loc_port.asp"
     , "pow()": "http://www.w3schools.com/jsref/jsref_pow.asp"
     , "programming 7 things": "http://www.theguardian.com/info/developer-blog/2011/oct/07/programming-developer-journalist"

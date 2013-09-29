@@ -28,6 +28,7 @@
     , "I'm not moved by what I see": "http://www.youtube.com/watch?v=NomZHolreBk#t=1h00m35s"
     , "Jesus Is Lord ": "http://www.jesus-is-lord.com/"
     , "New Covenant Forum": "http://www.newcovenantforum.org/"
+    , "New Testament in 1 year": "http://www.scefc.org/documents/52_wks_new_testament.pdf"
     , "People`s Church": "http://www.thepeopleschurch.ca/default.asp"
     , "Pink Cross ": "https://www.thepinkcross.org/"
     , "Why speak in tongues" : "http://www.youtube.com/watch?v=ysI9wMt09OU"

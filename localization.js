@@ -3,7 +3,8 @@
 
 // create an object
   var object = {
-     "Define an i18n bundle": "http://requirejs.org/docs/api.html#i18n"
+    "Accept-Language used for locale setting": "http://www.w3.org/International/questions/qa-accept-lang-locales"
+    , "Define an i18n bundle": "http://requirejs.org/docs/api.html#i18n"
     , "Header field definitions": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html"
     , "IETF language tag": "http://en.wikipedia.org/wiki/IETF_language_tag"
     , "i18n guy": "http://www.i18nguy.com/"

@@ -18,6 +18,7 @@
     , "Douglas, Brian rating":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=50506"
     , "EAC397: Blackboard ":"https://my.senecacollege.ca/webapps/portal/frameset.jsp"
     , "Empath":"https://senepr.senecacollege.ca/Empath65/HrLogin.aspx"
+    , "Explain, please": "https://etherpad.mozilla.org/HSt25wbWko"
     , "Frey, Don rated":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=11374"
     , "Heidenreich, Michal rating ":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=33852"
     , "Humphrey, David": "https://scs.senecac.on.ca/~david.humphrey/"

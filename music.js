@@ -26,6 +26,8 @@
     , "Brook in the Woods": "http://www.youtube.com/watch?v=b2njHW9ydWs"
     , "Brown noise": "https://www.youtube.com/watch?v=iMrjYpU3YD4"
     , "Bullets are flying": "http://www.youtube.com/watch?v=ttZKDtTW1aI"
+    , "California Dreaming - Mamas and Papas": "https://www.youtube.com/watch?v=N-aK6JnyFmk"
+    , "California Dreaming - Beach Boys": "https://www.youtube.com/watch?v=ls9_HPTs06I"
     , "Careless Whisper": "https://www.youtube.com/watch?v=_bQTmS_kzIo"
     , "Castle of Rain, A": "http://www.youtube.com/watch?v=tn_ZB7Zt8Zg"
     , "Change": "http://www.youtube.com/watch?v=eg7BFXss1hE"

@@ -10,6 +10,7 @@
     , "All is lost! ":"http://www.youtube.com/watch?v=EmJdZ7DcV7U"
     , "Atkinson & E.John ":"https://www.youtube.com/watch?v=Hm5EkJXlgM8"
     , "Baby Talk ":"http://www.youtube.com/watch?v=sDocL7AfIRo"
+    , "BatDad": "https://www.youtube.com/watch?v=YlVi0noRr-o"
     , "Batman Chooses his voice ":"http://www.youtube.com/watch?v=WOg3ZE3hNQc"
     , "Be Quiet":"http://www.youtube.com/watch?v=xpovtaBBLCE"
     , "Bed Intruder ":"http://www.youtube.com/watch?v=VKsVSBhSwJg"
