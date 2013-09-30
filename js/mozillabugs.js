@@ -31,6 +31,7 @@
     , "920162 - localized but": "https://bugzilla.mozilla.org/show_bug.cgi?id=920162"
     , "921059 - l10n of Text/Popup plugin": "https://bugzilla.mozilla.org/show_bug.cgi?id=921059"
     , "921505 - Make not localized": "https://bugzilla.mozilla.org/show_bug.cgi?id=921505"
+    , "922130 - Add Events back to Eng": "https://bugzilla.mozilla.org/show_bug.cgi?id=922130"
     , "Bugzilla": "https://bugzilla.mozilla.org/"
     , "Bugzilla: work with bugs": "http://sedgestuff.wordpress.com/2013/05/09/howto-working-with-open-bugs-on-bugzilla/"
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
