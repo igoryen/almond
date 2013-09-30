@@ -13,6 +13,7 @@
     , "i18n-abide - humph": "https://github.com/humphd/i18n-abide"
     , "i18n-abide - humph - webmaker needs": "https://github.com/humphd/i18n-abide/commit/fc932caa42a4cfa88161dfe1a27e88085e85e3bd"
     , "i18n-abide - moz - issue 38": "https://github.com/mozilla/i18n-abide/issues/38"
+    , "Jenkins": "https://jenkins.mofoprod.net/"
     , "l10n Sept 5": "https://etherpad.mozilla.org/l10n-sep05"
     , "l10n at MozFest": "https://etherpad.mozilla.org/l10n-mozfest-2013"
     , "prio 130702": "https://webmaker.etherpad.mozilla.org/July2nd"

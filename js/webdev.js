@@ -7,6 +7,7 @@
     , "action=": "http://www.w3schools.com/tags/att_form_action.asp"
     , "addColorStop()": "http://www.w3schools.com/tags/canvas_addcolorstop.asp"
     , "alert()": "http://www.w3schools.com/jsref/met_win_alert.asp"
+    , "Almond (heroku)": "http://mighty-ridge-7957.herokuapp.com/webdev"
     , "arc()": "http://www.w3schools.com/tags/canvas_arc.asp"
     , "back()": "http://www.w3schools.com/jsref/met_his_back.asp"
     , "beginPath()": "http://www.w3schools.com/tags/canvas_beginpath.asp"
