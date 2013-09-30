@@ -1,0 +1,93 @@
+
+body{
+    background-color:#000033;
+    width: 1000px;
+    margin: auto; /*to make all content centered*/
+    
+}
+
+h1.mine{
+        font-family: serif;
+        
+        color: #dddddd;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 2px 2px #444444;
+        margin: 10px;
+}
+
+
+legend.mine{
+    font-family: serif;
+    font-style: italic;
+}
+div.table-row {
+          display:table; 
+          /*margin-top:1px;
+          margin-bottom:8px;*/
+          margin: auto;
+          width:90%;
+          background-color: #ffff00;
+          border: inset;          
+        border-color: #ff0000;
+        
+        
+}
+          
+div.table-cell{
+        display: table-cell;
+        /*margin-top:1px;
+        margin-bottom:8px;*/
+        
+        width:30%;
+        background-color: #999999;
+        
+        
+        padding: 10px;
+}
+
+div.table-cell-middle{
+        display: table-cell;
+        /*margin-top:1px;
+        margin-bottom:8px;*/
+        
+        width:30%;
+        background-color: #999999;
+        border-left-style: dashed;
+        border-right-style: dashed;
+        border-width: thin;
+        
+        padding: 10px;
+}
+
+div.block{
+        display: block;
+     
+        margin:auto; /*for center-alignment*/
+       
+        width:30%; /*of the screen width*/
+        background-color: #999999;
+        border: inset;
+        border-color: #ff0000;
+        padding: 10px;
+}
+fieldset.mine{
+    
+    margin-left: auto;
+    
+	padding: 10px;
+	border: solid 1px #eeeeee;
+	outline: 5px;
+	font-size: 100%;
+	vertical-align: middle;
+        text-align: left;
+	background: transparent;
+    
+}
+
+fieldset.centered{
+    text-align: center;
+    padding: 5px;
+    border: solid 1px #eeeeee;
+}
+

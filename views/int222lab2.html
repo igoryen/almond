@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <title>Lab2</title>
+    
+     <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="reset.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/int222lab2.css" type="text/css" media="screen" />
+    
+    
+     
+     
+     
+     
+</head>
+
+<body>
+    
+    <h1 class="mine">html and CSS - Lab 2</h1>
+    
+    <form method="post" name="igor_forms" action="https://ict.senecac.on.ca/~emile.ohan/cgi-bin/echo-p.pl">
+    
+<!--start row 1-->
+<div class="table-row">
+        
+        <!--start row 1, cell 1: text -->    
+        <div class="table-cell">
+            
+            <fieldset class="mine">    
+                
+                <legend class="mine">Your name and phone number?</legend>
+                
+                Name <input type="text" name="name" />
+                <br />
+                <br />
+                Phone <input size="12" value="416-" name="phone" />
+                <br />
+                
+            </fieldset>
+            
+        <!--end of row 1, cell 1: text -->
+        </div>
+    
+    
+    
+        <!--start row 1, cell 2: checkbox 1 --> 
+        <div class="table-cell-middle">
+            <fieldset class="mine">
+    
+                <legend class="mine">Books in what languages?</legend>
+    
+                <input type="checkbox" name="language" value="eng" checked="checked"/>English
+                <br />
+                <input type="checkbox" name="language" value="rus" />Russian
+                <br />
+                <input type="checkbox" name="language" value="man" />Mandarin
+                <br />
+                <input type="checkbox" name="language" value="ger" />German
+                <br />
+                <input type="checkbox" name="languages" value="opt_all" />All of the above
+                <br />
+                
+            </fieldset>
+            
+        <!--end of row 1, cell 2: checkbox 1 -->
+        </div>
+    
+        <!--start row 1, cell 3: checkbox 2 -->    
+         <div class="table-cell">
+            
+            <fieldset class="mine">
+                
+                <legend class="mine">What period?</legend>
+    
+                <input type="checkbox" name="period" value="ancient"/>Ancient
+                <br />
+                <input type="checkbox" name="period" value="mid_ages" />Middle Ages
+                <br />
+                <input type="checkbox" name="period" value="17_20" />17th - 20th century
+                <br />
+                <input type="checkbox" name="period" value="21st" />21 century
+                <br />
+                <input type="checkbox" name="periods" value="none" checked="checked" />None of the above
+                <br />
+                
+            </fieldset>
+            
+        <!--start row 1, cell 3: checkbox 2 --> 
+        </div>
+<!--end of row 1-->
+</div>
+
+<!--start row 2-->
+<div class="table-row">
+     
+    <!--start row 2 cell 1 radio -->
+    <div class="table-cell">        
+        <fieldset class="mine">
+    
+                <legend class="mine">Where will you read?</legend>
+    
+                <input type="radio" name="place" value="home"/>Home
+                <br />
+                <input type="radio" name="place" value="work" checked="checked"/>At work
+                <br />
+                <input type="radio" name="place" value="lib" />Library
+                <br />
+                <input type="radio" name="place" value="tub" />In the Bathtub
+                <br />
+                <input type="radio" name="places" value="none"  />None of the above
+                <br />
+        
+        </fieldset>
+        
+    <!--end row 2, cell 1: radio -->
+    </div>
+    
+    <!--start row 2, cell 2: select and option tags-->
+    <div class="table-cell-middle">
+        <fieldset class="mine">
+                <legend class="mine">What size of book?</legend>
+    
+                    <select name="book_pages" size="6">
+        
+                        <option value="1000">1000 pages</option>
+                        <option value="600">600 pages</option>
+                        <option value="400" selected="selected">400 pages - this one is selected</option>
+                        <option value="200">200 pages</option>
+                        <option value="100">100 pages</option>
+                        <option value="50">50 pages</option>
+        
+                    </select>
+        </fieldset>
+    <!--end row 2, cell 2: select and option tags-->
+    </div>
+
+    <!--start row 2, cell 3: text area -->
+    <div class="table-cell">
+        <fieldset class="mine">
+               <legend class="mine">What are your wishes?</legend>
+               <textarea name="comments" cols="25" rows="4">Your comments</textarea>
+        </fieldset>
+    <!--end row 2, cell 3: text area -->    
+    </div>
+ 
+ <!--end of row 2-->
+ </div>
+ 
+ <!-- start block-->
+ <div class="block">
+    <fieldset class="centered">
+    
+    
+            <legend class="mine">Choose and click</legend>
+          
+                    <input type="submit" value="Submit" />
+             
+                    <input type="reset" value=" Clear " />
+            
+    
+    </fieldset>
+<!-- end block-->
+ </div>
+ 
+   
+    
+    </form>
+ 
+
+</body>
+</html>

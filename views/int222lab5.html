@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>INT222</title>
+    <style>
+        table, table td {
+            width: 200;
+            border: 1px ridge; 
+            text-align: center;
+        }
+    </style>
+    <script>
+  
+      // Your code goes here
+      // Step 01.
+ 
+      
+ 
+       var  e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+       // Step 02.
+       e1 = prompt ("Enter your first name in lower case");
+       // Step 03.
+       var a = e1.length;      // number of characters in name
+       var b = e1.substr(0,1); // character 1 of name
+       var c = b.toUpperCase();// character 1 capitalized
+       var d = c + e1.substr(1); // char 1 capped + the rest of the string
+       // Step 04.
+       e2 = prompt ("enter one integer between 1 and 9 inclusive");
+       // Step 05.
+       e3 = prompt ("Enter 5 numbers separated by commas");
+       // Step 06.
+       e4 = prompt ("Enter 5 colors separated by commas");
+       // Step 07.
+       
+        var myDate = new Date();
+        
+        var mm = myDate.getMonth()+1;     
+        var dd = myDate.getDate();      
+         var yy = myDate.getFullYear();  
+         var e5 = new Array(mm, dd, yy);   
+       
+       // Step 08.
+       e6 = e3.split(',');  // e6 is now an array of numbers
+       // Step 09.
+       e7 = e4.split(',');  // e7 is now an array of colors
+       // Step 10.
+       document.write('<center><table>'); 
+       document.write("<caption>Today's date = " + e5.join("/") + "<br/>The number in <b>e2</b> is <b> " + e2 + "</caption> ");
+       document.write('<tr>');
+       document.write("<td colspan='5'>Times table for number " + e2 + " </td>");
+       document.write('</tr>');
+       for (var i = 1; i <= 12; i++)
+       {
+         document.write('<tr>'); 
+         document.write("<td>"+e2+"</td><td>*</td><td>"+i+"</td><td>=</td><td>"+e2*i+"</td>");
+         document.write('<tr>'); 
+       }
+       // Step 11.
+       
+       e8 = 0;
+       for(var j = 0; j < e6.length; j++)
+       {
+         e8 += e6[j] * 1;
+        
+       }
+      
+       
+     // step 12.  
+     
+     
+     for(var k=0; k <e7.length; k++)
+     {
+         e9 += e7[k] + ("\n");
+     }
+     
+     alert("Well, " +d+", the sum = " + e8 + "\n" + "and your colors are:" +"\n"
+           + e9);       
+       
+ 
+  </script>
+ </head>
+ <body>
+ </body>
+</html>

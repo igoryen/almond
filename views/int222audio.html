@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8"/>
+    
+    <title>int222_122b36 - Assignment 2 - Audio</title>
+    <!-- link to reset -->
+    <link rel="stylesheet" href="css/reset.css"   type="text/css" media="screen"/> 
+    <!-- link to my css -->
+    <link rel="stylesheet" href="css/int222a2.css" type="text/css" media="screen"/>
+    
+<!-- the HTML document body -->    
+</head>
+
+<body>
+   <!-- assign this area as the top of the page -->
+   <a id="top"></a>
+   
+   <!--start of navigation links section 1 -->
+    <nav class="pagetopnavigation">
+      <ul>
+        <li>
+            
+                       <a href="../index.html">My zenit Account</a>
+                &#187; <a href="index.html">Home</a> 
+                &#187; <a href="gallery.html">Picture Gallery</a>
+                &#187; <a href="video.html">Video</a>
+                &#187; <a href="audio.html">Audio</a>
+                &#187; <a href="tables.html">Tables</a>
+                &#187; <a href="forms.html">Forms</a>
+                &#187; <a href="css/mycss.css">CSS Used</a>
+                &#187; <a href="other.html">Other</a>
+        </li>
+      </ul>
+    <!--end of navigation links section 1 --> 
+    </nav>
+    
+   
+    
+    <p id="allowance"></p>
+    <div id="firstcontent"></div>
+    
+    <div class="pagehead">
+        Audio
+    </div>
+    
+    <br/>
+    <br/>
+
+
+    
+<!--start of table row -->
+<div class="tablerow">
+    
+    <!-- start of table cell left-->
+    <div class="table-cell-left">
+        
+        <a id="views"></a>
+        <h2>Gabriel's Oboe</h2>
+        
+        
+        
+                
+              <table>                
+                <tr>
+                    <!--cell left -->
+                    <td class="table-cell-pic-desc">
+                        <p>
+                            This amazingly beautiful piece of music is called "Gabriel's Oboe". It was written by Ennio Morricone for the 1986 film <a href="http://www.youtube.com/watch?v=PvWaD-NErlY">"The Mission"</a> by director Roland Joffe. The oboe solo is performed by Carlo Romano.
+                        </p>
+                    </td>
+                    <!--cell right -->
+                    <td>                        
+                            <audio autoplay="autoplay" 
+                                   controls="controls"
+                                   loop="loop"> 
+                            
+                                   <source src="misc/gabrielsoboe.ogg" type="audio/ogg" />
+                                   <source src="misc/gabrielsoboe.mp3" type="audio/mpeg" />
+                                   Your browser does not support the audio tag and or this type of audio.
+                            </audio> 
+                        
+                    </td>
+                </tr>
+                
+                
+              </table>
+              
+              
+                
+
+               
+    <!-- end of table cell left-->
+    </div>
+    
+    <!-- start of table cell right-->
+    <div class="table-cell-right">
+        <h2>Video Control Options</h2>
+        
+            <script>
+                var audio = document.getElementsByTagName('audio')[0];
+            </script>
+        
+       
+           <div class="player-buttons"
+                onclick="audio.play();">Play</div>
+           <div class="player-buttons"
+                onclick="audio.pause();">Pause</div>
+           <div class="player-buttons"
+                onclick="audio.volume=1;">Volume ON</div>
+           <div class="player-buttons"
+                onclick="audio.volume=0;">Volume OFF</div>           
+           <div class="player-buttons"
+                onclick="audio.volume+=0.2;">Increase Volume</div>
+           <div class="player-buttons"
+                onclick="audio.volume-=0.2;">Decrease Volume</div>
+        
+        
+       
+        
+    <!-- end of table cell left-->
+    </div>
+    
+    <!--end of table row -->
+</div>
+
+    
+
+     
+
+    <hr/>
+
+    <footer>
+      <section>
+       <script type="text/javascript">
+        //<![CDATA[
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('<p>This page was last updated on '+dt.toLocaleString()) + '</p>';
+        //]]>
+        </script>
+      </section>
+    </footer>
+
+</body>
+</html>

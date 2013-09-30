@@ -10,7 +10,11 @@ exports.pages = function( view ) {
   };
 };
 //-------------------------------------------
-
+exports.xxx = function( view ) {
+  return function( req, res ) {
+    res.render( view + ".html" );
+  };
+};
 
 
 //-------------------------------------------

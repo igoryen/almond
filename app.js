@@ -1,6 +1,6 @@
 //======= VARIABLES ========================================================
 var aux = require("./middleware");
-console.log('the type is: ' + typeof aux.printButtons); // success!
+//console.log('the type is: ' + typeof aux.printButtons); // success!
 
 var express = require('express');  // use this web application framework for node. assign: module 'express' to $express
 var nunjucks = require( "nunjucks" ); // a templating system
@@ -143,6 +143,7 @@ app.get('/gregoriana', routes.pages("gregoriana"));
 app.get('/health', routes.pages("health"));
 app.get('/hillsong', routes.pages("hillsong"));
 app.get('/html5', routes.pages("html5"));
+app.get('/index', routes.pages("index"));
 app.get('/itstuff', routes.pages("itstuff"));
 app.get('/itterms', routes.pages("itterms"));
 app.get('/java', routes.pages("java"));
@@ -169,6 +170,30 @@ app.get('/transifex', routes.pages("transifex"));
 app.get('/uncategorized', routes.pages("uncategorized"));
 app.get('/video', routes.pages("video"));
 app.get('/webdev', routes.pages("webdev"));
+
+//int222
+app.get('/int222audio', routes.pages("int222audio"));
+app.get('/int222contact', routes.pages("int222contact"));
+app.get('/int222forms', routes.pages("int222forms"));
+app.get('/int222gallery', routes.pages("int222gallery"));
+app.get('/int222honesty', routes.pages("int222honesty"));
+app.get('/int222honesty2', routes.pages("int222honesty2"));
+app.get('/int222index', routes.pages("int222index"));
+app.get('/int222index2', routes.pages("int222index2"));
+app.get('/mamapizza', routes.pages("int222index3"));
+app.get('/int222lab2', routes.pages("int222lab2"));
+app.get('/int222lab3', routes.pages("int222lab3"));
+app.get('/int222lab4', routes.pages("int222lab4"));
+app.get('/int222lab5', routes.pages("int222lab5"));
+app.get('/int222lists', routes.pages("int222lists"));
+app.get('/int222other', routes.pages("int222other"));
+app.get('/int222profile', routes.pages("int222profile"));
+app.get('/int222tables', routes.pages("int222tables"));
+app.get('/int222tables2', routes.pages("int222tables2"));
+app.get('/int222text', routes.pages("int222text"));
+app.get('/int222video', routes.pages("int222video"));
+
+
 
 
 //--------------------------------------------------

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>INT222 - lab03.html</title>
+    <script>
+    alert("Hi there! I am a Java Script written by Igor Entaltsev :)")
+  
+     // Your code goes here
+     var a;       
+     // 1) prompt user to enter a sentence;
+     // 2) save it in "a"
+     a = prompt("Enter a sentence.");
+     // 3) display to the user what he has input
+     document.write("You have entered: <mark>" + a + "</mark>" );
+     // 4) split the sentence along its blanks;
+     // 5) save the result in b (array) 
+     var b = a.split(' ');
+    // 6) get the number of rows in b;
+    // 7) save the data in c     
+    var c = b.length;
+    // 8) display c
+     document.write("<br />That's <mark>" , c , "</mark> word(s).");
+    // 9) create a bag to accumulate tallies for each non-blank character
+     var e = 0;
+     
+     for (var i=0; i < c; i++)
+     {
+        var d = b[i];        
+        e = e + d.length;        
+     }
+     document.write("<br/>That's <mark>", e , "</mark> non-blank characters in all.");
+     
+
+
+  </script>
+ </head>
+  
+ <body>
+ </body>
+</html>

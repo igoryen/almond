@@ -1,0 +1,763 @@
+#mama{
+       color:               #003366;
+       font-weight:         bolder;
+       font-size:           xx-large;
+       
+       margin:              auto;
+       
+       text-shadow:         3px 2px 2px #666666;
+    
+}
+
+#phone-no {
+       color:               #003366;
+       display:             inline-block;
+       font-family:         sans-serif;
+       font-weight:         bolder;
+       margin:              auto;
+       margin-bottom:       20px;
+       margin-top:          20px;
+       text-shadow:         1px 1px 1px #ffffff;
+}
+
+div.your-price{
+       color:               #000000;
+       display:             inline-block;
+       font-family:         sans-serif;
+       font-size:           15px;
+       font-weight:         normal;
+       line-height:         25px;
+       margin:              auto;
+       margin-bottom:       20px;
+       margin-top:          20px;
+       text-shadow:         1px 1px  #ffffff;
+       
+}
+
+body{
+       
+       /*color of the background - light green*/
+       background-color: #aaffbb;
+       
+       
+       /* font color - black*/
+       color:        #000000;       
+       font-family:  "Calibri", sans-serif;
+       font-size:    15px; 
+       margin:       auto;
+       overflow-y:   scroll;
+       /*resolution - 1024 px*/
+       width:        1000px;
+       
+}
+
+/*in page Forms*/
+body.forms{
+       
+       /*color of the background - light green*/
+       background-color:    #444444;
+       
+       
+      
+       margin:              auto;
+       margin-top:          10px;
+       
+       /*resolution - 1024 px*/
+       width:               1000px;
+       
+}
+
+bold1{
+       font-weight: bold;
+}
+
+
+
+div.buttons-submit-reset{
+       border-radius:       2px 2px 2px 2px;
+       margin-top:          10px;
+       text-align:          center;
+}
+
+
+div.central{
+       
+       background-color:    #99ffcc;
+       border:              solid #00aacc;
+       border-radius:       30px;
+       box-shadow:          4px 4px 2px #444444;
+       display:             block;
+       
+       margin:       auto;
+       
+       padding:      20px;
+       
+       width:        950px;
+}
+
+/*forms.html - second layer*/
+div.form-base{
+       background-color:    #cccccc;    
+       border:              1px solid ;
+       border-color:        #777777;
+       border-radius:       10px;
+       box-shadow:          2px 2px 2px 2px #444444;
+       display:             block;
+       
+       margin:              auto;
+       padding:             10px;
+       width:               900px;
+       
+}
+
+/*in page Forms*/
+div.form-table-cell-left{
+       
+       display:             table-cell;
+       
+       text-align:          center;
+       width:               200px;
+       
+}
+/*in page Forms*/
+div.form-table-cell-middle{
+       border:              1px solid #777777;
+       
+       border-radius:       10px;
+       box-shadow:          2px 2px 2px 2px #444444;
+       display:             table-cell;
+       padding:             10px;
+       width:               400px;
+}
+/*in page Forms*/
+div.form-table-cell-right{
+       border:              1px solid #777777;
+       
+       border-radius:       10px;
+       box-shadow:          2px 2px 2px 2px #444444;
+       display:             table-cell;
+       padding:             10px;
+       width:               400px;
+}
+
+/*in page Forms*/
+div.form-table-cell-small{
+       /* border color*/
+       border:              1px solid #dddddd;       
+       border-radius:       10px;
+       box-shadow:          2px 2px 5px 2px #bbbbbb;
+       color:               #333333;
+       display:             table-cell;
+       font-size:           medium;
+       padding:             10px;
+       text-align:          left;
+       width:               45%;
+}
+
+/*in page Forms*/
+div.form-table-row{
+       display:      table-row;
+       width:        100px;
+}
+
+
+
+
+/*the block with CSS in page "Tables"*/
+div.inset-block{
+       background-color: #ccffff;
+       border-radius: 30px;
+       padding: 20px;
+}
+
+div.inset-table{
+       background-color:    #ffffff;
+       border:              ridge #ff0000;
+       display:             table;
+       
+       margin-left:         10px;
+       padding:             20px 40px;
+       
+       
+}
+div.inset-table-cell{
+       background-color:    #ffffff;
+       border:              solid 1px;
+       border-color:        #00aacc; 
+       display:             table-cell;
+       margin-left:         10px;
+       padding:             5px;
+       text-align:          center;
+       width:               70px;
+       
+}
+
+div.inset-table-cell-1{
+       background-color:    #ccffff;       
+       color:               #00aacc; 
+       display:             table-cell;
+       font-style:          italic;
+       margin-left:         10px;
+       padding:             5px;
+       
+}
+
+div.inset-table-footer-cell{
+       background-color:    #006666;
+       color:               #ffffff;
+       display:             table-cell;
+       font-weight:         bold;
+       padding:             2px;
+       text-align:          center;
+       
+}
+div.inset-table-footer-cell-1{
+
+       display:             table-cell;
+       color:               #00aacc;
+      
+}
+
+
+
+div.inset-table-header-cell{
+       background-color:    #006666;
+       color:               #ffffff;
+       display:             table-cell;
+       font-weight:         bolder;
+       padding:             2px;
+       text-align:          center;
+      
+}
+
+div.inset-table-header-cell-1{  
+       display:      table-cell;
+}
+
+div.inset-table-row{
+       background-color:    #ffffff;
+       border:       5px solid;
+       border-color: #000000;
+       display:      table-row-group;
+       
+       margin-left:  10px;
+       padding:      2px;
+       width:        400px;
+       
+}
+
+
+/*for page Other.html*/
+div.page-other{
+       border:              2px outset #006633;
+       background-color:    #ccffff;
+       border-radius:       10px;
+       box-shadow:          2px 2px 2px 2px #000000;
+       margin:              auto;
+       padding:             20px;
+       text-align:          center;
+       width:               950px;
+}
+
+div.page-other-inset{
+       border:              2px outset #006633;
+       background-color:    #ccffff;
+       border-radius:       10px;
+       box-shadow:          2px 2px 2px 2px #000000;
+       margin:              auto;
+       padding:             20px;
+       text-align:          left;
+       width:               800px;
+}
+
+/*the heading at the top of the page with HOME, GALLERY etc*/
+div.pagehead{
+       background-color:    #99ffcc;
+       border:              solid 3px #00aacc;
+       border-radius:       10px;
+       box-shadow:          4px 4px 4px #444444;
+       color:               #003333;
+       display:             inline-block;
+       font-family:         sans-serif;
+       font-size:           large;
+       font-style:          italic;
+       font-variant:        small-caps;
+       font-weight:         bold;
+       margin:              auto;
+       margin-top:          50px;
+       padding:             10px;
+       text-align:          left;
+       text-shadow:         2px 2px 2px #00cccc;
+       width:               98%;
+       
+}
+
+div.player-buttons{
+       background-color:    #003334;
+       border:       solid 5px #00aacc;
+       
+       border-radius: 20px;     /*to round the corners of  blocks*/
+       color:        #aaffcc;
+       display:      block;
+       font-family: "Century Gothic", sans-serif;       
+       font-weight:  bolder;   /*the font inside the blocks*/       
+       margin:       auto;      /*for horizontal center alignment*/       
+       margin-top:  10px;       /*the space between vertical blocks*/      
+       padding:      5px;       /*so the words in blocks don't touch the walls of blocks*/       
+       text-align:   center;     /*to make text inside blocks be centered*/
+       text-shadow:  1px -1px #444444;       
+       width:        150px;     /*to set the length of blocks*/
+}
+
+/*in page "Images"*/
+div table img{
+       border-bottom-color: #00aacc;
+       border-bottom-style: double;
+       border-bottom-width: 4px;
+       border-top-color:    #00aacc;
+       border-top-style:    double;
+       border-top-width:    4px;  
+       padding:             8px 0px;
+}
+
+div.tablerow{
+       background-color:    #99ffcc;
+       display:             table;
+       margin:              auto;
+       width:               1000px;
+}
+
+
+
+
+div.table-cell-left {        
+          
+          border:           solid;
+          border-color:     #00aacc;
+          
+          border-radius:    25px;    /*for rounded corners*/
+          border-width:     5px;
+          box-shadow:       4px 4px 2px #444444;
+          
+          /*margin-top:1px;
+          margin-bottom:8px;*/
+          display:          table-cell;
+          margin:           auto;
+          padding:          20px;
+          vertical-align:   top;
+          width:            70%;
+        
+        
+}
+div.table-cell-right {
+          
+          text-align:       left;
+          border:           solid;
+          border-color:     #00aacc;
+          /*for rounded corners*/
+          border-radius:    25px;
+          border-width:     5px;
+          box-shadow:       4px 4px 2px #444444;
+          /*margin-top:1px;
+          margin-bottom:8px;*/
+          display:          table-cell;
+          margin:           auto;
+          padding:          20px;
+          vertical-align:   top;
+          width:            30%;
+          
+}
+
+/*the first very bottom layer*/
+div.very-base{
+       background:   #dddddd;    
+       
+       display:      block;
+       
+       margin:       auto;
+       padding:      10px;
+       padding-top:   10px;
+       
+       
+       width:        1000px;
+       
+}
+
+fieldset.green{
+              background-color:    #dddddd;
+              border:              outset 5px #009933;
+              color:               #444444;
+              font-family:         sans-serif;
+              font-size:           15px;       
+              margin-left:         auto;
+              outline:             5px;
+              padding:             10px;
+              /*align content in center*/
+              text-align:          center;
+              text-shadow:         1px 1px #ffffff;
+              vertical-align:      middle;
+              
+}
+
+fieldset.green-for-radio{
+              background-color:    #dddddd;
+              border:              outset 5px #009933;
+              color:               #444444;
+              font-family:         sans-serif;
+              font-size:           15px;       
+              margin-left:         auto;
+              outline:             5px;
+              padding:             10px;
+              /*align content in center*/
+              text-align:          left;
+              text-shadow:         1px 1px #ffffff;
+              vertical-align:      middle;
+              
+}
+
+
+fieldset.green-pers-info{
+              background-color: #dddddd;
+              border: outset 5px #00cc33;
+              
+              font-size: 100%;       
+              margin-left: auto;
+              outline: 5px;
+              padding: 10px;
+              /*align content in center*/
+              
+              vertical-align: middle;
+              
+}
+
+footer  {
+          background:       #55ffcc;
+          border:           1px solid #cccccc;
+          border-radius:    5px;
+          color:            #000000;
+          display:          inline-block;
+          font-family:      monospace;
+          /*font-weight: bold;*/
+          font-size:        small;
+          height:           20px;
+          
+          margin:           auto;
+          margin-bottom:    10px;
+          /* margin-top:       1px; */
+          padding-bottom:   5px;
+          padding-top:      10px;
+          
+          position:         absolute;
+          text-align:       center; 
+          width:            1020px; 
+}
+/* for paragraphs inside the footer - contextual*/
+footer p{
+       font-family: "Lucida Console", monospace;
+       font-size:    12px;
+       margin: auto;
+       text-shadow: 2px 2px 2px #444444;
+       
+}
+
+footer section{
+       
+       width: inherit;
+       
+}
+
+
+
+h1{
+       color: #003333;
+       font-family:  "Century Gothic", sans-serif;
+       font-size:    30px;
+       font-style:   italic;
+       font-weight:  bold;
+       margin-bottom: 20px;
+       margin-top:   10px;
+       text-align:   center;
+       text-shadow:  2px 2px 3px #444444;
+}
+h2{
+       color:        #003333;
+       font-family:  "Century Gothic", sans-serif;
+       font-size:    20px;
+       font-weight:  bold;
+       margin-bottom: 15px;
+       text-align:   center;
+       text-shadow:  2px 2px 2px #444444;
+       
+}
+
+
+
+h4{
+       color:        #003333;
+       font-family:  sans-serif;
+       font-size:    medium;       
+       text-align:   left;
+       text-shadow:  1px 1px #aaaaaa;
+}
+
+h4.centered{
+       color:        #003333;
+       font-family:  sans-serif;
+       font-size:    medium;
+       margin:       10px;
+       text-align:   center;
+       text-shadow:  1px 1px #aaaaaa;
+}
+
+hr{
+       color:        #00aacc;
+}
+
+/*gray line*/
+hr.gray{
+       
+       background-color:    #777777;
+       /*thikness*/
+       height:              4px;
+}
+
+
+
+/*red line*/
+hr.red{
+       
+       background-color:        #ff0000;
+       /*thikness*/
+       height:       5px;
+}
+
+img.world-map{
+       
+       border-radius: 10px;
+       box-shadow:         4px 4px 2px #444444;
+
+}
+
+/*for buttons on forms.html*/
+input.blue{
+      
+       background:          none;
+       background-color:    #0066ff;
+       border:              1px solid #000066;
+       border-radius:       5px;
+       
+       box-shadow:          1px 1px 1px #ffffff;
+       color:               #ffffff;
+       font-family:         sans-serif;
+       font-size:           12px;
+       font-weight:         bolder;
+       margin-top:          3px;
+       text-align:          center;
+       text-shadow:         2px 2px 2px #000066;
+
+}
+
+label.hover{
+       /*for a hand to appear when hovering*/
+       cursor:              pointer; 
+       display:             block;
+       /*???*/
+       float:               left;
+       font-family:         sans-serif;
+       font-size:           15px;
+       font-weight:         bold;
+       line-height:         14px; 
+       margin-bottom:       3px;
+       text-shadow:         2px 2px 2px #ffffff;
+       width:               120px;
+}
+
+
+label.hover:hover {
+       background:      #dddddd;
+       /*color to change lable text when hovering*/
+       color:           #369;
+       /*content of hover: an arrow*/
+       content:         "\2192";
+        
+}
+/*"label.hover" ":hover" ":after"*/
+label.hover:hover:after {       
+       /*content of hover: an arrow*/
+       content:         "\2192";
+        
+}
+
+
+legend.green{
+       
+       background-color:    #00cc33;
+       border:              3px ridge;
+       border-color:        #ff0000;
+       color:               #ffffff;
+       font-family:         sans-serif;
+       font-size:           medium;
+       font-weight:         bolder;
+       padding:             3px;
+       text-shadow:         2px 2px 2px #777777;
+}
+
+nav.pagetopnavigation{
+       
+       background:   #55ffcc;
+       border:       1px solid #00aacc;
+       border-radius:10px;
+       color:        #000000;
+       font-family:  sans-serif;
+       font-size:    small;
+       font-variant: small-caps;
+       font-weight:  bold;
+       
+       /*font-family: sans-serif;*/
+       height:       30px; 
+       /*make the pane stay no matter the scroll*/
+       position:     fixed;
+       
+       text-align:   center;
+       text-shadow:  2px 2px 2px #444444;
+       top:          5px;
+       
+       width:        1000px;
+
+}
+
+p{
+       color:        #000000;
+       font-family:  sans-serif;
+       font-size:    medium;
+       
+       line-height:  20px;
+       text-indent:  30px;
+       
+}
+
+p.h2{
+       color:        #003333;
+       font-family:  "Century Gothic", sans-serif;
+       font-size:    20px;
+       font-weight:  bold;
+       margin-bottom: 15px;
+       text-align:   center;
+       text-shadow:  2px 2px 2px #444444;
+       
+}
+
+p.hand-writing{
+       color: #0000cc;
+       font-family: "Brush Script MT", cursive;
+       font-size: 30px;
+       margin-top: 10px;
+       
+}
+
+table.loanword-table{
+       border:              5px ridge;
+       border-color:        #003300;
+       box-shadow:          4px 4px 2px #444444;
+       color:               #000000;
+       font-family:         sans-serif;
+      
+       
+       margin-left:         20px;
+       
+       padding:             10px;
+       
+       width:               750px;
+}
+
+
+table.loanword-table td{
+       border:              solid thin;
+       border-color:        #003300;
+       
+       font-size:           15px;
+       margin-left:         20px;
+       
+       padding:             5px;
+       text-align:          left;
+       vertical-align:      middle;
+}
+
+table.loanword-table th{
+       background-color:    #000066;
+       border:              solid thin;
+       border-color:        #003300;
+       color:               #ffffff;
+       font-family:         sans-serif;
+       font-size:           small;
+       font-variant:        small-caps;
+       font-weight:         bold;
+       margin:              auto;
+       vertical-align:      middle;
+       
+       padding:             2px;
+}
+
+
+table.input{
+       border: 1px;
+       
+       
+}
+
+
+table.price-table{
+       border:              2px solid;
+       border-color:        #000000;
+       display:             table;
+       font-size:           medium;
+       margin:              auto;
+       margin-bottom:       30px;
+       margin-top:          50px;
+}
+
+table.price-table td{
+       border:              1px solid;
+       border-color:        #000000;
+       display:             table-cell;
+       
+       margin:              auto;
+       padding:             2px;
+       text-shadow:         1px 1px #ffffff;
+}       
+     
+td.keyword{
+       color:               #ff0001;
+       font-family:         "Century Gothic", sans-serif;
+       font-weight:         bold;
+       text-shadow:         1px 1px 2px #444444;
+       
+}
+     
+
+
+
+
+td.table-cell-pic-desc{
+       font-family:         sans-serif;
+       padding:             10px;
+       vertical-align:      top;
+       
+       
+}
+
+ul{
+       line-height:        20px;
+       /* vertical margin, left margin*/
+       margin:       5px 25px;
+}
+
+ul.ul-link-bullet{
+       font-size:    medium;
+       font-weight:  bold;
+       /* vertical margin, left margin*/
+       list-style:   disc;
+       margin:       10px 25px;
+}
+
+

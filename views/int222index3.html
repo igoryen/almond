@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <!-- added for assignment 3 -->
+    <script src='int222/assign3/js/myscript.js'>        
+    </script>
+    <style>
+        .errorsTable, .errorsTable td {
+            vertical-align: top;
+            padding: 4px;
+        
+        }
+    </style>
+    
+    <title>Entaltsev</title>
+    
+    <meta charset="utf-8" />
+     <!-- link to reset -->
+    <link href="css/reset.css"
+          media="screen"
+          rel="stylesheet"
+          type="text/css"
+          /> 
+    <!-- link to my css -->
+    <link href="css/int222mycss3.css"
+          media="screen"
+          rel="stylesheet"
+          type="text/css" />    
+     
+</head>
+
+<body class="forms">
+    
+    
+    <!--start form method for asgmt3  -->
+    <form   action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/pizza.cgi"
+            method="post" 
+            name="pizza"             
+            onsubmit="return validateOrder();">
+    
+    
+    <!--start of navigation links section 1 -->    
+    <!--end of navigation links section 1 --> 
+   
+    
+    <!--start of very-base-->
+    <div class="very-base" >
+        
+        <!--start of form base-->
+        <div class="form-base">
+            
+            <!--start of form table row -->
+            <div class="form-table-row">
+            
+                        <!--start of form-table-cell-left-->
+                        <div class="form-table-cell-left">
+                        
+                            <br/><br/>
+                            <a id="mama">Mama's<br/>Pizza</a>
+
+                            <hr class="red" />
+                            
+                            <a id="phone-no">416 or 905<br/><br/>222-6262</a>
+                            
+                            <hr class="red" />
+                            
+                            <!--start of price-table-->
+                            <table class="price-table">
+                                
+                                <tr>
+                                    <td>Small</td>
+                                    <td>$11.55</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Medium</td>
+                                    <td>$15.25</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Large</td>
+                                    <td>$22.00</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>X-Large</td>
+                                    <td>$25.00</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="2">Toppings</td>                                    
+                                </tr>
+                                
+                                <tr>
+                                    <td>$1.79</td>
+                                    <td>Each</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="2">Plus 13%</td>                                    
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="2">Free delivery</td>                                    
+                                </tr>
+                                
+                                
+                                
+                            <!--end of price-table-->    
+                            </table>
+                            
+                            <!--Your price input field-->
+                            <br />
+                            <div class="your-price">
+                                Your Price<br />
+                                <input  id="price"
+                                    maxlength="8"
+                                    name="price"
+                                    readonly="readonly"
+                                    size="10"
+                                    type="text"/>
+                            </div>
+                            <br/><br/>
+                        
+                        <!--end of form-table-cell-left-->    
+                        </div>
+                        
+                        
+                        <!--start of form-table-cell-middle-->
+                        <div class="form-table-cell-middle">
+                        
+                            
+                                        <fieldset class="green-pers-info">
+                                            <legend class="green">Personal Information</legend>
+                                            
+                                            <!-- name -->
+                                            
+                                            <label class="hover"
+                                                   for="surname"> <!-- refers to id -->
+                                                <a title="Name must be between 4 and 15 letters, one apostrophe allowed.">Name</a>
+                                            </label>
+                                            
+                                            
+                                            <input  id="surname"
+                                                    maxlength="15"
+                                                    name="surname"
+                                                    size="15"
+                                                    type="text"                                             
+                                                    />
+                                            <br/>                                            
+                                     
+                                           
+                                            <!--account number -->
+                                            <label class="hover"
+                                                   for="client"> <!-- refers to id -->
+                                                <a title="Account No. format: one capital letter, five digits, a hyphen, five digits (12 positions).">Account No.</a>
+                                            </label>                                            
+                                            
+                                            <input id="client"
+                                                   maxlength="12"
+                                                   name="client"
+                                                   size="12"
+                                                   type="text"
+                                                   />
+                                            <br/>
+                                 
+                                            <!--phone number -->
+                                            <label class="hover"
+                                                   for="phone"> 
+                                                <a title="Phone No. format: 999-999-9999.">Phone No.</a>
+                                            </label>          
+                                            
+                                            <input  id="phone"
+                                                    name="phone"
+                                                    maxlength="15"
+                                                    size="15"
+                                                    type="text"
+                                                    />                                            
+                                            <br/>
+                                            
+                             
+                                            
+                                            <!-- DOB -->   
+                                            <label class="hover"
+                                                   for="dob"> <!-- refers to id -->
+                                                <a title="D.O.B. format: mmmyyyy.">Date of Birth</a>
+                                            </label>
+                                            
+                                            <input  id="dob"
+                                                    maxlength="7"
+                                                    name="dob"
+                                                    size="7"
+                                                    type="text"/>
+                                            <br />
+                                            
+                                        </fieldset>
+                                   
+                            
+                            <br />
+                            
+                            <!-- start pizza size and crust select -->                            
+                                    
+                                    <fieldset class="green">
+                                        <legend class="green">Pizza size and Crust</legend>
+                                        
+                                            
+                                                <select
+                                                        id="pizzaSize"
+                                                        name="pizzaSize"
+                                                        onchange="calculatePizzaPrice();"
+                                                        size="2">
+                                                    
+                                                        <option value="">Select Pizza Size</option>
+                                                        <option value="small">Small</option>
+                                                        <option value="medium">Medium</option>
+                                                        <option value="large">Large</option>
+                                                        <option value="x-large">X-Large</option>
+                                                </select>
+                                            
+                                    &nbsp; &nbsp; 
+                                           
+                                                <select id="pizzaCrust"
+                                                        name="pizzaCrust"
+                                                        size="2">
+                                                    <optgroup label="Select Crust">
+                                                        <option value="regularCrust">Regular Crust</option>
+                                                        <option value="thinCrust">Thin Crust</option>
+                                                        <option value="thickCrust">Thick Crust</option>
+                                                        <option value="wholeWheatCrust">Whole Wheat Crust</option>
+                                                    </optgroup>
+                                                </select>                                        
+                                            
+                                            
+                                        
+                                    </fieldset>
+                                
+                            <!-- end pizza size and crust select -->
+                            <br/>
+                            
+                            <!-- start cheese select -->                          
+                                    
+                                    <fieldset class="green-for-radio">
+                                        <legend class="green">Cheese</legend>
+                                        
+                                            <input id="c01"
+                                                   name="cheese"
+                                                   type="radio"                                                   
+                                                   value="Mozarella">Mozarella
+                                            <input id="c02"                                                    
+                                                   name="cheese"
+                                                   type="radio"
+                                                   value="Reduced-fat">Reduced fat
+                                            <input id="c03"                                                    
+                                                   name="cheese"
+                                                   type="radio"
+                                                   value="Feta">Feta
+                                               
+                                    </fieldset>
+                            
+                            <!-- end cheese select -->
+                        
+                            <br />
+                        
+                            <!-- start sauces select -->
+                          
+                                    
+                                    <fieldset class="green-for-radio">
+                                        <legend class="green">Sauces</legend>
+                                        
+                                            <input checked="checked"
+                                                   id="s01"                                                 
+                                                   name="sauce"
+                                                   type="radio"
+                                                   value="Pizza-sauce">Pizza Sauce
+                                            <input id="s02"
+                                                   name="sauce"
+                                                   type="radio"
+                                                   value="BBQ-sauce">BBQ Sauce
+                                            <input id="s03"
+                                                   name="sauce"
+                                                   type="radio"
+                                                   value="Garlic-sauce">Garlic Sauce
+                                               
+                                    </fieldset>
+                            
+                            <!-- end sauces select -->
+                        
+                            <br />
+                        
+                            <!-- start special instructions -->
+                                    <fieldset class="green">
+                                        <legend class="green">Special Instructions</legend>
+                                        
+                                            
+                                                    <textarea cols="30"
+                                                              id="note"
+                                                              name="note"
+                                                              rows="2">                                                        
+                                                    </textarea>
+                                               
+                                    </fieldset>
+                            <!-- end special instructions -->
+                            
+                            <div class="buttons-submit-reset">
+                                <input class="blue"
+                                      
+                                       type="submit"
+                                       value="PLACE YOUR ORDER" />
+                                &nbsp; &nbsp;
+                                <input class="blue"
+                                       onclick="clearShowErrors();"
+                                       type="reset"
+                                       value=" START OVER" />
+                            </div>
+                        
+                        </div>
+                        <!--end of form-table-cell-middle--> 
+                        
+                        <!--start of form-table-cell-right-->
+                        <div class="form-table-cell-right">
+                        
+                            <fieldset class="green">
+                                <legend class="green">Choose Toppings - $1.79 Each</legend>
+                                
+                                    <!--start small div left-->
+                                    <!-- Toppings -->
+                                    <div class="form-table-cell-small">
+                                        <input id="t01"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Anchovies"/>Anchovies<br/>
+                                               
+                                        <input id="t02"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Bacon"/>Bacon<br/>
+                                               
+                                        <input id="t03"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Ham"/>Ham<br/>
+                                               
+                                        <input id="t04"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Pepperoni"/>Pepperoni<br/>
+                                               
+                                        <input id="t05"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Salami"/>Salami<br/>
+                                               
+                                        <input id="t06"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Sausage"/>Sausage<br/>
+                                               
+                                        
+                                               
+                                        
+                                    <!--end of small div left-->     
+                                    </div>        
+                                           
+                                    <!--start small div right-->    
+                                    <div class="form-table-cell-small">
+                                        <input id="t07"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Broccoli"/>Broccoli<br/>
+                                               
+                                        <input id="t08"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Green-Olives"/>Green Olives<br/>
+                                               
+                                        <input id="t09"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                                
+                                               value="Green-Peppers"/>Green Peppers<br/>
+                                               
+                                        <input id="t10"                                               
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"
+                                               value="Mushrooms"/>Mushrooms<br/>
+                                               
+                                        <input id="t11"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"                                               
+                                               type="checkbox"                                               
+                                               value="Red-Onions"/>Red Onions<br/>
+                                               
+                                        <input id="t12"
+                                               name="toppings"
+                                               onclick="calculatePizzaPrice();"
+                                               type="checkbox"                                               
+                                               value="Roasted-garlic"/>Roasted Garlic<br/>
+                                       
+                                    </div>                
+                                    <!--end of small div right-->
+                                    
+                            </fieldset>
+                            <hr class="gray" />
+                        
+                        
+                            <div id='errors'>
+                            <!-- start errors display --> 
+                            </div>
+                            <!-- end errors display -->
+                            
+                        
+                         </div>
+                        <!--end of form-table-cell-right-->
+            
+            </div>
+            <!--end of form table row -->
+           
+        </div>
+        <!--end of form base--> 
+        
+       
+
+    
+    </div>
+    <!--end of very-base-->
+    
+    <br />
+    
+    
+    
+    <footer>
+      <section>
+        <p>
+            <a href="honesty.html">Honesty</a>
+            &nbsp; &nbsp;
+            <a href="int222/assign3/js/myscript.js">JavaScript</a>
+            &nbsp; &nbsp;
+            
+       <script type="text/javascript">
+        //<![CDATA[
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+ dt.toLocaleString());
+        //]]>
+        </script>
+            &nbsp; &nbsp;
+            <a href="int222/assign3/css/mycss.css">CSS</a>
+            &nbsp; &nbsp;
+            <a href="../index.html">Zenit Account</a>
+            &nbsp; &nbsp;
+       
+       </p>
+      </section>
+    </footer>
+    
+       
+       
+       <!-- start asgmt3 Generic Form Response -->
+        <input  name="hPizzaPrice"      value="0"               type="hidden" /> 
+  	<input  name="hToppings"        value="0"               type="hidden" />
+  	<input  name="hToppingsCost"    value="0"               type="hidden" />
+  	<input  name="hSubTotal"        value="0"               type="hidden" />
+  	<input  name="hHst"             value="0"               type="hidden" />
+  	<input  name="hFinalTotal"      value="0"               type="hidden" />
+  	<input  name="hJsActive"        value="NO"              type="hidden" />
+  	<input  name="hLogin"           value="int222_122b36"   type="hidden" /> 
+  	<input  name="hName"            value="Entaltsev"       type="hidden" /> 
+        <!-- end asgmt3 Generic Form Response -->
+    
+    
+ <!--end form method -->
+    </form>
+</body>
+</html>

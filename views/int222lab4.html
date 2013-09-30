@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>INT222 - lab04.html</title>
+        <script>
+      
+        // Your code goes here
+        // 1) prompt the user to enter their surname (assume that the user will enter valid alphabetic characters.)
+        var a;
+        a = prompt("Enter your surname"); //document.write(a);
+        // 2) measure the length. 
+        b = a.length;                       //document.write("<br/>", b);
+       
+        // 3) check the length: if it is not 0,
+        if (b != 0)
+        // 4) change the first position to upper case and the rest of the characters to lower case.
+        {
+            // 4-1) change the whole string to lower case
+            var c = a.toLowerCase();                            //document.write("<br/>", c);
+            // 4-2) change first position to upper case
+            // 4-3) then append to the altered first character the same string w/o 1st character
+            var d = c.charAt(0).toUpperCase() + c.substr(1);    //document.write("<br/>", d);   
+            
+        }
+        // 5) create temp variable for Date
+        var myDate = new Date();
+        // 6) put date components into different variables
+        var mm = myDate.getMonth()+1;     //document.write("<br/>", mm);
+        var dd = myDate.getDate();      //document.write("<br/>", dd);
+        var yy = myDate.getFullYear();  //document.write("<br/>", yy);
+        // 7) create array with the components in every row
+        var date = new Array(mm, dd, yy);   
+       
+       // 11) invoke the function
+        showArray();
+        
+        function showArray()
+        {
+            // 8) concatenate components into a string deliniated by slashes
+            var message = date.join("/") + " (today)";
+            // 9) add to message the other raw name and ready name
+            message += "\n" + a + " (as entered)" + "\n" + d + " (corrected)";
+            // 10) pass the message to "alert"
+            alert(message);
+        }  
+        
+       
+        
+      
+    
+    
+      </script>
+     </head>
+     <body>
+     </body>
+    </html>
