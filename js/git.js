@@ -3,7 +3,7 @@
 
 // create an object
   var object = {
-    , "10 things I hate about git":"http://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/"
+      "10 things I hate about git":"http://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/"
     , "Abiu":"https://github.com/igoryen/abiu"
     , "Acerola":"https://github.com/igoryen/acerola"
     , "Ackee":"https://github.com/igoryen/ackee"
