@@ -5,13 +5,13 @@
   var object = {
       "870429 - locales": "https://bugzilla.mozilla.org/show_bug.cgi?id=870429"
     , "869643 - MONGO": "https://bugzilla.mozilla.org/show_bug.cgi?id=869643"
+    , "870995 - Make! - '!'": "https://bugzilla.mozilla.org/show_bug.cgi?id=870995"
     , "873064 - prune": "https://bugzilla.mozilla.org/show_bug.cgi?id=873064"
     , "873098 - old code": "https://bugzilla.mozilla.org/show_bug.cgi?id=873098"
-    , "877269 - MakeAPI unit tests": "https://bugzilla.mozilla.org/show_bug.cgi?id=877269"
     , "877269 - github" : "https://github.com/humphd/MakeAPI/tree/bug877269"
+    , "877269 - MakeAPI unit tests": "https://bugzilla.mozilla.org/show_bug.cgi?id=877269"
     , "877305 - comma": "https://bugzilla.mozilla.org/show_bug.cgi?id=877305"
     , "881734 - audit": "https://bugzilla.mozilla.org/show_bug.cgi?id=881734"
-    , "870995 - Make! - '!'": "https://bugzilla.mozilla.org/show_bug.cgi?id=870995"
     , "883426 - update module": "https://bugzilla.mozilla.org/show_bug.cgi?id=883426"
     , "885193 - search field": "https://bugzilla.mozilla.org/show_bug.cgi?id=885193"
     , "888565 - login.webm... l10n": "https://bugzilla.mozilla.org/show_bug.cgi?id=888565"
@@ -36,8 +36,8 @@
     , "Bugzilla": "https://bugzilla.mozilla.org/"
     , "Bugzilla: work with bugs": "http://sedgestuff.wordpress.com/2013/05/09/howto-working-with-open-bugs-on-bugzilla/"
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
-    , "Scrumbu.gs" : "http://scrumbu.gs/"
     , "Scrumbu.gs Webmaker" : "http://scrumbu.gs/t/webmaker/"
+    , "Scrumbu.gs" : "http://scrumbu.gs/"
   }; // end object
 
     //----------------------------------------------------------------------------

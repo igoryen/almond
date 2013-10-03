@@ -33,6 +33,7 @@
     , "porusski.net": "http://winrus.com/klava.htm"
     , "Recens Latinitas ": "file:///D:/Language/Latina/html/latinitas_recens_latine.html"
     , "Romanian closest to Classical Latin": "http://www.antimoon.com/forum/t2129-0.htm"
+    , "Russian Info Service": "http://www.rusyaz.ru/"
     , "Schola": "http://schola.ning.com/"
     , "Simplish": "http://www.simplish.org/"
     , "Terentius et Milena ": "https://www.youtube.com/watch?v=mi_6LIPEP7M"
