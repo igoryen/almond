@@ -135,6 +135,7 @@ app.get( "/strings/:lang?", i18n.stringsRoute( "en-US" ) );
 
 app.get('/', routes.pages("index"));
 app.get('/css', routes.pages("css"));
+app.get('/danschool', routes.pages("danschool"));
 app.get('/debug', routes.pages("debug"));
 app.get('/digitalclock', routes.pages("digitalclock"));
 app.get('/funny', routes.pages("funny"));
@@ -149,6 +150,7 @@ app.get('/itterms', routes.pages("itterms"));
 app.get('/java', routes.pages("java"));
 app.get('/javascript', routes.pages("javascript"));
 app.get('/jobsearch', routes.pages("jobsearch"));
+app.get('/joyschool', routes.pages("joyschool"));
 app.get('/lingua', routes.pages("lingua"));
 app.get('/localization', routes.pages("localization")); 
 app.get('/me', routes.pages("me"));

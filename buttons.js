@@ -7,6 +7,7 @@
 
 var buttons = {
    "CSS": "CSS"
+ , "Dan School": "danschool"
  , "Funny":"funny"
  , "Git": "git"
  , "Gregoriana":"gregoriana"
@@ -18,6 +19,7 @@ var buttons = {
  , "Java":"java"
  , "JavaScript":"javascript"
  , "Job Search" : "jobsearch"
+ , "Joy School": "joyschool"
  , "Lingua":"lingua"
  , "Localization":"localization"
  , "Mozilla" : "mozilla"

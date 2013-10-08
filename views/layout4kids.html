@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=en>
+
+  <head>
+    <meta http-equiv="content-type" content="text-html; charset=utf-8">
+
+    <title>
+      {% block title %}{{tite}}{% endblock %} - Almond
+    </title>
+
+
+    <!-- This is a list/store of files with CSS files that will be used -->
+    <!-- by pages based on this layout.html. This store will be introduced/loaded -->
+    <!-- into each new html file by default.............. -->
+    {% block css %}
+      <link rel="shortcut icon" href="img/links.png" />
+      <!-- NOT "../css/mycss.css" because  ... -->
+      <link rel="stylesheet" type="text/css" href="css/kidscss.css">
+      <!--<link rel="stylesheet" type="text/css" href="css/revealcontent.css">
+      <link rel="stylesheet" type="text/css" href="css/digitalclock.css">-->
+    {% endblock %}
+
+
+
+
+    {% block header %}
+    {% endblock %}
+
+    {% block body %}
+    <div id="basis">
+      <div id="navigation_pane"></div>
+      <div id="display_pane"></div>
+    </div>
+
+
+    {% endblock %}
+
+    {% block footer %}
+      <!--<script src="/ext/js/jquery.js"></script>
+      <script src="/ext/js/bootstrap.min.js"></script>-->
+    {% endblock %}
+
+
+  </body>
+</html>
+
+
