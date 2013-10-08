@@ -105,6 +105,7 @@
     , "Passport (RF) at 14" : "http://passportist.ru/index.php?option=com_content&view=article&id=38&Itemid=137"
     , "Paul Robertson ": "http://paulrobertson.ca/"
     , "PeanutPlaza": "http://www.peanutplaza.ca/"
+    , "Percentage Calculator": "http://www.calculatorsoup.com/calculators/math/percentage.php"
     , "Picasa ": "https://picasaweb.google.com/home"
     , "Popcorn Maker": "https://popcorn.webmaker.org/"
     , "President`s Choice Financial": "http://www.pcfinancial.ca/"

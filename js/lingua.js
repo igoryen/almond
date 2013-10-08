@@ -39,6 +39,7 @@
     , "Terentius et Milena ": "https://www.youtube.com/watch?v=mi_6LIPEP7M"
     , "Translate.ru": "http://www.translate.ru/"
     , "Translit.ru ": "http://www.translit.ru/"
+    , "Vulsearch": "http://vulsearch.sourceforge.net/"
   }; // end object
 
     //----------------------------------------------------------------------------

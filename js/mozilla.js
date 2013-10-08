@@ -3,15 +3,19 @@
 
 // create an object
   var object = {
-      "Browser Quest": "http://browserquest.mozilla.org/"
+      "Browser Quest (game)": "http://browserquest.mozilla.org/"
     , "Cross-team call": "https://webmaker.etherpad.mozilla.org/crossteam2"
     , "Demos": "https://webmaker.etherpad.mozilla.org/demos"
+    , "Firefox, a new religion?": "http://www.populartechnology.net/2005/01/firefox-new-religion.html"
+    , "Firefox Myths": "http://home.comcast.net/~SupportCD/FirefoxMyths.html"
+    , "Goggles @ local": "http://localhost:12416"
     , "Goggles @ prod": "https://goggles.webmaker.org/"
     , "Goggles @ staging": "https://goggles.mofostaging.net/"
     , "Jenkins": "https://jenkins.mofoprod.net/"
     , "l10n at MozFest": "https://etherpad.mozilla.org/l10n-mozfest-2013"
     , "l10n Sept 5": "https://etherpad.mozilla.org/l10n-sep05"
     , "Localizing Webmaker - dave": "http://vocamus.net/dave/?p=1605"
+    , "MakeAPI @ local": "http://localhost:5000"
     , "MakerParty Recap": "https://docs.google.com/spreadsheet/ccc?key=0ApCSa8l3sstMdEVheVZEZUN5aVBtYlFaeDZuTW9Ld0E#gid=0"
     , "MozFest Dates": "https://wiki.mozilla.org/Webmaker/Product/Roadmap/Mozfest#Dates"
     , "MozFest": "http://mozillafestival.org/"
@@ -37,8 +41,10 @@
     , "webmaker postmortem  group 1": "https://etherpad.mozilla.org/webmakerpostmortemgroup1"
     , "webmaker postmortem  group 2": "https://etherpad.mozilla.org/webmakerpostmortemgroup2"
     , "webmaker postmortem  group 3": "https://etherpad.mozilla.org/webmakerpostmortemgroup3"
+    , "webmaker-profile @ local": "http://localhost:5050"
     , "Webmaker.org @ prod": "https://webmaker.org/"
     , "Webmaker.org @ staging": "https://webmaker.mofostaging.net/"
+    , "Webmaker.org @ local": "http://localhost:7777"
     , "Wiki Mozilla": "https://wiki.mozilla.org/Main_Page"
   }; // end object
 

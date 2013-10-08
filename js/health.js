@@ -4,6 +4,7 @@
 // create an object
   var object = {
       "Abs Diet":"http://www.absdiet.com/uof/absdiet/abospl/index.html"
+    , "Abs exercises": "http://www.youtube.com/watch?v=FofDChlSILU"
     , "Apple":"http://nutritiondata.self.com/facts/fruits-and-fruit-juices/1809/2"
     , "Banana":"http://nutritiondata.self.com/facts/fruits-and-fruit-juices/1846/2"
     , "Bodybuilding.com": "http://www.bodybuilding.com/"

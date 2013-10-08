@@ -35,6 +35,9 @@
     , "Hello World! 4":"http://jsfiddle.net/praveen_prasad/XNJxT/14/"
     , "List": "http://jsfiddle.net/rniemeyer/bxfXd/"
     , "Popcorn": "http://jsfiddle.net/rwaldron/xhXE6/"
+    , "printing an array": "http://jsfiddle.net/igoryen/wjj2j/1/"
+    , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
+    , "shuffle()": "http://jsfiddle.net/igoryen/KMDej/"
   }; // end object
 
     //----------------------------------------------------------------------------
