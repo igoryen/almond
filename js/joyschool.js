@@ -3,7 +3,15 @@
 
 // create an object
   var object = {
-    
+      "Don Valley JHS": "http://schools.tdsb.on.ca/donvalleyjhs/"
+    , "Hambleton, Ms": "https://sites.google.com/a/donvalleyjhs.ca/mme-hambleton---rm-219/"
+    , "Homework help": "https://homeworkhelp.ilc.org/"
+    , "Kear, Ms": "https://sites.google.com/a/donvalleyjhs.ca/kear-s-classes/eng-82"
+    , "Micallef, Ms": "https://sites.google.com/a/donvalleyjhs.ca/ms-micallef-s-classes/"
+    , "Nakra, Ms": ""
+    , "Pilkington, Mme": "https://sites.google.com/a/donvalleyjhs.ca/devoirs-de-mme-pilkington/"
+    , "Smith, Mr": "https://sites.google.com/a/donvalleyjhs.ca/smith/"
+    , "Tatum, Ms": "https://sites.google.com/a/donvalleyjhs.ca/tatum/"
   }; // end object
 
     //----------------------------------------------------------------------------
