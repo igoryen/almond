@@ -13,6 +13,7 @@
     , "Breath": "http://www.youtube.com/watch?v=sBCC1kDVVWk"
     , "Christian classical music": "http://www.youtube.com/watch?v=qAJNg5iuEGU"
     , "Cornerstone - HS inst": "https://www.youtube.com/watch?v=W5w7yU5dlN8"
+    , "Delirious? (PL)": "http://www.youtube.com/watch?v=ONr132rSx7U&list=ALNb4maWNoT6Qyq1yDbqOVkHemaQ0IINv8"
     , "Don't Censor Me (1993) - Audio Adrenaline": "https://www.youtube.com/watch?v=fSzi2jq_u_Y&list=PL6179B50ED0B915F1"
     , "Eighth Wonder": "http://www.youtube.com/watch?v=WUJSElja3d4"
     , "Everything`s gonna be all right in Christ": "https://www.youtube.com/watch?v=uYXyo4kCffg"

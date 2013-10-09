@@ -68,6 +68,7 @@
     , "Test":"https://github.com/igoryen/Test"
     , "Thimble - moz": "https://github.com/mozilla/thimble.webmaker.org"
     , "thimble.webmaker.org - moz": "https://github.com/mozilla/thimble.webmaker.org"
+    , "togetherjs - moz": "https://github.com/mozilla/togetherjs"
     , "Toolness":"https://github.com/toolness"
     , "Transifex":"http://localhost:8005/examples/transifex.html"
     , "Transifex":"https://www.transifex.com/projects/p/friendlycode/"
