@@ -209,7 +209,7 @@
     , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
     , "readFileSync()": "http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options"
     , "Reg Ex": "http://zenit.senecac.on.ca/~int322_123a07/practice/121028_regex.php"
-    , "RegExp()": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"
+    , "RegExp object": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"
     , "replace()": "http://www.w3schools.com/jsref/jsref_replace.asp"
     , "request 1": "https://github.com/mikeal/request"
     , "request 2":"https://npmjs.org/package/request"
