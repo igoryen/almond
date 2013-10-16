@@ -150,6 +150,7 @@
     , "Urban Dictionary ": "http://www.urbandictionary.com/"
     , "V Kontakte": "http://vk.com/feed"
     , "Vidiyo": "https://v.mozilla.com/flex.html?csrf_tkn=E549181F441C34A40A78F3EF3AF006D8"
+    , "Virgin": "http://www.virginmobile.ca/en/home/index.html"
     , "Walmart": "http://www.walmart.ca/en"
     , "War Amps": "http://www.waramps.ca/home.html"
     , "Webchaynik (rus webmaker)": "http://www.webchaynik.ru/"

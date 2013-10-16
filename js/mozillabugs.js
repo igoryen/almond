@@ -42,6 +42,7 @@
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
     , "Scrumbu.gs Webmaker" : "http://scrumbu.gs/t/webmaker/"
     , "Scrumbu.gs" : "http://scrumbu.gs/"
+    , "TogetherJS l10n": "https://github.com/mozilla/togetherjs/issues/836"
   }; // end object
 
     //----------------------------------------------------------------------------

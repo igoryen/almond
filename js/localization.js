@@ -17,6 +17,19 @@
     , "Language identifiers": "http://www.i18nguy.com/unicode/language-identifiers.html"
     , "Language subtag registry": "http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
     , "Localizing a node.js app - Ali": "http://alicoding.com/localized-first-webmaker-org-node-js-app/"
+    , "wm l10n 01": "https://github.com/mozilla/webmaker.org/commit/da0900322732d5f5c09925cdcddc50240769d1ab"
+    , "wm l10n 02 ": "https://github.com/mozilla/webmaker.org/commit/4b620fd30fe19bcba836344d6795a62ab84d7ea7"
+    , "wm l10n 03 /me and /tools": "https://github.com/mozilla/webmaker.org/commit/58d11559e74b067f772dc5fb7d39cb7f51ab75bb"
+    , "wm l10n 04 filter": "https://github.com/mozilla/webmaker.org/commit/be1a00882d462c09583b10039a72c448a9f1e166"
+    , "wm l10n 05 more": "https://github.com/mozilla/webmaker.org/commit/ac9b93e081c972315327af43ec6719ae1b94be42"
+    , "wm l10n 06 add filter": "https://github.com/mozilla/webmaker.org/commit/f1290975556588afdf8f176ef6b36316068260e3"
+    , "wm l10n 07 locale fix": "https://github.com/mozilla/webmaker.org/commit/edb6abd112b4eed9365c1c85f82796f5c10c5323"
+    , "wm l10n 08 package.json": "https://github.com/mozilla/webmaker.org/commit/66b45ac1ec360bd070fa82228b1e0cd772ce4f84"
+    , "wm l10n 09 feedback": "https://github.com/mozilla/webmaker.org/commit/512f7f905d3a80b50ae50bbe9b4a3b31c79f0416"
+    , "wm l10n 10 ": "https://github.com/mozilla/webmaker.org/commit/12139b54d450272d7023db3fac75eb77c5942541"
+    , "wm l10n 11 package.json": "https://github.com/mozilla/webmaker.org/commit/73cdf69efc7efe1b7faa870ce114e428d0c6386a"
+    , "wm l10n 12 load confirm": "https://github.com/mozilla/webmaker.org/commit/bb94b83f0e933c42d841e1ad8d5517a96b0bc265"
+
 
   }; // end object
 

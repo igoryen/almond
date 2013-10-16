@@ -9,10 +9,14 @@
     , "Caseless": "http://zenit.senecac.on.ca/~int322_123a07/practice/caseless.php"
     , "Classes 01": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_classes_01.php"
     , "Classes 02": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_classes_02.php"
+    , "Code Anywhere . net": "https://codeanywhere.net/"
+    , "CodePad Viper 7": "http://codepad.viper-7.com/"
+    , "CodePad.org": "http://codepad.org/"
     , "Lab 5-1": "http://zenit.senecac.on.ca/~int322_123a07/lab5/cookies.php"
     , "DB thru classes": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_class_db_01.php"
     , "Encrypting": "http://zenit.senecac.on.ca/~int322_123a07/practice/121120_encrypting.php"
     , "Escaping (advanced)": "http://zenit.senecac.on.ca/~int322_123a07/practice/121024_advanced_escaping_001.php"
+    , "Ideone.com": "http://ideone.com/"
     , "Lab 1 ": "http://zenit.senecac.on.ca/~int322_123a07/lab1/lab1.php"
     , "Lab 2 ": "http://zenit.senecac.on.ca/~int322_123a07/lab2/forms-part3.php"
     , "Lab 3 ": "http://zenit.senecac.on.ca/~int322_123a07/lab3/mysqlform.php"
@@ -27,6 +31,7 @@
     , "Lab 6": "http://zenit.senecac.on.ca/~int322_123a07/lab6/myClasses.php"
     , "Lab6": "http://zenit.senecac.on.ca/~int322_123a07/lab6/testMenu.php"
     , "oo-login.php": "http://zenit.senecac.on.ca/~int322_123a07/lab6/oo-login.php"
+    , "online PHP functions": "http://sandbox.onlinephpfunctions.com/"
     , "testMenu.php": "http://zenit.senecac.on.ca/~int322_123a07/lab6/testMenu.php"
     , "login prx": "http://zenit.senecac.on.ca/~int322_123a07/practice/login_prx.php"
     , "My_class": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_destructor_01.php"
@@ -40,6 +45,7 @@
     , "gg.php": "http://zenit.senecac.on.ca/~int322_123a07/gg.php"
     , "hh.php": "http://zenit.senecac.on.ca/~int322_123a07/hh.php"
     , "test1.php": "http://zenit.senecac.on.ca/~int322_123a07/practice/test1.php"
+    , "write code online": "http://writecodeonline.com/php/"
 
   }; // end object
 

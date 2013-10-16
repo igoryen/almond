@@ -4,6 +4,7 @@
 // create an object
   var object = {
       "Aloisius Latine": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"  
+    , "Business Dictionary": "http://www.businessdictionary.com/"
     , "Cantonese to Jyutping": "http://hktv.cc/hp/cantonesetojyutping/"
     , "Cantonese, Learn 1": "http://cantonese.ca/"
     , "Cantonese, Learn 2": "http://www.cantonese.sheik.co.uk/"  
@@ -37,6 +38,7 @@
     , "Schola": "http://schola.ning.com/"
     , "Simplish": "http://www.simplish.org/"
     , "Terentius et Milena ": "https://www.youtube.com/watch?v=mi_6LIPEP7M"
+    , "TigerNT - Eng/Cn": "http://www.tigernt.com/"
     , "Translate.ru": "http://www.translate.ru/"
     , "Translit.ru ": "http://www.translit.ru/"
     , "Vulsearch": "http://vulsearch.sourceforge.net/"

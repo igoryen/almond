@@ -6,6 +6,7 @@
      "addColorStop()":"http://www.w3schools.com/tags/canvas_addcolorstop.asp"
    , "arc()":"http://www.w3schools.com/tags/canvas_arc.asp"
    , "beginPath()":"http://www.w3schools.com/tags/canvas_beginpath.asp"
+   , "button CSS": "http://jsfiddle.net/terkel/ap8vT/"
    , "canvas":"http://www.w3schools.com/html/html5_canvas.asp"
    , "createLinearGradient()":"http://www.w3schools.com/tags/canvas_createlineargradient.asp"
    , "createRadialGradient()":"http://www.w3schools.com/tags/canvas_createradialgradient.asp"
