@@ -3,25 +3,7 @@
 
 // create an object
   var object = {
-     "addColorStop()":"http://www.w3schools.com/tags/canvas_addcolorstop.asp"
-   , "arc()":"http://www.w3schools.com/tags/canvas_arc.asp"
-   , "beginPath()":"http://www.w3schools.com/tags/canvas_beginpath.asp"
-   , "button CSS": "http://jsfiddle.net/terkel/ap8vT/"
-   , "canvas":"http://www.w3schools.com/html/html5_canvas.asp"
-   , "createLinearGradient()":"http://www.w3schools.com/tags/canvas_createlineargradient.asp"
-   , "createRadialGradient()":"http://www.w3schools.com/tags/canvas_createradialgradient.asp"
-   , "fillRect()":"http://www.w3schools.com/tags/canvas_fillrect.asp"
-   , "fillStyle":"http://www.w3schools.com/tags/canvas_fillstyle.asp"
-   , "fillText()":"http://www.w3schools.com/tags/canvas_filltext.asp"
-   , "font=":"http://www.w3schools.com/tags/canvas_font.asp"
-   , "getElementById()":"http://www.w3schools.com/jsref/met_doc_getelementbyid.asp"
-   , "drawImage()":"http://www.w3schools.com/tags/canvas_drawimage.asp"
-   , "input tag" : "http://www.w3schools.com/tags/tag_input.asp"
-   , "lineTo()":"http://www.w3schools.com/tags/canvas_lineto.asp"
-   , "moveTo()":"http://www.w3schools.com/tags/canvas_moveto.asp"
-   , "onclick" : "http://www.w3schools.com/jsref/event_onclick.asp"
-   , "stroke()":"http://www.w3schools.com/tags/canvas_stroke.asp"
-   , "strokeText()":"http://www.w3schools.com/tags/canvas_stroketext.asp"
+   
   }; // end object
 
     //----------------------------------------------------------------------------
