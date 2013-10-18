@@ -9,13 +9,6 @@ exports.pages = function( view ) {
     res.render( view + ".html" );
   };
 };
-//-------------------------------------------
-exports.xxx = function( view ) {
-  return function( req, res ) {
-    res.render( view + ".html" );
-  };
-};
-
 
 //-------------------------------------------
 // create function index()
