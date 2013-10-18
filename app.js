@@ -153,6 +153,9 @@ app.get('/health', routes.pages("health"));
 app.get('/hillsong', routes.pages("hillsong"));
 app.get('/html5', routes.pages("html5"));
 app.get('/index', routes.pages("index"));
+app.get('/index2', function( req, res ) {
+  res.render('index2.html');
+});
 app.get('/itstuff', routes.pages("itstuff"));
 app.get('/itterms', routes.pages("itterms"));
 app.get('/java', routes.pages("java"));
