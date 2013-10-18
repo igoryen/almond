@@ -3,9 +3,7 @@
 
 // create an object
   var object = {
-      "Browser support": "http://www.browsersupport.net/"  
-    , "Less": "http://lesscss.org/"
-    , "LESS with Node.js": "http://blog.dylants.com/2013/03/16/less-middleware-using-less-with-node-js/"
+      
   }; // end object
 
     //----------------------------------------------------------------------------

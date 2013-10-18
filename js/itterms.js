@@ -83,6 +83,7 @@
     , "Front and back ends":"http://en.wikipedia.org/wiki/Front_and_back_ends"
     , "gettext":"http://en.wikipedia.org/wiki/Gettext"
     , "Git":"http://en.wikipedia.org/wiki/Git_%28software%29"
+    , "glob (*.log)": "http://en.wikipedia.org/wiki/Glob_%28programming%29"
     , "GMS":"http://en.wikipedia.org/wiki/Globalization_Management_System"
     , "GPL":"http://en.wikipedia.org/wiki/Gpl"
     , "GUI":"http://en.wikipedia.org/wiki/Graphical_user_interface"

@@ -150,6 +150,7 @@
     , "Sea Shore Sounds ": "http://www.youtube.com/watch?v=1ASJxKpztWg"
     , "Seara de Craciun Frumos": "https://www.youtube.com/watch?v=SUO3go2NMOU"
     , "Secrets": "http://www.youtube.com/watch?v=rHsx3tFZDOk"
+    , "Secret Combination - Baba Yaga": "http://www.youtube.com/watch?v=jNQ2RmRYLrc"
     , "Seven Seconds ": "https://www.youtube.com/watch?v=nJFjjgpXkN0"
     , "Shape of my heart 1": "http://www.youtube.com/watch?v=KX4jAplZb0Y"
     , "Shape of my heart 2":"http://www.youtube.com/watch?v=locIxsfpgp4"
