@@ -1,6 +1,7 @@
 // create an object
   var object = {
       "20 challenges in Node.js": "http://nodejs.org/jsconf-eu-2010.pdf"
+    , "__dirname": "http://nodejs.org/docs/latest/api/globals.html#globals_dirname"
     , "a.php": "http://zenit.senecac.on.ca/~int322_123a07/practice/templating/a.php"
     , "Accept-Language": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4"
     , "action=": "http://www.w3schools.com/tags/att_form_action.asp"
