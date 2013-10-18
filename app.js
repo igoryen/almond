@@ -4,7 +4,8 @@ var aux = require("./middleware");
 
 var express = require('express');  // use this web application framework for node. assign: module 'express' to $express
 var nunjucks = require( "nunjucks" ); // a templating system
-
+var tmpl = new nunjucks.Template('Привет, {{ aaa }}!'); // create a template used in the terminal
+console.log(tmpl.render({ aaa: "igoryen" })); // "Привет, igoryen!"
 /*
 nunjucksEnv.addFilter("instantiate", function(input) {
     var tmpl = new nunjucks.Template(input);
