@@ -6,6 +6,7 @@ var express = require('express');  // use this web application framework for nod
 var nunjucks = require( "nunjucks" ); // a templating system
 var tmpl = new nunjucks.Template('Привет, {{ aaa }}!'); // create a template used in the terminal
 console.log(tmpl.render({ aaa: "igoryen" })); // "Привет, igoryen!"
+
 /*
 nunjucksEnv.addFilter("instantiate", function(input) {
     var tmpl = new nunjucks.Template(input);
@@ -19,7 +20,13 @@ var i18n = require( "webmaker-i18n" );
 var routes  = require( "./routes" );
 var app = express();
 var env = require('./config/environment'); // take all the environment variables supplied from ./config/environment.js  and assign them to -env
+
 var nunjucksEnv   = new nunjucks.Environment( new nunjucks.FileSystemLoader( path.join( __dirname, 'views' ))); // create the environment for the templating system
+
+var tmpl_test = nunjucksEnv.getTemplate('test.html'); // doesn't work
+//console.log(tmpl2.render({ bbb: "Igor" })); // works
+tmpl_test.render({ bbb: "Igor" }); // doesn't work. Misplaced?
+
 var cwd_name = process.cwd(); // take process.cwd [current working dir] and assign ... to $dirname
 var logger  = require('./lib/logger');
 
@@ -168,6 +175,7 @@ app.get('/revealcontent', routes.pages("revealcontent"));
 app.get('/selfdefense', routes.pages("selfdefense"));
 app.get('/seneca', routes.pages("seneca")); 
 app.get('/tagsmanager', routes.pages("tagsmanager"));
+app.get('/test', routes.pages("test"));
 app.get('/tolkieniana', routes.pages("tolkieniana"));
 app.get('/transifex', routes.pages("transifex"));
 app.get('/uncategorized', routes.pages("uncategorized"));
