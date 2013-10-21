@@ -37,6 +37,7 @@
     , "923741* - robotspeak": "https://bugzilla.mozilla.org/show_bug.cgi?id=923741"
     , "921646* - nbsp in events": "https://bugzilla.mozilla.org/show_bug.cgi?id=921646"
     , "924143* - event delete buttons no l10n": "https://bugzilla.mozilla.org/show_bug.cgi?id=924143"
+    , "928970 - spelling mistakes": "https://bugzilla.mozilla.org/show_bug.cgi?id=928970"
     , "Bugzilla": "https://bugzilla.mozilla.org/"
     , "Bugzilla: work with bugs": "http://sedgestuff.wordpress.com/2013/05/09/howto-working-with-open-bugs-on-bugzilla/"
     , "Dashboard - Bugzilla": "https://bugzilla.mozilla.org/page.cgi?id=mydashboard.html"
