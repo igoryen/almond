@@ -141,7 +141,7 @@ app.configure( function() {
 // .pages() looks into the views directory by default??
 app.get( "/strings/:lang?", i18n.stringsRoute( "en-US" ) );
 
-app.get('/', routes.pages("index")); // folder 'routes', function 'xxx'
+app.get('/', routes.pages("index")); // folder 'routes', function 'pages'
 app.get('/css', routes.pages("css"));
 app.get('/danschool', routes.pages("danschool"));
 app.get('/debug', routes.pages("debug"));
