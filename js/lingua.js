@@ -13,6 +13,7 @@
     , "Google Translate": "http://translate.google.com/"
     , "Hebrew For Christians ": "http://www.hebrew4christians.com/index.html"     
     , "Howjsay.com": "http://www.howjsay.com/"
+    , "Humanitas - PL": "http://www.youtube.com/watch?v=VK6lNJP3JfU"
     , "IPA converter 1": "http://theaccentlab.com/tools/phonemic-converter/"
     , "IPA converter 2": "http://www.photransedit.com/online/text2phonetics.aspx"
     , "IPA in Unicode": "http://www.phon.ucl.ac.uk/home/wells/ipa-unicode.htm"
@@ -37,11 +38,14 @@
     , "Russian Info Service": "http://www.rusyaz.ru/"
     , "Schola": "http://schola.ning.com/"
     , "Simplish": "http://www.simplish.org/"
+    , "Ta-Odessa": "http://www.ta-odessa.com/humor/"
     , "Terentius et Milena ": "https://www.youtube.com/watch?v=mi_6LIPEP7M"
+    , "Terence Tunberg 1": "http://www.youtube.com/watch?v=XTzAtiFzkKc"
     , "TigerNT - Eng/Cn": "http://www.tigernt.com/"
     , "Translate.ru": "http://www.translate.ru/"
     , "Translit.ru ": "http://www.translit.ru/"
     , "Vulsearch": "http://vulsearch.sourceforge.net/"
+    , "Miraglia 1": "De causis corruptæ institutionis Latinæ"
   }; // end object
 
     //----------------------------------------------------------------------------

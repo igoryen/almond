@@ -33,6 +33,7 @@
     , "I will enter His Gates 2": "https://www.youtube.com/watch?v=nr_YiSZ8KBc"
     , "Jesus is ALWAYS with you": "http://www.godtube.com/watch/?v=0FBFCFNU&utm_source=GodTube%20Must-See%20-%20Mobile&utm_medium=email&utm_campaign=03/02/2013"
     , "Jesus Lover of my soul - Card": "http://www.youtube.com/watch?v=c_JGm9zFpDE"
+    , "Joy of the Lord": "https://www.youtube.com/watch?v=Da5EdAsyEXM"
     , "King of the Jungle - Chapman": "https://www.youtube.com/watch?v=NZFwLYvPi4c"
     , "Lead me to the Cross - HS ins": "https://www.youtube.com/watch?v=nPv3Evsc4jo"
     , "Lord`s Prayer - M.W.Smith": "http://www.youtube.com/watch?v=tZFqlYLGoGY"
