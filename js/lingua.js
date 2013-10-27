@@ -3,17 +3,20 @@
 
 // create an object
   var object = {
-      "Aloisius Latine": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"  
+      "Accademia Vivarium Novum": "http://www.youtube.com/user/vivariumnovum/videos"
+    , "Aloisius Latine": "https://www.youtube.com/watch?v=vZ3gxKCgtEU"  
     , "Business Dictionary": "http://www.businessdictionary.com/"
     , "Cantonese to Jyutping": "http://hktv.cc/hp/cantonesetojyutping/"
     , "Cantonese, Learn 1": "http://cantonese.ca/"
     , "Cantonese, Learn 2": "http://www.cantonese.sheik.co.uk/"  
+    , "Circulus Latinus - YT": "http://www.youtube.com/user/circuluslatinus/videos"
+    , "Conventiculum Lexintoniense": "http://www.youtube.com/user/LexConventiculum/videos"
     , "Fonetiks.org": "http://fonetiks.org/"
     , "Free Dictionary": "http://www.thefreedictionary.com/"
     , "Google Translate": "http://translate.google.com/"
     , "Hebrew For Christians ": "http://www.hebrew4christians.com/index.html"     
     , "Howjsay.com": "http://www.howjsay.com/"
-    , "Humanitas - PL": "http://www.youtube.com/watch?v=VK6lNJP3JfU"
+    , "Humanitas - PL": "http://www.youtube.com/watch?v=VK6lNJP3JfU&list=PL8ABC891853EC73AE"
     , "IPA converter 1": "http://theaccentlab.com/tools/phonemic-converter/"
     , "IPA converter 2": "http://www.photransedit.com/online/text2phonetics.aspx"
     , "IPA in Unicode": "http://www.phon.ucl.ac.uk/home/wells/ipa-unicode.htm"

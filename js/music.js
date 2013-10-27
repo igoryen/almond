@@ -8,6 +8,7 @@
     , "Afro Celt": "http://www.youtube.com/watch?v=ClAkyn8EAS4&list=PLSC1WNAGYIGWHDMRBNMDBNETHY6ABYO7L"
     , "Alice Theme (Movie)": "https://www.youtube.com/watch?v=LW7cikQuc1s"
     , "Aliens": "http://www.youtube.com/watch?v=OQXWJCQVGBc"
+    , "All Star - Smashmouth": "http://www.youtube.com/watch?v=L_jWHffIx5E"
     , "All that she wants": "http://www.youtube.com/watch?v=8OB28fTKSds"
     , "Always": "https://www.youtube.com/watch?v=9BMwcO6_hyA"
     , "Amarantine - Enya": "https://www.youtube.com/watch?v=dsFpNs-ch9Y"
