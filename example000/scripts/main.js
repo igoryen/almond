@@ -1,5 +1,5 @@
-require(["jsobject"],function(jsobject){ // 1
+require(["printer"],function(printer){ // 1
   var retval = "";
-  retval = jsobject.getObject();             // 2
+  retval = printer.printOut();             // 2
   document.getElementById('a').innerHTML  = retval;
 });

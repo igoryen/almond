@@ -1,10 +1,9 @@
 define(function() { // 1
-
   return { // 2
     getObject: function() { // 3
+        
       var object = {
-        "What is a module loader?": 
-        "...?"
+        "What is a module loader?": "...?"
 
         , "JavaScript module loaders: necessary evil?": 
         "?"
@@ -51,7 +50,7 @@ define(function() { // 1
         , "what is the `define()` method?": "It is provided by the module loader,"
         , "Which module loader?": "?"
 
-        , "How whould I define my markdownViz.js module?": "Like this:<br> define('markdownViz', ['jQuery', 'markdown'], function ($, markdown) { var markdownViz; /* add functionality to markdownViz here */ return markdownViz;}"
+        , "How whould I define my markdownViz.js module?": "Like this:<br> define('markdownViz', ['jQuery', 'markdown'], function ($, markdown) { var markdownViz; /* add functionality to markdownViz here * / return markdownViz;}"
         , "What is 'markdownViz?'": "the identifier of the module (optional)"
         , "What is ['jQuery', 'markdown']?": "the dependencies of the module (optional)"
         , "What is function ($, markdown) { ...?": "the factory function that returns the module."
@@ -105,8 +104,7 @@ define(function() { // 1
 
         , "How the window approach would have worked": "?"
 
-        , "What if I had used the window approach and thus defined markdownViz as a global variable, what would it look like?": 
-        "it would look like this: window.markdownViz = { /* add functionality to markdownViz here */ };"
+        , "What if I had used the window approach and thus defined markdownViz as a global variable, what would it look like?": "it would look like this: window.markdownViz = { /* add functionality to markdownViz here * / };"
 
         , "Where would the script and its dependenciesbe loaded?":  
         "in the HTML source: <br>< script src=\"scripts/jQuery.js\"></script> <br>< script src=\"scripts/markdown.js\"></script> <br>< script src=\"scripts/markdownViz.js\"></script> <br>< script src=\"scripts/main.js\"></script>"
@@ -151,16 +149,16 @@ define(function() { // 1
         "Let’s therefore look at AMD and global variables from a testability perspective." 
 
         , "Suppose I want to test markdownViz in isolation, thus stubbing or mocking jQuery and markdown.": 
-        "With AMD, you test like this: <br>function testA() {   require.define('jQuery',   { /* mock jQuery   */ });   <br>require.define('markdown', { /* mock markdown */ });   <br>require(['markdownViz'], function (markdownViz) {     /* perform test A on markdownViz here */   }; }"
+        "With AMD, you test like this: <br>function testA() {   require.define('jQuery',   { /* mock jQuery   * / });   <br>require.define('markdown', { /* mock markdown * / });   <br>require(['markdownViz'], function (markdownViz) {     /* perform test A on markdownViz here * /   }; }"
 
         , "What about with global state?": "With global state, we have to test like as follows. Here, fetch gets the source code ofmarkdownViz with XMLHttpRequest." 
 
         , "...": 
         "Also, note the assumption that markdownViz only alters one global variable."
 
-        , ".....?": "function testA() { window.jQuery =   { /* mock jQuery   */ }; <br>window.markdown = { /* mock markdown */ }; <br>fetch('scripts/markdownViz.js', function (source) { eval(source); /* perform test A on markdownViz here */ delete window.markdownViz;}); }"
+        , ".....?": "function testA() { window.jQuery =   { /* mock jQuery   * / }; <br>window.markdown = { /* mock markdown * / }; <br>fetch('scripts/markdownViz.js', function (source) { eval(source); /* perform test A on markdownViz here * / delete window.markdownViz;}); }"
 
-        , "Are there are various (maybe shorter) ways to write the above functions?": "Of course However,both situations can easily be abstracted with a generic test function: <br>test({ jQuery:   { /* mock jQuery   */ }, markdown: { /* mock markdown */ }},function (markdownViz) {/* perform test A on markdownViz here */});"
+        , "Are there are various (maybe shorter) ways to write the above functions?": "Of course However,both situations can easily be abstracted with a generic test function: <br>test({ jQuery:   { /* mock jQuery   * / }, markdown: { /* mock markdown * / }},function (markdownViz) {/* perform test A on markdownViz here * /});"
 
         , "..a?":
         "So, as far as testability is concerned, the difference seems minimal, and can be hidden, since we want to avoid repetition anyway."
@@ -207,11 +205,11 @@ define(function() { // 1
         , "j?": "To AMD or not to AMD?"
         , "What in the end?": "both AMD and the window approach seem to introduce some form of global state." 
         , "But is this really bad?": "First of all, the dynamic nature of JavaScript allows us to test our module with an equal effort in both cases." 
-        , "Secondly": "we can still comply to the Principle of Least Knowledge by using constructor arguments (if a module returns a constructor-like object): var myMdViz = new markdownViz({ markdown: { /* mock markdown */ }}); myMdViz.init($('#textinput'));"
+        , "Secondly": "we can still comply to the Principle of Least Knowledge by using constructor arguments (if a module returns a constructor-like object): var myMdViz = new markdownViz({ markdown: { /* mock markdown * / }}); myMdViz.init($('#textinput'));"
         , "k?": "Here, module dependencies can be passed as optional arguments." 
         , "If not present?": "the constructor defaults to the global modules."
         , "That’s definitely testable, and it’s also really easy.": "So with the right build process, I don’t think your project needs AMD." 
-        , "W?": "You still have to know the dependencies between modules, but they’re just specified in a different way, and your build script can easily figure that our for you."
+        , "W?": "You still have to know the dependencies between modules, but they’re just specified in a different way, and your build script can easily figure that our for you." 
       }; // end object
       return object;
     } // end getObject

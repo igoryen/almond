@@ -2,6 +2,7 @@
   var object = {
       "20 challenges in Node.js": "http://nodejs.org/jsconf-eu-2010.pdf"
     , "__dirname": "http://nodejs.org/docs/latest/api/globals.html#globals_dirname"
+    
     , "a.php": "http://zenit.senecac.on.ca/~int322_123a07/practice/templating/a.php"
     , "Accept-Language": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4"
     , "action=": "http://www.w3schools.com/tags/att_form_action.asp"
@@ -11,11 +12,11 @@
     , "Almond (heroku)": "http://mighty-ridge-7957.herokuapp.com/webdev"
     , "API": "http://nodejs.org/api/all.html"
     , "arc()": "http://www.w3schools.com/tags/canvas_arc.asp"
-    , "arc()":"http://www.w3schools.com/tags/canvas_arc.asp"
     , "Arrays": "http://zenit.senecac.on.ca/~int322_123a07/practice/121025_arrays.php"
     , "Asgmt 1 ": "http://zenit.senecac.on.ca/~int322_123a07/assign1/add.php"
     , "Asgmt 2 ": "https://zenit.senecac.on.ca/~int322_123a07/assign2/login.php"
     , "Avocado": "http://localhost:8005/index.html"
+    
     , "back()": "http://www.w3schools.com/jsref/met_his_back.asp"
     , "Bael - jsf" : "http://jsfiddle.net/igoryen/Nr9PB/"
     , "basename": "https://developer.mozilla.org/en-US/docs/JavaScript_OS.File/OS.Path#OS.Path.basename"
@@ -25,14 +26,13 @@
     , "Beginner Book": "http://www.nodebeginner.org/"
     , "Beginner`s Tutorial": "http://project70.com/nodejs/beginners-tutorial-node-js/"
     , "beginPath()": "http://www.w3schools.com/tags/canvas_beginpath.asp"
-    , "beginPath()":"http://www.w3schools.com/tags/canvas_beginpath.asp"
     , "bgColor=": "http://www.w3schools.com/tags/att_body_bgcolor.asp"
     , "Browser support": "http://www.browsersupport.net/"  
     , "Buffer": "https://github.com/coolaj86/browser-buffer"
-    , "button CSS - jsf": "http://jsfiddle.net/terkel/ap8vT/"
     , "button 1 - jsf": "http://jsfiddle.net/igoryen/pUeue/1102/"
+    , "button CSS - jsf": "http://jsfiddle.net/terkel/ap8vT/"
+    
     , "canvas": "http://www.w3schools.com/html/html5_canvas.asp"
-    , "canvas":"http://www.w3schools.com/html/html5_canvas.asp"
     , "Case insensitive sort": "http://stackoverflow.com/questions/14308786/custom-case-insensitive-sort-function-that-retains-original-casing"
     , "Caseless": "http://zenit.senecac.on.ca/~int322_123a07/practice/caseless.php"
     , "cc.html": "http://zenit.senecac.on.ca/~int322_123a07/practice/templating/cc.html"
@@ -50,9 +50,8 @@
     , "confirm()": "http://www.w3schools.com/jsref/met_win_confirm.asp"
     , "console.info": "https://developer.mozilla.org/en-US/docs/Web/API/console.info"
     , "createLinearGradient()": "http://www.w3schools.com/tags/canvas_createlineargradient.asp"
-    , "createLinearGradient()":"http://www.w3schools.com/tags/canvas_createlineargradient.asp"
     , "createRadialGradient()": "http://www.w3schools.com/tags/canvas_createradialgradient.asp"
-    , "createRadialGradient()":"http://www.w3schools.com/tags/canvas_createradialgradient.asp"
+    
     , "Date - jsf": "http://jsfiddle.net/igoryen/xsKT8/"
     , "Date": "http://www.w3schools.com/js/js_obj_date.asp"
     , "Date": "http://www.w3schools.com/js/js_obj_date.asp"
@@ -63,7 +62,7 @@
     , "Display a clock": "http://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock"
     , "DOM - sitepoint.com": "http://www.sitepoint.com/forums/showthread.php?627986-What-exactly-is-the-DOM"
     , "drawImage()": "http://www.w3schools.com/tags/canvas_drawimage.asp"
-    , "drawImage()":"http://www.w3schools.com/tags/canvas_drawimage.asp"
+    
     , "EJS [puke]": "http://embeddedjs.com/"
     , "ElasticSearch tutorial": "http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html"
     , "ElasticSearch": "http://www.elasticsearch.org/"
@@ -80,10 +79,11 @@
     , "Everyone`s talking about it": "http://mashable.com/2011/03/10/node-js/"
     , "exports (github)": "https://github.com/vesln/exports"
     , "express (npm.js)": "https://npmjs.org/package/express"
-    , "Express Guide": "http://expressjs.com/guide.html"
     , "express - js": "http://expressjs.com/"
     , "express - nunjucks": "http://nunjucks.jlongster.com/#Express"
+    , "Express Guide": "http://expressjs.com/guide.html"
     , "express-locale": "https://npmjs.org/package/express-locale"
+    
     , "ff.php": "http://zenit.senecac.on.ca/~int322_123a07/ff.php"
     , "fieldset": "http://www.w3schools.com/tags/tag_fieldset.asp"
     , "fillRect()": "http://www.w3schools.com/tags/canvas_fillrect.asp"
@@ -98,13 +98,14 @@
     , "font=": "http://www.w3schools.com/tags/canvas_font.asp"
     , "font=":"http://www.w3schools.com/tags/canvas_font.asp"
     , "for beginners": "http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/"
-    , "forEach": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
     , "forEach 1 - jsf": "http://jsfiddle.net/igoryen/KCU4v/3/"
+    , "forEach": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
     , "forms": "http://www.w3schools.com/jsref/coll_doc_forms.asp"
     , "forward()": "http://www.w3schools.com/jsref/met_his_forward.asp"
     , "fs": "http://nodejs.org/api/fs.html#fs_file_system"
     , "fs.writeFile()": "http://nodejs.org/api/fs.html#fs_fs_writefile_filename_data_options_callback"
     , "function": "http://www.w3schools.com/js/js_functions.asp"
+    
     , "Get started": "http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js"
     , "getDay()": "http://www.w3schools.com/jsref/jsref_getday.asp"
     , "getDay()": "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_date_weekday"
@@ -125,7 +126,9 @@
     , "grunt.file.write": "http://gruntjs.com/api/grunt.file#grunt.file.write"
     , "grunt.option": "http://gruntjs.com/api/grunt#grunt.option"
     , "grunt.task.registerTask": "http://gruntjs.com/api/grunt.task#grunt.task.registertask"
+    
     , "habitat (library)": "https://github.com/brianloveswords/habitat"
+    , "hasOwnProperty": "http://jsfiddle.net/igoryen/n86Jw/"
     , "hasOwnProperty()": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
     , "Hello World! 1": "http://jsfiddle.net/igoryen/3pEyA/"
     , "Hello World! 2":"http://jsfiddle.net/igoryen/3pEyA/1/"
@@ -136,10 +139,12 @@
     , "host": "http://www.w3schools.com/jsref/prop_loc_host.asp"
     , "hostname": "http://www.w3schools.com/jsref/prop_loc_hostname.asp"
     , "How to Node": "http://howtonode.org/streams-explained"
+    
     , "Ideone.com": "http://ideone.com/"
     , "innerHTML - jsf": "http://jsfiddle.net/igoryen/Ajm9t/1/"
     , "input tag" : "http://www.w3schools.com/tags/tag_input.asp"
     , "Intro by Ryan Dahl": "http://www.youtube.com/watch?v=jo_B4LTHi3I"
+    
     , "JavaScript": "http://www.w3schools.com/js/default.asp"
     , "joyent/node": "https://github.com/joyent/node/wiki/modules"
     , "jQuery user interface": "http://jqueryui.com/"
@@ -149,6 +154,7 @@
     , "JS hint": "http://www.jshint.com/"
     , "JS the Good Parts": "http://eleventyone.done.hu/OReilly.JavaScript.The.Good.Parts.May.2008.pdf"
     , "JSON.parse": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse"
+    
     , "Lab 1 ": "http://zenit.senecac.on.ca/~int322_123a07/lab1/lab1.php"
     , "Lab 2 ": "http://zenit.senecac.on.ca/~int322_123a07/lab2/forms-part3.php"
     , "Lab 3 ": "http://zenit.senecac.on.ca/~int322_123a07/lab3/mysqlform.php"
@@ -165,15 +171,17 @@
     , "Lab6": "http://zenit.senecac.on.ca/~int322_123a07/lab6/testMenu.php"
     , "lastModified": "http://www.w3schools.com/jsref/prop_doc_lastmodified.asp"
     , "length": "http://www.w3schools.com/jsref/jsref_length_string.asp"
-    , "Less": "http://lesscss.org/"
     , "LESS with Node.js": "http://blog.dylants.com/2013/03/16/less-middleware-using-less-with-node-js/"
+    , "Less": "http://lesscss.org/"
     , "lineTo()": "http://www.w3schools.com/tags/canvas_lineto.asp"
     , "lineTo()":"http://www.w3schools.com/tags/canvas_lineto.asp"
+    , "Links Sorter - jsf": "http://jsfiddle.net/igoryen/VHzyf/"
     , "links": "http://www.w3schools.com/jsref/coll_doc_links.asp"
     , "List": "http://jsfiddle.net/rniemeyer/bxfXd/"
     , "location": "http://www.w3schools.com/jsref/obj_location.asp"
     , "login prx": "http://zenit.senecac.on.ca/~int322_123a07/practice/login_prx.php"
     , "loop breaking": "http://jsfiddle.net/igoryen/reZdZ/"
+    
     , "Mailing list": "https://groups.google.com/forum/?fromgroups#!forum/nodejs"
     , "marquee": "http://jsfiddle.net/igoryen/V3VNR/"
     , "max()": "http://www.w3schools.com/jsref/jsref_max.asp"
@@ -185,6 +193,7 @@
     , "moveTo()": "http://www.w3schools.com/tags/canvas_moveto.asp"
     , "moveTo()":"http://www.w3schools.com/tags/canvas_moveto.asp"
     , "My_class": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_destructor_01.php"
+    
     , "name": "http://www.w3schools.com/jsref/prop_meta_name.asp"
     , "Node by Example": "http://blog.osbutler.com/categories/node-by-example/?page=3"
     , "Node Tuts": "http://nodetuts.com/"
@@ -200,6 +209,7 @@
     , "Nunjucks": "http://nunjucks.jlongster.com/"
     , "nunjucks.Environment": "http://nunjucks.jlongster.com/#Express"
     , "nunjucks.FileSystemLoader": "http://nunjucks.jlongster.com/#Express"
+    
     , "Object.create": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
     , "onclick" : "http://www.w3schools.com/jsref/event_onclick.asp"
     , "onclick=": "http://www.w3schools.com/jsref/event_onclick.asp"
@@ -207,6 +217,7 @@
     , "online PHP functions": "http://sandbox.onlinephpfunctions.com/"
     , "onsubmit=": "http://www.w3schools.com/tags/ev_onsubmit.asp"
     , "oo-login.php": "http://zenit.senecac.on.ca/~int322_123a07/lab6/oo-login.php"
+    
     , "package.json": "https://npmjs.org/doc/json.html"
     , "Parsing Markdown": "http://pzxc.com/simple-javascript-markdown-parsing-function"
     , "path": "http://nodejs.org/docs/v0.4.9/api/path.html"
@@ -218,11 +229,13 @@
     , "port": "http://www.w3schools.com/jsref/prop_loc_port.asp"
     , "pow()": "http://www.w3schools.com/jsref/jsref_pow.asp"
     , "Presented by Ryan Dahl": "http://www.infoq.com/presentations/nodejs"
+    , "print out js objects props and values": "http://jsfiddle.net/igoryen/Ju44N/1/"
     , "printing an array": "http://jsfiddle.net/igoryen/wjj2j/1/"
     , "process.env": "http://nodejs.org/api/process.html#process_process_env"
     , "programming 7 things": "http://www.theguardian.com/info/developer-blog/2011/oct/07/programming-developer-journalist"
     , "prompt()": "http://www.w3schools.com/jsref/met_win_prompt.asp"
     , "protocol": "http://www.w3schools.com/jsref/prop_loc_protocol.asp"
+    
     , "random()": "http://www.w3schools.com/jsref/jsref_random.asp"
     , "randomize checkboxes": "http://jsfiddle.net/igoryen/nGxVU/"
     , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
@@ -235,7 +248,9 @@
     , "request 2":"https://npmjs.org/package/request"
     , "require()": "https://npmjs.org/package/require"
     , "round()": "http://www.w3schools.com/jsref/jsref_round.asp"
+    
     , "Salve!": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_specialMethodsPHP5_test.php"
+    , "script tag": "http://www.w3schools.com/tags/tag_script.asp"
     , "setFullYear()": "http://www.w3schools.com/jsref/jsref_setfullyear.asp"
     , "setFullYear()": "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_setfullyear2"
     , "setInterval()": "http://www.w3schools.com/js/js_timing.asp"
@@ -255,19 +270,22 @@
     , "strokeText()":"http://www.w3schools.com/tags/canvas_stroketext.asp"
     , "Style guide": "http://nodeguide.com/style.html"
     , "switch()": "http://www.w3schools.com/js/js_switch.asp"
+    
     , "Tags Manager": "http://welldonethings.com/tags/manager"
     , "Talent Is Overrated": "https://www.google.ca/search?q=talent+is+overrated&oq=talent+is+overrate&aqs=chrome.0.0j69i57j0l2.3517j0&sourceid=chrome&ie=UTF-8"
     , "templates": "http://jinja.pocoo.org/docs/templates/"
     , "test1.php": "http://zenit.senecac.on.ca/~int322_123a07/practice/test1.php"
     , "testMenu.php": "http://zenit.senecac.on.ca/~int322_123a07/lab6/testMenu.php"
     , "toLocaleString()": "http://www.w3schools.com/jsref/jsref_tolocalestring.asp"
+    , "toUTCString() - jsf": "http://jsfiddle.net/igoryen/hc9YK/"
     , "toUTCString() 1": "http://www.w3schools.com/jsref/jsref_toutcstring.asp"
     , "toUTCString() 2": "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_toutcstring"
-    , "toUTCString() - jsf": "http://jsfiddle.net/igoryen/hc9YK/"
     , "tympanus": "http://tympanus.net/codrops/"
     , "typeof": "https://npmjs.org/package/typeof"
+    
     , "Understanding Node.js": "http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb"
     , "util": "http://stackoverflow.com/questions/17368565/what-does-the-util-module-in-node-js-do"
+    
     , "Web_Console": "https://developer.mozilla.org/en-US/docs/Tools/Web_Console"
     , "What is it good for?": "http://readwrite.com/2011/01/25/wait-whats-nodejs-good-for-aga"
     , "What's my user agent": "http://www.whatsmyuseragent.com/"
@@ -276,11 +294,9 @@
     , "write code online": "http://writecodeonline.com/php/"
     , "write()": "http://www.w3schools.com/jsref/met_doc_write.asp"
     , "writeln()": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
+    
     , "zsh shell" : "https://github.com/robbyrussell/oh-my-zsh"
     , "zsh syntax highlighting" : "https://github.com/zsh-users/zsh-syntax-highlighting"
-    , "Links Sorter - jsf": "http://jsfiddle.net/igoryen/VHzyf/"
-    , "print out js objects props and values": "http://jsfiddle.net/igoryen/Ju44N/1/"
-    , "hasOwnProperty": "http://jsfiddle.net/igoryen/n86Jw/"
 
   }; // end object
 
@@ -316,7 +332,7 @@ function printObj(obj){
   var startingLetter = "";
 
   for (var k in obj){  // for every key in json object 
-    if (obj.hasOwnProperty(k)){ // if key has a property 
+    if (obj.hasOwnProperty('k')){ // if key has a property 
       keys.push(k);   // put key (and its property) into the -keys- array
     }
   } // end for()

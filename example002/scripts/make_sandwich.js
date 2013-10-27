@@ -1,6 +1,6 @@
 // make_sandwich.js
 
-var fridge = require ('./fridge'); // 1
+var fridge = require('./fridge'); // 1
 
 function makeSandwich() {
   return {
