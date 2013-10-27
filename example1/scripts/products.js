@@ -1,7 +1,6 @@
 define(function(products) { // 1
   return {
     reserveProduct: function() { // 2
-
       console.log("Function : reserveProduct");
  
       return true; // 3

@@ -1,5 +1,4 @@
 define(function() { // 1
-
   console.log("Function : getCredits");
  
   return { // 2

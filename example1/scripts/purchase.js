@@ -1,5 +1,4 @@
 define( ["credits","products"], function( credits, products ) { // 1
-  
   console.log("Function : purchaseProduct");
  
   return {                             // 2
