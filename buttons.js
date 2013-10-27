@@ -17,6 +17,7 @@ var buttons = {
  , "Java":"java"
  , "Job Search" : "jobsearch"
  , "Joy School": "joyschool"
+ , "JSFiddle": "jsfiddle"
  , "Lingua":"lingua"
  , "Localization":"localization"
  , "Mozilla" : "mozilla"

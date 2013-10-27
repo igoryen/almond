@@ -159,6 +159,7 @@ app.get('/itterms', routes.pages("itterms"));
 app.get('/java', routes.pages("java"));
 app.get('/jobsearch', routes.pages("jobsearch"));
 app.get('/joyschool', routes.pages("joyschool"));
+app.get('/jsfiddle', routes.pages("jsfiddle"));
 app.get('/lingua', routes.pages("lingua"));
 app.get('/localization', routes.pages("localization")); 
 app.get('/me', routes.pages("me"));
