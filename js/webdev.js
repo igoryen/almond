@@ -279,7 +279,8 @@
     , "zsh shell" : "https://github.com/robbyrussell/oh-my-zsh"
     , "zsh syntax highlighting" : "https://github.com/zsh-users/zsh-syntax-highlighting"
     , "Links Sorter - jsf": "http://jsfiddle.net/igoryen/VHzyf/"
-    , "print out js objects props and values": "http://jsfiddle.net/igoryen/Ju44N/"
+    , "print out js objects props and values": "http://jsfiddle.net/igoryen/Ju44N/1/"
+    , "hasOwnProperty": "http://jsfiddle.net/igoryen/n86Jw/"
 
   }; // end object
 
