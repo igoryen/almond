@@ -6,18 +6,15 @@
 
 
 var buttons = {
-   "CSS": "CSS"
- , "Dan School": "danschool"
+   "Dan School": "danschool"
  , "Funny":"funny"
  , "Git": "git"
  , "Gregoriana":"gregoriana"
  , "Health":"health"
  , "Hillsong": "hillsong"
- , "HTML5":"html5"
  , "IT stuff":"itstuff"
  , "IT terms":"itterms"
  , "Java":"java"
- , "JavaScript":"javascript"
  , "Job Search" : "jobsearch"
  , "Joy School": "joyschool"
  , "Lingua":"lingua"
@@ -25,8 +22,6 @@ var buttons = {
  , "Mozilla" : "mozilla"
  , "Mozilla bugs" : "mozillabugs" 
  , "Music":"music"
- , "Node.js":"nodejs"
- , "PHP":"php"
  , "Preach & Teach":"preachandteach"
  , "Praise & Worship":"praiseandworship"
  , "Self-Defense":"selfdefense"

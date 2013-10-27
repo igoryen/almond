@@ -142,7 +142,6 @@ app.configure( function() {
 app.get( "/strings/:lang?", i18n.stringsRoute( "en-US" ) );
 
 app.get('/', routes.pages("index")); // folder 'routes', function 'pages'
-app.get('/css', routes.pages("css"));
 app.get('/danschool', routes.pages("danschool"));
 app.get('/debug', routes.pages("debug"));
 app.get('/digitalclock', routes.pages("digitalclock"));
@@ -151,7 +150,6 @@ app.get('/git', routes.pages("git"));
 app.get('/gregoriana', routes.pages("gregoriana")); 
 app.get('/health', routes.pages("health"));
 app.get('/hillsong', routes.pages("hillsong"));
-app.get('/html5', routes.pages("html5"));
 app.get('/index', routes.pages("index"));
 app.get('/index2', function( req, res ) {
   res.render('index2.html');
@@ -159,7 +157,6 @@ app.get('/index2', function( req, res ) {
 app.get('/itstuff', routes.pages("itstuff"));
 app.get('/itterms', routes.pages("itterms"));
 app.get('/java', routes.pages("java"));
-app.get('/javascript', routes.pages("javascript"));
 app.get('/jobsearch', routes.pages("jobsearch"));
 app.get('/joyschool', routes.pages("joyschool"));
 app.get('/lingua', routes.pages("lingua"));
@@ -170,8 +167,6 @@ app.get('/mozilla', routes.pages("mozilla"));
 app.get('/mozillabugs', routes.pages("mozillabugs"));
 app.get('/music', routes.pages("music"));
 app.get('/mylinks', routes.pages("mylinks"));
-app.get('/nodejs', routes.pages("nodejs"));
-app.get('/php', routes.pages("php"));
 app.get('/praiseandworship', routes.pages("praiseandworship"));
 app.get('/preachandteach', routes.pages("preachandteach"));
 app.get('/revealcontent', routes.pages("revealcontent"));
