@@ -162,6 +162,7 @@
     , "Mozilla Developer Network": "https://developer.mozilla.org/en-US/"
     , "My_class": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_destructor_01.php"
     , "name": "http://www.w3schools.com/jsref/prop_meta_name.asp"
+    , "Node, require, exports - Seguin": "http://openmymind.net/2012/2/3/Node-Require-and-Exports/"
     , "Node by Example": "http://blog.osbutler.com/categories/node-by-example/?page=3"
     , "Node Tuts": "http://nodetuts.com/"
     , "Node wiki": "https://github.com/joyent/node/wiki"

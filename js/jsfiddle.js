@@ -7,6 +7,7 @@
     , "button CSS": "http://jsfiddle.net/terkel/ap8vT/" 
     , "Date": "http://jsfiddle.net/igoryen/xsKT8/"
     , "Dialog window": "http://jsfiddle.net/igoryen/Z3R7X/"
+    , "prompt 1": "http://jsfiddle.net/igoryen/v5MGS/"
     , "fadein-delay-fadeout": "http://jsfiddle.net/igoryen/J83H8/4/"
     , "forEach 1": "http://jsfiddle.net/igoryen/KCU4v/3/"
     , "hasOwnProperty()": "http://jsfiddle.net/igoryen/n86Jw/"  // if it's just 'hasOwnProperty', then error: Uncaught TypeError: Property 'hasOwnProperty' of object #<Object> is not a function 
