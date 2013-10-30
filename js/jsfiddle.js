@@ -11,6 +11,7 @@
     , "fadein-delay-fadeout": "http://jsfiddle.net/igoryen/J83H8/4/"
     , "forEach 1": "http://jsfiddle.net/igoryen/KCU4v/3/"
     , "hasOwnProperty()": "http://jsfiddle.net/igoryen/n86Jw/"  // if it's just 'hasOwnProperty', then error: Uncaught TypeError: Property 'hasOwnProperty' of object #<Object> is not a function 
+    , "Hello {{name}} - ng": "http://jsfiddle.net/igoryen/6UT9M/"
     , "Hello World! 1": "http://jsfiddle.net/igoryen/3pEyA/"
     , "Hello World! 2":"http://jsfiddle.net/igoryen/3pEyA/1/"
     , "Hello World! 3":"http://jsfiddle.net/igoryen/3pEyA/2/"
@@ -34,6 +35,7 @@
     , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
     , "shuffle()": "http://jsfiddle.net/igoryen/KMDej/"
     , "shuffle(array)": "http://jsfiddle.net/igoryen/KMDej/"
+    , "Todo - ng": "http://jsfiddle.net/igoryen/TKCvF/"
     , "toUTCString()": "http://jsfiddle.net/igoryen/hc9YK/"
 
     
