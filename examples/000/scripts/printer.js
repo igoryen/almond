@@ -1,5 +1,5 @@
 define( ["jsobject"], function( jsobject ) { // 1
-  console.log("Function : printOut");
+  //console.log("Function : printOut");
  
   return { 
     printOut: function() {      // 3
