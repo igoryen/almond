@@ -3,19 +3,31 @@
 
 // create an object
   var object = {
-      "button 1": "http://jsfiddle.net/igoryen/pUeue/1102/"
+      "add new method to object 10": "http://jsfiddle.net/igoryen/VQbvQ/6/"
+    , "add property to object": "http://jsfiddle.net/igoryen/VQbvQ/8/"
+    , "button 1": "http://jsfiddle.net/igoryen/pUeue/1102/"
     , "button CSS": "http://jsfiddle.net/terkel/ap8vT/" 
+    , "create an object 10 - instantiate": "http://jsfiddle.net/igoryen/VQbvQ/"
+    , "create an object 20 - object literals": "http://jsfiddle.net/igoryen/VQbvQ/2/"
+    , "create an object 30 - object constructor": "http://jsfiddle.net/igoryen/VQbvQ/3/"
     , "Date": "http://jsfiddle.net/igoryen/xsKT8/"
     , "Dialog window": "http://jsfiddle.net/igoryen/Z3R7X/"
-    , "prompt 1": "http://jsfiddle.net/igoryen/v5MGS/"
+    , "do/while loop 10": "http://jsfiddle.net/igoryen/maGMk/6/"
     , "fadein-delay-fadeout": "http://jsfiddle.net/igoryen/J83H8/4/"
+    , "for loop 10 - array": "http://jsfiddle.net/igoryen/maGMk/"
+    , "for loop 20 - array": "http://jsfiddle.net/igoryen/maGMk/1/"
+    , "for loop 30 - array": "http://jsfiddle.net/igoryen/maGMk/2/"
+    , "for loop 40 - array": "http://jsfiddle.net/igoryen/maGMk/3/"
+    , "for loop 50 - 2D array": "http://jsfiddle.net/igoryen/wjj2j/2/"
+    , "for/in loop 10 - object": "http://jsfiddle.net/igoryen/maGMk/4/"
+    , "for/in loop 20 - object": "http://jsfiddle.net/igoryen/VQbvQ/7/"
     , "forEach 1": "http://jsfiddle.net/igoryen/KCU4v/3/"
     , "hasOwnProperty()": "http://jsfiddle.net/igoryen/n86Jw/"  // if it's just 'hasOwnProperty', then error: Uncaught TypeError: Property 'hasOwnProperty' of object #<Object> is not a function 
-    , "Hello {{name}} - ng": "http://jsfiddle.net/igoryen/6UT9M/"
     , "Hello World! 1": "http://jsfiddle.net/igoryen/3pEyA/"
     , "Hello World! 2":"http://jsfiddle.net/igoryen/3pEyA/1/"
     , "Hello World! 3":"http://jsfiddle.net/igoryen/3pEyA/2/"
     , "Hello World! 4":"http://jsfiddle.net/praveen_prasad/XNJxT/14/"
+    , "Hello {{name}} - ng": "http://jsfiddle.net/igoryen/6UT9M/"
     , "innerHTML": "http://jsfiddle.net/igoryen/Ajm9t/1/"
     , "JS Fiddle Tutorial": "http://doc.jsfiddle.net/tutorial.html"
     , "JS Fiddle": "http://jsfiddle.net/"
@@ -28,17 +40,19 @@
     , "loop breaking": "http://jsfiddle.net/igoryen/reZdZ/"
     , "marquee": "http://jsfiddle.net/igoryen/V3VNR/"
     , "placeholder in input": "http://jsfiddle.net/igoryen/Atrar/"
-    , "Popcorn": "http://jsfiddle.net/rwaldron/xhXE6/"  
+    , "Popcorn": "http://jsfiddle.net/rwaldron/xhXE6/"
     , "print out js objects props and values": "http://jsfiddle.net/igoryen/Ju44N/1/"
     , "printing an array": "http://jsfiddle.net/igoryen/wjj2j/1/"
+    , "prompt 1": "http://jsfiddle.net/igoryen/v5MGS/"
     , "randomize checkboxes": "http://jsfiddle.net/igoryen/nGxVU/"
     , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
     , "shuffle()": "http://jsfiddle.net/igoryen/KMDej/"
     , "shuffle(array)": "http://jsfiddle.net/igoryen/KMDej/"
     , "Todo - ng": "http://jsfiddle.net/igoryen/TKCvF/"
     , "toUTCString()": "http://jsfiddle.net/igoryen/hc9YK/"
-
-    
+    , "while loop 10": "http://jsfiddle.net/igoryen/maGMk/5/"
+    , "while loop 20 - array": "http://jsfiddle.net/igoryen/maGMk/7/"
+    , "while loop 30 - array compare w for": "http://jsfiddle.net/igoryen/maGMk/8/"
   }; // end object
 
     //----------------------------------------------------------------------------

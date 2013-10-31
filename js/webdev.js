@@ -119,6 +119,7 @@
     , "host": "http://www.w3schools.com/jsref/prop_loc_host.asp"
     , "hostname": "http://www.w3schools.com/jsref/prop_loc_hostname.asp"
     , "How to Node": "http://howtonode.org/streams-explained"
+    , "html color codes": "http://html-color-codes.info/"
     , "Ideone.com": "http://ideone.com/"
     , "input tag" : "http://www.w3schools.com/tags/tag_input.asp"
     , "Intro by Ryan Dahl": "http://www.youtube.com/watch?v=jo_B4LTHi3I"
