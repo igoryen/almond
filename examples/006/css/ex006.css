@@ -1,0 +1,11 @@
+/* ex005.css */
+
+.done-true {
+    text-decoration: line-through;
+    color: grey;
+}
+.code {
+    background-color: #E8E6E6;
+    width: 500px;
+    border: inset;
+}

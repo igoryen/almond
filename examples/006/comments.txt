@@ -1,0 +1,132 @@
+// comments.txt
+=================================================================================================================
+index.html
+
+  1) 'ng-app' - directive: "AngularJS, be active in this portion of the page (In this case the entire document)! Activate the 'project' module for this page region!" This lets you have modules that run in different parts of the page.
+
+  2) Load AngularJS. 
+  
+  3) Load AngularJS resource module.
+  
+  4) Load the Firebase JavaScript SDK.
+  
+  5) Load the Angular bindings for Firebase.
+  
+  6) Load the 'project.js' file containing the controllers which specify this application’s behavior.
+  
+  7) We’re marking this <div> as the place we’ll load partial pages or “views”. The surrounding page will stay static while we load changing UI into this section. In this case, we’ll be switching between 2 partial views:
+    a) a list of “projects” and 
+    b) the form to:
+       1) add new "projects" or 
+       2) edit existing “projects”.
+=================================================================================================================
+project.js
+
+1) 'project': define this 'project' module. 
+    (You use modules to 
+      a) configure existing services, and 
+      b) define new services, directives, filters, and so on. 
+    Here [in the 'project' module], we’ll set up ‘routes’ that map URLs to partials [i.e. partial pages or views]. 
+    AngularJS watches the location to which you point your browser [the browser location]
+    and automatically updates the partial when the URL changes.)
+
+2) 'firebase' - the 'project' module`s dependency (the 'project' module depends on the 'firebase' module). 
+    'firebase' handles the persistence for this application. 
+
+21) assign: fbURL = ~firebaseio~ 
+
+31) factory() - 
+
+32) 'Projects' is an [object which is] instance of the 'angularFireCollection' class. 'Projects' is defined in the 
+    'projects' (?) module [located where?]. 
+    The object 'Projects' exposes method to add, remove and update projects in the collection. 
+    The purpose of 'Projects': to abstract the server communication. This lets the controller focus on 
+    the behavior rather than the complexities of server access.
+
+4) 'config()' - configure the '$routeProvider' (service?). 
+    This service maps URL paths to partials [i.e. partial pages or views].
+    ('config()' is used to configure existing services.)
+
+5) An explicit route. If the URL is '/' ($routeProvider?), do 2 things:
+    a) load 'list.html' into the view [i.e. the partial page] and
+    b) attach the 'ListCtrl' controller. 
+    You can instantly get an overview of an app's structure by reading the route definitions.
+
+6) :projectId - is a property of ... . This route definition has a colon ':' in it. 
+    You use colons to make a component of the URL available to your controller. 
+    So now, 'EditCtrl()' can refer to the 'projectId' property which tells it which project to edit.
+
+61) If the URL is '/new/' route,
+    a) load 'detail.html' into the partial view
+    b) attach the 'Create' controller 
+    The link to the /new/ route is in list.html.
+
+7) If the request's route doesn't match any of the existing routes, respond with the 'otherwise' route specifying the default view.
+
+71) the 'List' controller
+
+8) Assign the set of projects to $scope immediately so that they will be displayed in the [partial] view.
+
+81) the 'Create' controller
+
+9) '$location' - the name of the service you use to access the browser's location.
+
+10) $timeout - [the service?] used to asynchronously call the callback for Projects.add(), to ensure $location has 
+    the right context when it executes.
+
+11) .save - bound to the save button - called when the user clicks the save button in the view.
+
+12) path() method - change the application's 'deep-linking' location to '/'. 
+    Changing the URL will automatically activate the new route, and transition the application to display that view -- 
+    in this case, the '/edit/' view.
+
+121) the Edit controller
+
+13) $routeParams - the name of the service that we ask AngularJS to inject.  
+    $routeParams is used to access the parameters extracted from the route path definitions.
+
+14) 'angularFire' - a method. It binds a 'Project' from the server to a local '$scope' variable, 
+    in this case, 'remote'.  
+
+15) extract 'projectId' from the URL to allow the Edit controller to use deep-linking information for processing.
+
+16) 'isClean()' - determine whether the user has modified the form. 
+      This information is used to enable the save button in the view.
+
+17) 'destroy()' - destroy a project. Bound to the Delete button in the view. Called when the user clicks the Delete button.
+
+18) set the object's value to null == delete the object.
+=================================================================================================================
+list.html
+1) ng-model="search" - bind the input field to the 'search' property. The property is then used to filter [the projects] for only the projects which contain the text entered by the user in the text input field.
+
+2) A link to a '/new/' route. The '/new/' route is defined in 'projects.js'. 
+Note that we follow the spirit of the web. There is no need to register callbacks on links, we are simply navigating to a new URL. This automatically updates the browser history, and enables deep-linking. But unlike a server round trip application, this navigation event gets rendered instantly in the browser.
+
+21) <i> = italics
+
+3) ng-repeat - unroll a collection: create (using AngularJS) -- for every project in 'projects' -- new copy of the <tr> element (tr=table row).
+
+4) filter:search - pass 'search' to 'filter', 'filter' returns only a subset of items in the 'projects'. 
+  a) As you enter text into the search box, 
+  b) the 'filter' will narrow down the list according to your criteria. 
+  c) 'ng-repeat' will then add or remove items from the table.
+
+5) 'odredBy:' - order the 'project' list by the 'name' property and return the ordered list.
+=================================================================================================================
+details.html
+
+1) Create a form named 'myForm'. We will declare form validation rules here which we'll use to show input errors and disable buttons.
+
+2) Add an 'error' CSS class if the 'myForm`s input 'name' is invalid.
+
+3) "required": "Invalidate the input control if no text is entered.
+
+4) "ng-show": Show this error message if the 'myForm'`s input 'name' has 'required' validation error.
+
+5) "url": The URL type automatically adds URL validation.
+
+6) "ng-disabled": Disable the 'Save' button if:
+    a) the form has not been filled in, or 
+    b) if the form is invalid.
+
