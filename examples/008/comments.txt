@@ -1,0 +1,76 @@
+comments.txt
+================================================================================
+tabs.html
+
+1) "components": ng-app, activate the 'component' module for this page region. 
+  The 'component' module contains HTML extension for <tabs> and <pane> components.
+  
+2) "tabs": a custom 'tabs' element, an extension to HTML's vocabulary. The 'tabs' abstracts the complex HTML structure and behavior necessary for rendering of tabs. The result is a more readable view and very easily reusable syntax.
+
+3) "pane": a custom 'pane' element. Render the panes of each tab. The result is a more readable view.
+
+4) "title": "Components can take input parameters in the form of HTML attributes. 
+    In this case the 'title' attribute specifies the tab's text.
+
+5) "Localization": An example demonstrating localization features of AngularJS: date, number and currency formatting."
+
+6) "Pluralization": An example demonstrating pluralization features of AngularJS. 
+    Notice that that the plural form of 'beer' changes in 'SK' locale at zero, one, two, and five beers."
+
+7) "BeerCounter": "We use the 'BeerCounter' controller to set up counting rules depending on the locale."
+
+8) "ng-pluralize": "The <code>ng-pluralize</code> directive selects the right plural format for each locale. Unlike English, other languages often have complex plural rules depending on the number of items involved."
+        
+9) "count": "Binds to the number property. The count becomes the selector for the plural form to choose."
+
+10) "when": "Binds to pluralization rules. The rules are unique for each locale and language combination."
+================================================================================
+components.js
+
+1) "directive": "Use the module's 'directive()' method to define new HTML vocabulary for our components.
+
+2) "tabs": Define the <tabs> component.
+
+3) "restrict": "The 'restrict' specifies the HTML format of the component. 
+In this case the <tabs> must be an HTML element."
+
+4) "transclude": Specifies that when AngularJS replaces the <tabs> element with the expanded HTML that it should place the original content somewhere specified by an 'ng-transclude' directive (see below)."
+
+5) "scope": Our component needs to have a private scope so that its view properties are not accidentally modified outside the <code>&lt;tabs&gt;</code>. If you do need to expose attributes, you can declare input/output attributes. See the <code>&lt;pane&gt;</code> component below for an example."
+
+6) "controller": "Just like with the application, the component(!) can have a controller that provides the component's behavior."
+        
+7) "$scope": "Current scope of the component."
+
+8) "$element": "Current DOM element of the component."
+
+9) "select": "Publish a 'select()' method which will be used by the view to switch between tabs.
+
+10) "addPane": "Components often need to collaborate together as a unit. In our case the <pane> will use the 'addPane()' method to be register itself with its <tabs> container.
+
+11) "template": "The 'template' is the HTML which needs to be rendered by the browser instead of the <tabs> placeholder. 
+Notice that the HTML in this template can have other directives within it."
+
+12) "active": "We set the 'active' CSS class to show the currently active tab.
+
+13) "ng-click": "Select the clicked tab."
+
+14) "ng-transclude": "Marks the location where the contents of the <tabs> element will be placed.
+
+15) "replace": "AngularJS! Replace the original <tabs> element with the 'template' rather than appending to it.
+
+16) "require": "Specify that the <pane> component must be inside a <tabs> component. This gives the <pane> component to access to the <tabs>' controller methods -- the 'addPane()' method in this case."
+
+17) "tabsCtrl": As we've specified we 'require' the <tabs> as our container, we get passed its controller instance.
+
+================================================================================
+beers.js
+
+1) $locale: The $locale service contains meta-data for the current locale. 
+There are AngularJS locale modules available for each language locale combination."
+
+2) beers: "Set up beers counting array. We will iterate over this array and see how the 'beers' count gets rendered for each count."
+
+3) id: "Create different pluralization rules based on locale. In an actual app, one would load a different module which would contain translation as well as localization rules for each language."
+
+4) beerForms: Pluralization rules for English.
