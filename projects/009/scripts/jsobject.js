@@ -36,7 +36,6 @@ define(function() { // 1
         , "How helpfull is Firebase?": "It can provide all of the data storage, control, and transmission needs of most apps."
         , "Do I need a server?": "In many cases, Firebase can completely replace your server and server-side code." 
         , "Does this mean I no longer need to build complicated backend software?": "Yes, you can instead focus on your application logic and your customers."
-
       }; // end object
       return object;
     } // end getObject

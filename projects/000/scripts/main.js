@@ -1,5 +1,5 @@
 require(["printer"],function(printer){ // 1
   var retval = "";
   retval = printer.printOut();             // 2
-  document.getElementById('a').innerHTML  = retval;
+  document.getElementById('bag').innerHTML  = retval;
 });
