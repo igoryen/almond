@@ -9,10 +9,3 @@ define('module2', function(){ //
   return "module2 text";
 });
 
-
-/*
-1) the definition of the message.js module does not have to include the module name
-    since the module name is skipped the name of this module1 will be assumed to be the file name - 'module'
-
-5) creating an anonymous funciton 
-*/
