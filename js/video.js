@@ -4,6 +4,7 @@
 // create an object
   var object = {
       "Aloisius":"https://www.youtube.com/watch?v=vZ3gxKCgtEU"
+    , "Blind man's sign": "https://www.youtube.com/watch?v=F8bm2llxxjU"
     , "Bubentsov before firing squad ":"https://www.youtube.com/watch?v=LC1d_2lschs"
     , "Bubentsov`s story ":"https://www.youtube.com/watch?v=XVsIeZW3OFU"
     , "Castle & Beckett":"https://www.youtube.com/watch?v=WSpiVm6BkeA"

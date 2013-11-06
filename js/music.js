@@ -3,7 +3,9 @@
 
 // create an object
   var object = {
-      "A Day without Rain - Enya": "https://www.youtube.com/watch?v=JgErQp7b8KI"
+      "50's music compilation 1": "http://www.youtube.com/watch?v=b4qtltfyFts"
+    , "50's music compilation 2": "http://www.youtube.com/watch?v=Jsz12VNcnko"
+    , "A Day without Rain - Enya": "https://www.youtube.com/watch?v=JgErQp7b8KI"
     , "Afro Celt Playlist": "http://www.youtube.com/watch?v=XZfMix6olic&playnext=1&list=PLB2AB51B20782729C&feature=results_main"
     , "Afro Celt": "http://www.youtube.com/watch?v=ClAkyn8EAS4&list=PLSC1WNAGYIGWHDMRBNMDBNETHY6ABYO7L"
     , "Alice Theme (Movie)": "https://www.youtube.com/watch?v=LW7cikQuc1s"
@@ -35,6 +37,7 @@
     , "Change": "http://www.youtube.com/watch?v=eg7BFXss1hE"
     , "Charles & Raven": "http://www.youtube.com/watch?v=07r60T0drUk"
     , "Christmas Night - Chistyakov": "https://www.youtube.com/watch?v=u05ZUiBFOOk"
+    , "Chumachechaya Spring - Потап и Настя": "http://www.youtube.com/watch?v=WdVT0EWBtW8"
     , "Cricket Symphony": "http://www.youtube.com/watch?v=aoiV7c46C1A"
     , "Crickets chirping at night": "http://www.youtube.com/watch?v=jzN3yJXlWrg"
     , "Crockett`s Theme": "https://www.youtube.com/watch?v=_UmOY6ek_Y4"
@@ -95,6 +98,7 @@
     , "Kiss me": "http://www.youtube.com/watch?v=8N-qO3sPMjc"
     , "Komarovo": "https://www.youtube.com/watch?v=k9-avqS0U4A"
     , "La Isla Bonita - Madonna": "https://www.youtube.com/watch?v=7YzW1nMB9fk"
+    , "Lambada - Kaoma": "http://www.youtube.com/watch?v=i8mz9uOvFQA"
     , "Last Hero, the ": "https://www.youtube.com/watch?v=BnDY4jC7JZM"
     , "Learning to Fly": "https://www.youtube.com/watch?v=DrGuVa-4BVE"
     , "Legend, The": "http://www.youtube.com/watch?v=mN5d5KWJp0Y&feature=endscreen&NR=1"
@@ -184,11 +188,13 @@
     , "Twist in my sobriety - T. Tikaram": "http://www.youtube.com/watch?v=zfD4UHG1faI"
     , "Visitor from the Future": "http://www.youtube.com/watch?v=sAdug2Kqfdg"
     , "Voyage voyage ": "http://www.youtube.com/watch?v=6PDmZnG8KsM"
+    , "Vsyo puchkom - Потап и Настя": "http://www.youtube.com/watch?v=CNqGI8iQMb0"
     , "War ": "http://www.youtube.com/watch?v=CUPH5il-Cf0"
     , "Watermark - Enya": "https://www.youtube.com/watch?v=LQ00OPea4GI"
     , "We didn't start the fire": "http://www.youtube.com/watch?v=eFTLKWw542g"
     , "We`ll be together": "http://www.youtube.com/watch?v=bCCzPC_TTvI"
     , "What a wonderful world (IZ)": "http://www.youtube.com/watch?v=ggU2il6EaEU"
+    , "What I wouldn't do - Serena Ryder": "http://www.youtube.com/watch?v=ppi1uDvc44w"
     , "What is love ": "https://www.youtube.com/watch?v=VVmbhYKDKfU"
     , "White Lounge ": "http://www.youtube.com/watch?v=OTU1n0lsRgE"
     , "Who wants to live forever": "https://www.youtube.com/watch?v=BYOE_b4aYD0"
@@ -197,8 +203,6 @@
     , "You and I": "http://www.youtube.com/watch?v=sc47le0Byq0"
     , "You`re Beautiful": "http://www.youtube.com/watch?v=D-26kipcM5g"
     , "You`re My Angel": "https://www.youtube.com/watch?v=kUfVE8WZQNk"
-    , "Всё пучком - Потап и Настя": "http://www.youtube.com/watch?v=CNqGI8iQMb0"
-    , "Чумачечая весна - Потап и Настя": "http://www.youtube.com/watch?v=WdVT0EWBtW8"
   }; // end object
 
     //----------------------------------------------------------------------------

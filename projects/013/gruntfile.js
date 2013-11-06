@@ -40,7 +40,7 @@ module.exports = function(grunt) { // 1
     grunt.loadNpmTasks('grunt-contrib-uglify'); // 30
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify']);
+    grunt.registerTask('default', ['uglify']); // 40
 };
 
 /*
@@ -54,5 +54,6 @@ module.exports = function(grunt) { // 1
 26) to generate a banner comment dynamically using that metadata.
 28) <%== %> This is how you specify configuration data like filepaths and file lists
 30) Enable the plugin with the commonly used task `grunt-contrib-uglify`
+40) specify the default tasks in an array
 
 */
