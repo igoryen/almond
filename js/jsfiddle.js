@@ -22,6 +22,7 @@
     , "for/in loop 10 - object": "http://jsfiddle.net/igoryen/maGMk/4/"
     , "for/in loop 20 - object": "http://jsfiddle.net/igoryen/VQbvQ/7/"
     , "forEach 1": "http://jsfiddle.net/igoryen/KCU4v/3/"
+    , "getTime() 1 - js": "http://jsfiddle.net/igoryen/HXLMJ/"
     , "hasOwnProperty()": "http://jsfiddle.net/igoryen/n86Jw/"  // if it's just 'hasOwnProperty', then error: Uncaught TypeError: Property 'hasOwnProperty' of object #<Object> is not a function 
     , "Hello World! 1": "http://jsfiddle.net/igoryen/3pEyA/"
     , "Hello World! 2":"http://jsfiddle.net/igoryen/3pEyA/1/"
@@ -51,6 +52,7 @@
     , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
     , "shuffle()": "http://jsfiddle.net/igoryen/KMDej/"
     , "shuffle(array)": "http://jsfiddle.net/igoryen/KMDej/"
+    , "substr() - 10": "http://jsfiddle.net/igoryen/fbULs/"
     , "Todo - ng": "http://jsfiddle.net/igoryen/TKCvF/"
     , "toUTCString()": "http://jsfiddle.net/igoryen/hc9YK/"
     , "while loop 10": "http://jsfiddle.net/igoryen/maGMk/5/"
