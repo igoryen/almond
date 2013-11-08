@@ -1,5 +1,7 @@
+node_modules/
+projects/013/node_modules
+.DS_Store
 *.mp3
 *.ogg
 *.mp4
 *.ogv
-*.DS_Store
