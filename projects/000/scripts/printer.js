@@ -14,9 +14,9 @@ define( ["jsobject"], function( jsobject ) { // 1
         }
       }
 
-      for ( var i = 0; i < arrayOfProperties.length ; i++ ) {
+      for ( var i = 0, k = 1; i < arrayOfProperties.length ; i++, k++ ) {
         currentProperty = arrayOfProperties[i];
-        bag += '<p class="blue"><b>'+ i + '. ' + currentProperty + "</b></p><p>" + object[currentProperty] + '</p><br>';
+        bag += '<p class="blue"><b>'+ k + '/' + arrayOfProperties.length +'. ' + currentProperty + "</b></p><p>" + object[currentProperty] + '</p><br>';
       }
       
       return bag;
