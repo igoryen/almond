@@ -3,7 +3,8 @@
 
 // create an object
   var object = {
-      "10 Qualities of Exceptional Interviewers": "http://www.linkedin.com/today/post/article/20130618124448-20017018-10-qualities-of-exceptional-interviewers?goback=.gde_50512_member_252151575"
+      "8 things you do wrong on linkedin" : "http://www.forbes.com/sites/glassheel/2012/05/10/the-8-things-you-do-wrong-on-linkedin/"
+    , "10 Qualities of Exceptional Interviewers": "http://www.linkedin.com/today/post/article/20130618124448-20017018-10-qualities-of-exceptional-interviewers?goback=.gde_50512_member_252151575"
     , "Brothel line-up?": "http://www.askamanager.org/2012/05/im-afraid-im-about-to-be-offered-a-job-i-wont-be-good-at.html"
     , "Embanet": "http://embanet.com/" 
     , "Fivel": "http://www.fivel.ca/"

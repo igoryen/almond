@@ -70,6 +70,7 @@
     , "Elasticsearch":"http://en.wikipedia.org/wiki/ElasticSearch"
     , "Environment variable":"http://en.wikipedia.org/wiki/Environment_variable"
     , "Etherpad":"http://en.wikipedia.org/wiki/Etherpad"
+    , "event handler": "http://searchsoa.techtarget.com/definition/event-handler"
     , "Event loop":"http://en.wikipedia.org/wiki/Main_loop"
     , "Event":"http://en.wikipedia.org/wiki/Event_%28computing%29"
     , "Executable":"https://en.wikipedia.org/wiki/Executable"

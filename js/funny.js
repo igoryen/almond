@@ -23,6 +23,7 @@
     , "Bolsheviks & Illiteracy":"http://www.youtube.com/watch?v=CX_S1DXHW4Y"
     , "Borsch ":"https://www.youtube.com/watch?v=cMIHLzuJ4Wg"
     , "Buratinator - KVN": "http://www.youtube.com/watch?v=LbLWK-aVk-0"
+    , "Calambur": "http://www.youtube.com/watch?v=M9Zj2is_E8c"
     , "Cars by lil Ellie": "http://www.youtube.com/watch?feature=player_embedded&v=5F7t2OwuvpY"
     , "Cause I`m drunk":"http://www.youtube.com/watch?v=Vw4_pwIUMPY"
     , "Celebration ":"https://www.youtube.com/watch?v=G7fo1hJIj5Y"
@@ -106,6 +107,7 @@
     , "Pechen`ka":"http://www.youtube.com/watch?v=PvGRjauxf4M"
     , "Pechen`ye lom":"http://www.youtube.com/watch?v=2u-NHOGiiUw"
     , "Pelmeni Boyarskie ":"https://www.youtube.com/watch?v=yb2dZ_7jsco"
+    , "Phone gags": "http://www.shytok.net/anekdots/telefonnye-prikoly.html"
     , "Physics exam ":"https://www.youtube.com/watch?v=rpuXiZxZcog"
     , "Pickpocket Master ":"http://www.youtube.com/watch?v=0TOFlb09Vuk"
     , "Pig breeding at research institute": "https://www.youtube.com/watch?v=FYTLWmgqyMc"
@@ -121,6 +123,7 @@
     , "Sarcozi - YL": "http://www.youtube.com/watch?v=RbGiO0eVwTo"
     , "Scaredy Guy ":"http://www.youtube.com/watch?feature=player_embedded&v=Bwr4XEHmfBs"
     , "Scwarzenegger Quotes ":"http://www.youtube.com/watch?v=pDxn0Xfqkgw"
+    , "Sensei - KVN": "https://www.youtube.com/watch?v=UEAhN8jmv-w"
     , "Shampoo Prank": "http://www.youtube.com/watch?v=6PKQE8FM2Uw"
     , "Sheep Laughs, The": "http://www.sheeplaughs.com/"
     , "Shito & Kryto":"http://www.youtube.com/watch?v=INBDbmDqZAg"
@@ -144,7 +147,6 @@
     , "Why is the rum gone? ":"http://www.youtube.com/watch?v=JImcvtJzIK8"
     , "Woman in the Army - Mamenko": "http://www.youtube.com/watch?v=dNk5t9jsahM"
     , "Yogurts yogurts - Beetles": "https://www.youtube.com/watch?v=HuheePTBg54"
-
   }; // end object
 
     //----------------------------------------------------------------------------

@@ -28,6 +28,7 @@
     , "MozFest - scrum 5": "https://teach.etherpad.mozilla.org/scrum5-storytelling"
     , "MozFest - scrum 6": "https://teach.etherpad.mozilla.org/scrum6-remix"
     , "MozFest - scrum 7": "https://teach.etherpad.mozilla.org/scrum7-future"
+    , "My makes": "https://igoryen.makes.org/"
     , "PasteBin": "http://pastebin.mozilla.org/"
     , "Popcorn - local": "http://localhost:8888"
     , "popcorn - prod": "https://popcorn.webmaker.org/"

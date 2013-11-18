@@ -13,6 +13,7 @@
     , "Date": "http://jsfiddle.net/igoryen/xsKT8/"
     , "Dialog window": "http://jsfiddle.net/igoryen/Z3R7X/"
     , "do/while loop 10": "http://jsfiddle.net/igoryen/maGMk/6/"
+    , "event handler 10": "http://jsfiddle.net/Y5P9m/15/"
     , "fadein-delay-fadeout": "http://jsfiddle.net/igoryen/J83H8/4/"
     , "for loop 10 - array": "http://jsfiddle.net/igoryen/maGMk/"
     , "for loop 20 - array": "http://jsfiddle.net/igoryen/maGMk/1/"
