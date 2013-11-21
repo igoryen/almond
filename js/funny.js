@@ -129,6 +129,8 @@
     , "Shito & Kryto":"http://www.youtube.com/watch?v=INBDbmDqZAg"
     , "Sobyanin - YL": "http://www.youtube.com/watch?v=5_OrsF0N-SQ"
     , "Soul on fire":"http://www.youtube.com/watch?v=EZ5SwfAqkVg"
+    , "Spiderplant-man - Atkinson": "http://www.youtube.com/watch?v=33dfnAPQa5w&feature=em-subs_digest-vrecs"
+    , "Sprosi Putina": "http://sprosi-putina.ru/"
     , "Stalking Cat ":"http://www.youtube.com/watch?v=fzzjgBAaWZw"
     , "Strategic Seeds ":"https://www.youtube.com/watch?v=LmGo1w82IM8"
     , "Stuntman Ukrop 1":"http://www.youtube.com/watch?v=QwVVONOn8JA"

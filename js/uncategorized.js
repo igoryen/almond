@@ -59,6 +59,7 @@
     , "FoxNews": "http://www.foxnews.com/"
     , "Frankie Tomatto`s": "http://frankietomatto.com/index.php"
     , "Futureshop": "http://www.futureshop.ca/en-ca/home.aspx"
+    , "Generations X,Y,Z": "http://www.socialmarketing.org/newsletter/features/generation3.htm"
     , "Gmail ": "http://mail.google.com/mail/u/0/?shva=1#inbox"
     , "Gmail Inbox ": "https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=http://mail.google.com/mail/&scc=1<mpl=default<mplcache=2"
     , "Got Questions? ": "http://gotquestions.org/"

@@ -4,6 +4,8 @@
 // create an object
   var object = {
       "AnswersInGenesis": "http://www.answersingenesis.org/"
+    , "Answering Islam": "http://www.answering-islam.org/"
+    , "Answering Muslims": "http://www.answeringmuslims.com/"
     , "Bible Audio": "http://boglubittebja.ru/bible.php"
     , "Bible in Japanese" : "http://bible.salterrae.net/en/"
     , "bibledice": "http://www.bibledice.com/scripture.php"
@@ -15,8 +17,8 @@
     , "CBN news - YT": "http://www.youtube.com/user/CBNnewsonline?feature=watch"
     , "CBN.com": "http://www.cbn.com/"
     , "Christian Cussing?": "http://preservedwords.com/cussing-pv.htm" 
-    , "Craig vs Hitchens": "http://www.youtube.com/watch?v=FofDChlSILU"
     , "Craig vs Dawkins - Spain": "http://www.youtube.com/watch?v=FofDChlSILU"
+    , "Craig vs Hitchens": "http://www.youtube.com/watch?v=FofDChlSILU"
     , "Creation.com": "http://creation.com/"
     , "Dawkins afraid to debate": "http://www.youtube.com/watch?v=E7SnTzNHUJ8"
     , "Dawkins owned": "http://www.youtube.com/watch?v=4NzFr4lM-lc"
@@ -36,7 +38,6 @@
     , "Pink Cross ": "https://www.thepinkcross.org/"
     , "Why speak in tongues" : "http://www.youtube.com/watch?v=ysI9wMt09OU"
     , "Words & Confessions" : "http://www.youtube.com/watch?v=bSkSreKP_3g"
-
   }; // end object
 
     //----------------------------------------------------------------------------
