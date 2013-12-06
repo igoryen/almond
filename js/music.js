@@ -205,7 +205,18 @@
     , "Word Up - Korn": "http://www.youtube.com/watch?v=v16q6cAKRJM"
     , "You and I": "http://www.youtube.com/watch?v=sc47le0Byq0"
     , "You`re Beautiful": "http://www.youtube.com/watch?v=D-26kipcM5g"
-    , "You`re My Angel": "https://www.youtube.com/watch?v=kUfVE8WZQNk"
+    , "You`re My Angel": "https://www.youtube.com/watch?v=kUfVE8WZQNk",
+    "Spirit: (2002) - PL": "http://www.youtube.com/watch?v=ASsCMiwN9Hg&list=RDUq6Snd4kiC0",
+    "Sound the Bugle Now - B.Adams": "http://www.youtube.com/watch?v=3RNpvmwgF2c",
+    "Don’t let go - B.Adams": "http://www.youtube.com/watch?v=4thnePzsGVg",
+    "Tarzan (????) - PL": "http://www.youtube.com/watch?v=Axx58ZNMSZo&list=PLCDA2F90D5E29389A",
+    "Big Time (1986) - P.Gabriel": "http://www.youtube.com/watch?v=PBAl9cchQac",
+    "Sleeping Awake(2003) - P.O.D.": "http://www.youtube.com/watch?v=AoHHmGkpjoc",
+    "Ice Age(2002)": "http://www.youtube.com/watch?v=y5dCbfmh5gw&list=PL07A43859BE6BE688",
+    "Spirited Away(2001)": "http://www.youtube.com/watch?v=e1X-Z8uGi-k&list=PL37CAD20F72E3B9A5&index=0",
+    "Sixth Station - Joe Hisaishi": "http://www.youtube.com/watch?v=naPmRCD_3v8&list=PL37CAD20F72E3B9A5", 
+    "Sledgehammer(1986) - P.Gabriel": "http://www.youtube.com/watch?v=g93mz_eZ5N4",
+    "SongLyrics": "http://www.songlyrics.com/"
   }; // end object
 
     //----------------------------------------------------------------------------

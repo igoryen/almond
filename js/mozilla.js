@@ -59,7 +59,10 @@
     , "Webmaker.org - prod": "https://webmaker.org/"
     , "Webmaker.org - staging": "https://webmaker.mofostaging.net/"
     , "Webmaker.org - local": "http://localhost:7777"
-    , "Wiki Mozilla": "https://wiki.mozilla.org/Main_Page"
+    , "Wiki Mozilla": "https://wiki.mozilla.org/Main_Page",
+    "Mozilla.org": "http://www.mozilla.org/en-US/", 
+    "Webmaker Code": "https://wiki.mozilla.org/Webmaker/Code#Setup_Option_2a:_.28Mac_OS_X.29_Local_Native_Installation"
+
   }; // end object
 
     //----------------------------------------------------------------------------

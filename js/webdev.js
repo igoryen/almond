@@ -314,6 +314,13 @@
     , "writeln()": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
     , "zsh shell" : "https://github.com/robbyrussell/oh-my-zsh"
     , "zsh syntax highlighting" : "https://github.com/zsh-users/zsh-syntax-highlighting"
+    , "Coding Horror": "http://www.codinghorror.com/blog/"
+    , "Cool wrapping for overflowing": "https://dl.dropboxusercontent.com/spa/49xeskca52abzlc/kbte3229.png"
+    , "StackEdit - markdown editor": "https://stackedit.io/ "
+    , "Cost of a website in 2013": "http://www.executionists.com/blog/website-design/cost-to-build-websites-2013/"
+    , "MailOnLine and Node.js": "http://www.nearform.com/nodecrunch/how-node-js-has-revolutionized-the-mailonline#.UpOKrmTwLoN"
+    , "My Stats - OSRC": "http://osrc.dfm.io/igoryen"
+    , "Python": "http://www.python.org/"
   }; // end object
 
     //----------------------------------------------------------------------------

@@ -68,6 +68,8 @@
     , "while loop 20 - array": "http://jsfiddle.net/igoryen/maGMk/7/"
     , "while loop 30 - array compare w for": "http://jsfiddle.net/igoryen/maGMk/8/"
     , "window.navigator.language - js": "http://jsfiddle.net/xhpwF/1/"
+    , "Event listener": "http://jsfiddle.net/ThinkingStiff/g66CR/"
+
   }; // end object
 
     //----------------------------------------------------------------------------

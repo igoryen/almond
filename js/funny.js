@@ -148,7 +148,11 @@
     , "Who farted?":"https://www.youtube.com/watch?v=78WEaRm2W2k"
     , "Why is the rum gone? ":"http://www.youtube.com/watch?v=JImcvtJzIK8"
     , "Woman in the Army - Mamenko": "http://www.youtube.com/watch?v=dNk5t9jsahM"
-    , "Yogurts yogurts - Beetles": "https://www.youtube.com/watch?v=HuheePTBg54"
+    , "Yogurts yogurts - Beetles": "https://www.youtube.com/watch?v=HuheePTBg54",
+    "Thoughts of Doge": "http://www.youtube.com/watch?v=I8UxCob84JU",
+    "White Christmas - J.Carrey": "http://www.youtube.com/watch?v=OvF233fW4cI",
+    "Zhirinovsky whispering": "http://www.youtube.com/watch?v=wgHew45ypAo",
+
   }; // end object
 
     //----------------------------------------------------------------------------

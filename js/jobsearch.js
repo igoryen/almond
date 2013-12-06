@@ -11,10 +11,13 @@
     , "Job Interview Tips ": "https://www.youtube.com/watch?v=wllwJM6EyOI"
     , "Linked In": "http://www.linkedin.com/"
     , "Monster": "http://www.monster.ca/"
-    , "RBC jobs ": "https://performancemanager4.successfactors.com/career?company=RBC"
+    , "RBC jobs ": "https://performancemanager4.successfactors.com/career?company=RBC",
+    "Age Is No Barrier to Gaining IT Skills": "https://www.netacad.com/web/about-us/two-students-prove-age-is-no-barrier-to-gaining-it-skills",
+    "Beating the Age Barrier": "http://www.kellyservices.co.in/IN/Careers/Career-Tips/Beating-the-Age-Barrier/#.UpjYF2RDs5Q",
+    "Avoid The Age Barrier in Your Cover Letter": "http://career-advice.monster.ca/resumes-cover-letters/cover-letter-tips/avoid-age-barrier-in-cover-letter/article.aspx"
   }; // end object
 
-    //----------------------------------------------------------------------------
+    //--------------------------------------------------------------------------
 
 
 

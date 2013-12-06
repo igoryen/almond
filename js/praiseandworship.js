@@ -71,6 +71,10 @@
     , "Why 2 - Card": "http://www.youtube.com/watch?v=U3NJRUXThg8"
     , "You raise me up 1": "http://www.youtube.com/watch?v=7jfMoa912fY"
     , "You raise me up 2": "https://www.youtube.com/watch?v=aJxrX42WcjQ"
+    , "White Heart - PL": "https://www.youtube.com/watch?v=O7OGieXHM5g&list=RD99TuTRmTLIc"
+    , "Strength will rise - Chris Tomlin": "http://www.youtube.com/watch?v=PArsqbwTdJ8"
+
+
   }; // end object
 
     //----------------------------------------------------------------------------

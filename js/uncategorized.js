@@ -16,6 +16,7 @@
     , "AImS": "https://www.google.ca/advanced_image_search?as_st=y&hl=en&as_epq=&as_oq=&as_eq=&cr=&as_sitesearch=&safe=images&biw=1366&bih=675&q=a&tbs=ic:trans,iar:s&tbm=isch"
     , "Alexeiev, Anton": "http://we.easyelectronics.ru/my/antonluba/"
     , "All Wheels Driver": "http://www.allwheelsdriver.ca/"
+    , "American Express": "https://www.americanexpress.com/canada/"
     , "ASL Pro": "http://www.aslpro.com/"
     , "Audacity Sound Editor": "http://audacity.sourceforge.net/"
     , "AudioTreasure": "http://www.audiotreasure.com/"
