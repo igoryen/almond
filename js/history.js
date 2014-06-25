@@ -27,6 +27,7 @@ function printObj(obj){
   }
 
   keys.sort(insensitive); // 35
+  keys.reverse(); // 36
 
   for (f = 0; f < keys.length; f++) {  // 40
 
@@ -76,6 +77,7 @@ function func (){
 25. if key has a property 
 30. put key (and its property) into the -keys- array
 35. sort the -keys- array regardless of case
+36. sort in descending order (so that the newest date gets on top)
 40. for each of the elements of the -keys- array
 45. empty the main letter variable
 50. assign the current key and the next jey
