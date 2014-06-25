@@ -1,9 +1,20 @@
 var object = {  // 1
     "2014-06-20 Psaki refugees to Ukraine/Russia": "http://www.youtube.com/watch?v=m4fhkLKxdCA"
-  , "2014-06-18 ukrainians cut off ears": "http://www.youtube.com/watch?v=Y9jMlg3rkH4"
-  , "2014-06-18 ukrainians cut off ears": "http://www.novorosinform.org/news/id/720" 
-  , "2014-06-16 Yatsenyuk untermensch": "http://www.liveleak.com/view?i=fb1_1402843212"
+  , "2014-06-18 ukrainians cut off ears 1": "http://www.youtube.com/watch?v=Y9jMlg3rkH4"
+  , "2014-06-18 ukrainians cut off ears 2": "http://www.novorosinform.org/news/id/720"
+  , "2014-06-16 Psaki on insult at Putin": "http://www.youtube.com/watch?v=wY2ghdAUpf4"
+  , "2014-06-16 Yatsenyuk untermensch 1": "http://www.liveleak.com/view?i=fb1_1402843212"
+  , "2014-06-16 Yatsenyuk untermensch 2": "http://usa.mfa.gov.ua/en/press-center/news/24185-mi-uvichnimo-pamjaty-gerojiv-ochistivshi-nashu-zemlyu-vid-nechistiarsenij-jacenyuk-u-spivchutti-ridnim-i-blizykim-zagiblih-vojiniv-u-lugansyku"
+  , "2014-06-16 Yatsenyuk untermensch 3": "http://vz.ru/news/2014/6/16/691357.html"
   , "2014-05-25 Poroshenko 1000 g promise": "http://www.youtube.com/watch?v=_7cYA3luhAk"
+  , "2014-05-09 People's Deputy about Hitler": "http://www.youtube.com/watch?v=A05s6GrztbQ#t=54" 
+  , "2014-04-15 Andrey Novikov about Kiev Junta": "http://www.youtube.com/watch?v=uOXvYVr1ATg" 
+  , "2014-03-18 US State Dept Spokeswoman dodges answer": "https://www.youtube.com/watch?v=3j-lsAKQgog" 
+  , "2014-03-18 Timoshenko Russophobic": "https://www.youtube.com/watch?v=m6t5PQ3rQ8U" 
+  , "2014-03-15 Right Sector in Kiev Rada": "https://www.youtube.com/watch?v=FDoQXxeKN7s" 
+  , "2014-03-11 Ukraine Defence Minister about Ukr. Army": "http://www.youtube.com/watch?v=WXLKDFMTyNY"  
+  , "2014-03-04 RF Ambassador in UN shows Ukraine's Prez's letter": "http://www.youtube.com/watch?v=c766g09Ya2s" 
+  , "2014-03-03 US Ambassador in UN No Threat": "http://globalnews.ca/video/1184838/us-ambassador-tells-un-security-council-russian-intervention-in-ukraine-a-response-to-an-imaginary-threat" 
 };
 
 // 2
