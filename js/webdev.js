@@ -260,6 +260,7 @@
     , "require()": "https://npmjs.org/package/require"
     , "RequireJS for JS module loading": "http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/"
     , "RequireJS: The Basics": "http://www.youtube.com/watch?v=VGlDR1QiV3A"
+    , "Reset The Net (2014-05-05)": "https://www.resetthenet.org/"
     , "round()": "http://www.w3schools.com/jsref/jsref_round.asp"
     , "Salve!": "http://zenit.senecac.on.ca/~int322_123a07/practice/121110_specialMethodsPHP5_test.php"
     , "script tag": "http://www.w3schools.com/tags/tag_script.asp"

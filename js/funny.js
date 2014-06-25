@@ -3,12 +3,14 @@
 
 // create an object
   var object = {
-      "9gag":"http://9gag.com/"
+      "6 frames": "http://zagonka.ru/1794-6-kadrov-online.html" 
+    , "9gag":"http://9gag.com/"
     , "9gag - my likes": "http://9gag.com/u/igoryen/likes"
     , "A, Masliakov? ":"http://www.youtube.com/watch?v=PRm4N5CcZMY"
     , "Ain`t Nobody Got Time For That ":"http://www.youtube.com/watch?v=8cT_Ulmcrys"
     , "Ali & colors 131009": "https://dl.dropboxusercontent.com/spa/49xeskca52abzlc/zigetl8v.png"
     , "All is lost! ":"http://www.youtube.com/watch?v=EmJdZ7DcV7U"
+    , "A Small Rewrite - Atkinson&Laurie (1989)": "https://www.youtube.com/watch?v=IwbB6B0cQs4"
     , "Atkinson & E.John ":"https://www.youtube.com/watch?v=Hm5EkJXlgM8"
     , "Baby Talk ":"http://www.youtube.com/watch?v=sDocL7AfIRo"
     , "BatDad - 1": "https://www.youtube.com/watch?v=YlVi0noRr-o"
@@ -53,6 +55,7 @@
     , "German Coast Guard":"http://www.youtube.com/watch?v=yR0lWICH3rY"
     , "GiF Bin": "http://www.gifbin.com/"
     , "Give me the meat!":"https://www.youtube.com/watch?v=G1bziMXs_hs"
+    , "Gorogok: 1-227": "http://ymka.tv/publ/tv_shou/gorodok_vse_vypuski/4-1-0-277"
     , "Gorodok - myWorld": "http://my.mail.ru/video/list/negativa.net/45656/64864.html"
     , "Gorodok TV": "http://gorodok.tv/"
     , "Greatest Song in the World":"http://www.youtube.com/watch?v=_lK4cX5xGiQ"
@@ -135,6 +138,7 @@
     , "Strategic Seeds ":"https://www.youtube.com/watch?v=LmGo1w82IM8"
     , "Stuntman Ukrop 1":"http://www.youtube.com/watch?v=QwVVONOn8JA"
     , "Stuntman Ukrop 2":"http://www.youtube.com/watch?v=vCUxgxgDvOE"
+    , "Teens react to 90`s internet": "https://www.youtube.com/watch?v=d0mg9DxvfZE"
     , "Terminator in verse": "http://www.youtube.com/watch?v=oETUre2ey3A"
     , "They`re taking the hobbits to Isengard ":"http://www.youtube.com/watch?v=uE-1RPDqJAY"
     , "Thor - KVN voiceover": "http://www.youtube.com/watch?v=5NpWRq5JXq8"

@@ -9,6 +9,8 @@
     , "Bubentsov`s story ":"https://www.youtube.com/embed/XVsIeZW3OFU"
     , "Castle & Beckett":"https://www.youtube.com/embed/WSpiVm6BkeA"
     , "Eltsin & Clinton":"http://www.youtube.com/embed/3eiIMZQWkdQ"
+    , "Galicians hate Ukraine": "http://www.youtube.com/watch?v=QHnLlUS2m3I"
+    , "Good bye, my love": "http://kinobar.net/news/proshhaj_ljubimaja/2014-06-06-4140"
     , "Gun Control (Goblin)":"http://www.youtube.com/embed/pnIbwWEH4UA"
     , "In the blue sea...":"https://www.youtube.com/embed/-o9-r26b--E"
     , "Inside Saudi Kingdom":"http://www.youtube.com/embed/au9Aqd_-2hc"
@@ -27,6 +29,7 @@
     , "Seven Seconds to Sell Yourself":"https://www.youtube.com/embed/5-ZpP4j09s0"
     , "Terentius et Milena ":"https://www.youtube.com/embed/mi_6LIPEP7M"
     , "Three Killer Questions at Interview ":"https://www.youtube.com/embed/jdDlmb-lgXk"
+    , "UN Web TV": "http://webtv.un.org/"
     , "猛龍過江":"https://www.youtube.com/embed/Wgprb0KcYmw"
   }; // end object
 

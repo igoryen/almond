@@ -82,6 +82,7 @@
     , "webmaker.org - ali": "https://github.com/alicoding/webmaker.org"
     , "webmaker.org - igoryen": "https://github.com/igoryen/webmaker.org"
     , "webmaker.org - mozilla": "https://github.com/mozilla/webmaker.org"
+    , "Winged Word Master (PRJ566)": "https://github.com/igoryen/Project566"
   }; // end object
 
     //----------------------------------------------------------------------------

@@ -3,12 +3,17 @@
 
 // create an object
   var object = {
-    "append()":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#append(boolean)"
-   , "zzz":"aaa"
+     "append()":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#append(boolean)"
    , "length()":"http://docs.oracle.com/javase/6/docs/api/java/lang/String.html#length()"
    , "length()":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#length()"
+   , "Reflection API": "http://docs.oracle.com/javase/tutorial/reflect/"
    , "stringBuffer":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html"
    , "substring()":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#substring(int)"
+   , "JAXB - Wikipedia": "http://en.wikipedia.org/wiki/Java_Architecture_for_XML_Binding"
+   , "JAXB Project": "https://java.net/projects/jaxb/lists"
+   , "JAXB Tutorial": "https://jaxb.java.net/tutorial/"
+   , "XMLSpy - Altova": "http://www.altova.com/xmlspy.html"
+
   }; // end object
 
     //----------------------------------------------------------------------------

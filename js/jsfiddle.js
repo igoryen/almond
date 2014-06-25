@@ -57,6 +57,7 @@
     , "push() 10 - js": "http://jsfiddle.net/4Kqk6/1/"
     , "randomize checkboxes": "http://jsfiddle.net/igoryen/nGxVU/"
     , "randomize radio buttons": "http://jsfiddle.net/igoryen/nGxVU/"
+    , "Real time search": "http://jsfiddle.net/msoWebDesign/AeHBz/"
     , "shuffle()": "http://jsfiddle.net/igoryen/KMDej/"
     , "shuffle(array)": "http://jsfiddle.net/igoryen/KMDej/"
     , "splice() 10 - js": "http://jsfiddle.net/4Kqk6/"
