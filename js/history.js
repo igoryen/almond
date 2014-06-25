@@ -43,7 +43,7 @@ function printObj(obj){
   for (f = 0; f < keys.length; f++) {  // 40
 
     if (!keys[f - 1]) {
-      bag = "<hr>" + keys[f].charAt(0).toUpperCase() + "<br>";
+      bag = "<hr>" + keys[f].substr(0,7) + "<br>";
     }
 
     startingLetter = ""; // 45
@@ -57,14 +57,14 @@ function printObj(obj){
       nextKey = ' ';
     }
 
-    if( currentKey.toLowerCase().charAt(0)  != nextKey.toLowerCase().charAt(0) ){
+    if( currentKey.toLowerCase().charAt(3)  != nextKey.toLowerCase().charAt(3) ){ // 53
     //console.log('in if()');
     //console.log(currentKey.charAt(0).toLowerCase() + " vs " + nextKey.charAt(0).toLowerCase());
-    startingLetter += "<hr>" + nextKey.toUpperCase().charAt(0) + "<br>";
+    startingLetter += "<hr>" + nextKey.substr(0,7) + "<br>";
     //console.log('startingLetter: '+startingLetter);
   }
 
-  bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey + '</a><br>';
+  bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey.substr(8) + '</a><br>';
   bag += startingLetter; // add the letter to the bag
 
   } // for()
@@ -92,5 +92,6 @@ function func (){
 40. for each of the elements of the -keys- array
 45. empty the main letter variable
 50. assign the current key and the next jey
+53. if digit at position 3 (i.e. the 4th digit of the year) is different
 60. if you use 'document.write()' the document will have only the contents of the object on white background
 */
