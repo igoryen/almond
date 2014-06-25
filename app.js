@@ -142,6 +142,7 @@ app.configure( function() {
 app.get( "/strings/:lang?", i18n.stringsRoute( "en-US" ) );
 
 app.get('/', routes.pages("index")); // folder 'routes', function 'pages'
+app.get('/cic', routes.pages("cic"));
 app.get('/danschool', routes.pages("danschool"));
 app.get('/debug', routes.pages("debug"));
 app.get('/digitalclock', routes.pages("digitalclock"));
@@ -150,6 +151,7 @@ app.get('/git', routes.pages("git"));
 app.get('/gregoriana', routes.pages("gregoriana")); 
 app.get('/health', routes.pages("health"));
 app.get('/hillsong', routes.pages("hillsong"));
+app.get('/history', routes.pages("history"));
 app.get('/index', routes.pages("index"));
 app.get('/index2', function( req, res ) {
   res.render('index2.html');

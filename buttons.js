@@ -6,12 +6,14 @@
 
 
 var buttons = {
-   "Dan School": "danschool"
+   "CIC": "cic"
+ , "Dan School": "danschool"
  , "Funny":"funny"
  , "Git": "git"
  , "Gregoriana":"gregoriana"
  , "Health":"health"
  , "Hillsong": "hillsong"
+ , "History": "history"
  , "IT stuff":"itstuff"
  , "IT terms":"itterms"
  , "Java":"java"
