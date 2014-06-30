@@ -29,6 +29,7 @@
     , "God`s Medicine":"http://www.youtube.com/watch?v=d2Wp5_bL338"
     , "Hagin (JehToday)" : "http://www.youtube.com/user/JehToday/search?query=Hagin"
     , "Hagin (playlist)":"http://www.youtube.com/playlist?list=PL4C095CACCE805213"
+    , "Hebrew Old Testament": "http://www.torahclass.com/audio-bible-in-hebrew"
     , "I'm not moved by what I see": "http://www.youtube.com/watch?v=NomZHolreBk#t=1h00m35s"
     , "Jesus Is Lord ": "http://www.jesus-is-lord.com/"
     , "McGrath vs Dawkins": "http://www.youtube.com/watch?v=FofDChlSILU"
@@ -36,6 +37,7 @@
     , "New Testament in 1 year": "http://www.scefc.org/documents/52_wks_new_testament.pdf"
     , "People`s Church": "http://www.thepeopleschurch.ca/default.asp"
     , "Pink Cross ": "https://www.thepinkcross.org/"
+    , "Scourby Bible": "http://www.hilltopbaptistnewport.net/ListenToTheKingJamesBible.html"
     , "Why speak in tongues" : "http://www.youtube.com/watch?v=ysI9wMt09OU"
     , "Words & Confessions" : "http://www.youtube.com/watch?v=bSkSreKP_3g"
   }; // end object

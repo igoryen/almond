@@ -4,6 +4,7 @@
 // create an object
   var object = {
       "10 things I hate about git":"http://steveko.wordpress.com/2012/02/24/10-things-i-hate-about-git/"
+    , "20 tips": "http://www.javaworld.com/article/2113465/developer-tools-ide/git-smart-20-essential-tips-for-git-and-github-users.html"
     , "Abiu - practice using express":"https://github.com/igoryen/abiu"
     , "Acerola":"https://github.com/igoryen/acerola"
     , "Ackee":"https://github.com/igoryen/ackee"

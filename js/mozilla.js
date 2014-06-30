@@ -58,6 +58,7 @@
     , "webmaker postmortem  group 2": "https://etherpad.mozilla.org/webmakerpostmortemgroup2"
     , "webmaker postmortem  group 3": "https://etherpad.mozilla.org/webmakerpostmortemgroup3"
     , "webmaker-profile - local": "http://localhost:5050"
+    , "Webmaker": "https://wiki.mozilla.org/Webmaker/Product"
     , "Webmaker.org - prod": "https://webmaker.org/"
     , "Webmaker.org - staging": "https://webmaker.mofostaging.net/"
     , "Webmaker.org - local": "http://localhost:7777"

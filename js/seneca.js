@@ -66,6 +66,7 @@
     , "Tipson, Ian rating":"http://www.ratemyprofessors.com/ShowRatings.jsp?tid=12967"
     , "WABS":"https://www2.senecacollege.ca/wabs/"
     , "WIN210 site ":"https://cs.senecac.on.ca/~fac/win210/"
+    , "WSA500 - web services architecture": "https://scs.senecac.on.ca/course/wsa500"
   }; // end object
 
     //----------------------------------------------------------------------------

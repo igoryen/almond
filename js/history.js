@@ -6,7 +6,7 @@ var object = {  // 1
   , "2014-06-16 Yatsenyuk untermensch 1": "http://www.liveleak.com/view?i=fb1_1402843212"
   , "2014-06-16 Yatsenyuk untermensch 2": "http://usa.mfa.gov.ua/en/press-center/news/24185-mi-uvichnimo-pamjaty-gerojiv-ochistivshi-nashu-zemlyu-vid-nechistiarsenij-jacenyuk-u-spivchutti-ridnim-i-blizykim-zagiblih-vojiniv-u-lugansyku"
   , "2014-06-16 Yatsenyuk untermensch 3": "http://vz.ru/news/2014/6/16/691357.html"
-  , "2014-05-25 Poroshenko 1000 g promise": "http://www.youtube.com/watch?v=_7cYA3luhAk"
+  , "2014-05-25 Poroshenko 1000 g promise": "http://www.youtube.com/watch?v=g6tuoiOkRSM"
   , "2014-05-09 People's Deputy about Hitler": "http://www.youtube.com/watch?v=A05s6GrztbQ#t=54" 
   , "2014-04-15 Andrey Novikov about Kiev Junta": "http://www.youtube.com/watch?v=uOXvYVr1ATg" 
   , "2014-03-18 US State Dept Spokeswoman dodges answer": "https://www.youtube.com/watch?v=3j-lsAKQgog" 
@@ -43,7 +43,7 @@ function printObj(obj){
   for (f = 0; f < keys.length; f++) {  // 40
 
     if (!keys[f - 1]) {
-      bag = "<hr>" + keys[f].substr(0,7) + "<br>";
+      bag = "<hr>" + keys[f].substr(0,4) + "<br>";
     }
 
     startingLetter = ""; // 45
@@ -60,11 +60,11 @@ function printObj(obj){
     if( currentKey.toLowerCase().charAt(3)  != nextKey.toLowerCase().charAt(3) ){ // 53
     //console.log('in if()');
     //console.log(currentKey.charAt(0).toLowerCase() + " vs " + nextKey.charAt(0).toLowerCase());
-    startingLetter += "<hr>" + nextKey.substr(0,7) + "<br>";
+    startingLetter += "<hr>" + nextKey.substr(0,4) + "<br>";
     //console.log('startingLetter: '+startingLetter);
   }
 
-  bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey.substr(8) + '</a><br>';
+  bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey.substr(5) + '</a><br>';
   bag += startingLetter; // add the letter to the bag
 
   } // for()
