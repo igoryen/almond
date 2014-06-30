@@ -158,7 +158,6 @@ app.get('/index2', function( req, res ) {
 });
 app.get('/itstuff', routes.pages("itstuff"));
 app.get('/itterms', routes.pages("itterms"));
-app.get('/java', routes.pages("java"));
 app.get('/jobsearch', routes.pages("jobsearch"));
 app.get('/joyschool', routes.pages("joyschool"));
 app.get('/jsfiddle', routes.pages("jsfiddle"));
@@ -172,6 +171,7 @@ app.get('/music', routes.pages("music"));
 app.get('/mylinks', routes.pages("mylinks"));
 app.get('/praiseandworship', routes.pages("praiseandworship"));
 app.get('/preachandteach', routes.pages("preachandteach"));
+app.get('/proglangs', routes.pages("proglangs"));
 app.get('/revealcontent', routes.pages("revealcontent"));
 app.get('/selfdefense', routes.pages("selfdefense"));
 app.get('/seneca', routes.pages("seneca")); 
