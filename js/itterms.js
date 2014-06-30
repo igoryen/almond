@@ -20,6 +20,7 @@
     , "AVI":"http://en.wikipedia.org/wiki/Audio_Video_Interleave"
     , "back-end database": "http://en.wikipedia.org/wiki/Back-end_database"
     , "Base64":"https://en.wikipedia.org/wiki/Base64"
+    , "bindings - JAX-WS": "https://jax-ws.java.net/nonav/customizations/http.java.sun.com.xml.n/element/bindings.html"
     , "Booting (up)":"http://en.wikipedia.org/wiki/Booting"
     , "Bootstrapping":"http://en.wikipedia.org/wiki/Bootstrapping_%28compilers%29"
     , "Branching":"https://en.wikipedia.org/wiki/Branching_(revision_control)"
