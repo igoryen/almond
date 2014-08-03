@@ -1,278 +1,929 @@
-
-//-----------------------------------------------------------------------------------------
-
-// create an object
-  var object = {
-      "action= - html": "http://www.w3schools.com/tags/att_form_action.asp"
-    , "add() - java": "http://docs.oracle.com/javase/7/docs/api/java/awt/Container.html#add(java.awt.Component)"
-    , "addColorStop() - html": "http://www.w3schools.com/tags/canvas_addcolorstop.asp"
-    , "alert() - js": "http://www.w3schools.com/jsref/met_win_alert.asp"
-    , "annotation - javax.xml.bind.": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/package-summary.html"
-    , "append() - StringBuffer. - java":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#append(boolean)"
-    , "arc() - html": "http://www.w3schools.com/tags/canvas_arc.asp"
-    , "attribute 1 - xsd": "http://www.w3schools.com/schema/schema_simple_attributes.asp"
-    , "attribute 2 - xsd": "http://msdn.microsoft.com/en-us/library/ms256143(v=vs.110).aspx"
-    , "back() - js": "http://www.w3schools.com/jsref/met_his_back.asp"
-    , "background() - processing": "https://www.processing.org/reference/background_.html"
-    , "basename() - js": "https://developer.mozilla.org/en-US/docs/JavaScript_OS.File/OS.Path#OS.Path.basename"
-    , "basename() - path. - node": "http://nodejs.org/api/path.html#path_path_basename_p_ext"
-    , "beginPath() - js": "http://www.w3schools.com/tags/canvas_beginpath.asp"
-    , "beginShape() - processing": "http://processing.org/reference/beginShape_.html"
-    , "bgColor= - html": "http://www.w3schools.com/tags/att_body_bgcolor.asp"
-    , "ceil() - js": "http://www.w3schools.com/jsref/jsref_ceil.asp"
-    , "charset= - js": "http://www.w3schools.com/jsref/prop_anchor_charset.asp"
-    , "choice - xsd": "http://www.w3schools.com/schema/el_choice.asp"
-    , "close() - java": "http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html#close()"
-    , "complexType - xml": "http://www.w3schools.com/schema/el_complextype.asp"
-    , "concat() - js": "http://www.w3schools.com/jsref/jsref_concat_array.asp"
-    , "config - npm": "https://npmjs.org/doc/config.html"
-    , "confirm() - js": "http://www.w3schools.com/jsref/met_win_confirm.asp"
-    , "copy() - grunt.file.": "http://gruntjs.com/api/grunt.file#grunt.file.copy"
-    , "create() - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
-    , "createLinearGradient() - js": "http://www.w3schools.com/tags/canvas_createlineargradient.asp"
-    , "createRadialGradient() - js": "http://www.w3schools.com/tags/canvas_createradialgradient.asp"  
-    , "createStatement() - java": "http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html#createStatement()"
-    , "cwd() - process. - Node": "http://nodejs.org/api/process.html#process_process_cwd"
-    , "delete() - grunt.file": "http://gruntjs.com/api/grunt.file#grunt.file.delete"
-    , "dirname(p) - path. - node": "http://nodejs.org/api/path.html#path_path_dirname_p"
-    , "drawImage() - js": "http://www.w3schools.com/tags/canvas_drawimage.asp"
-    , "DriverManager - java": "http://docs.oracle.com/javase/7/docs/api/java/sql/DriverManager.html"
-    , "element 1 - xsd": "http://www.w3schools.com/schema/schema_complex.asp"
-    , "element 2 - xsd": "http://msdn.microsoft.com/en-us/library/ms256118(v=vs.110).aspx"
-    , "elementFormDefault - XML": "http://stackoverflow.com/questions/1463138/what-does-elementformdefault-do-for-xml-when-is-it-used"
-    , "enum java": "http://docs.oracle.com/javase/tutorial/java/javaOO/enum.html"
-    , "env - process. - node": "http://nodejs.org/api/process.html#process_process_env"
-    , "equals() - Object. - java": "https://today.java.net/pub/a/today/2006/07/27/defining-object-identity.html#objectequals-implements-identity"
-    , "err - java": "http://docs.oracle.com/javase/7/docs/api/java/lang/System.html#err"
-    , "escapeString() - php": "http://php.net/manual/en/sqlite3.escapestring.php"
-    , "eval() - js": "http://www.w3schools.com/jsref/jsref_eval.asp"
-    , "executeUpdate() - java": "http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html#executeUpdate(java.lang.String)"
-    , "exists() - grunt.file": "http://gruntjs.com/api/grunt.file#grunt.file.exists"
-    , "exists() - java": "http://docs.oracle.com/javase/7/docs/api/java/io/File.html#exists()"
-    , "exists(path, callback) - fs.": "http://nodejs.org/api/fs.html#fs_fs_exists_path_callback"
-    , "existsSync(path) - fs.": "http://nodejs.org/api/fs.html#fs_fs_existssync_path"
-    , "expand() - grunt.file": "http://gruntjs.com/api/grunt.file#grunt.file.expand"
-    , "fail - grunt.": "http://gruntjs.com/api/grunt.fail#grunt.fatal"
-    , "fill() - processing": "https://www.processing.org/reference/fill_.html"
-    , "fillRect() - js": "http://www.w3schools.com/tags/canvas_fillrect.asp"
-    , "fillStyle - js": "http://www.w3schools.com/tags/canvas_fillstyle.asp"
-    , "fillText() - js": "http://www.w3schools.com/tags/canvas_filltext.asp"
-    , "floor() - js": "http://www.w3schools.com/jsref/jsref_floor.asp"
-    , "font= - js": "http://www.w3schools.com/tags/canvas_font.asp"
-    , "for...in - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in"
-    , "forEach() - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
-    , "forName() - Class. - java": "http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html#forName(java.lang.String)"
-    , "fs - node": "http://nodejs.org/api/fs.html#fs_file_system"
-    , "function - js": "http://www.w3schools.com/js/js_functions.asp"
-    , "get() - habitat. - Node.js": "https://www.npmjs.org/package/habitat"
-    , "getConnection() - java": "http://docs.oracle.com/javase/7/docs/api/java/sql/DriverManager.html#getConnection(java.lang.String)"
-    , "getDay() - js": "http://www.w3schools.com/jsref/jsref_getday.asp"
-    , "getElementById() - js": "http://www.w3schools.com/jsref/met_doc_getelementbyid.asp"
-    , "getenv() - php": "http://www.php.net/manual/en/function.getenv.php"
-    , "getFullYear() - js": "http://www.w3schools.com/jsref/jsref_getfullyear.asp"
-    , "getFullYear() - js": "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_getfullyear"
-    , "getProperty() - java": "http://docs.oracle.com/javase/7/docs/api/java/util/Properties.html#getProperty(java.lang.String)"
-    , "getTemplate() - env. - nunjucks": "http://nunjucks.jlongster.com/api#Loading-a-template"
-    , "getTime() 1 - js": "http://www.w3schools.com/jsref/jsref_gettime.asp"
-    , "getTime() 2 - js": "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime"
-    , "go() - js": "http://www.w3schools.com/jsref/met_his_go.asp"
-    , "habitat - Node.js": "https://www.npmjs.org/package/habitat"
-    , "hasOwnProperty() 1 - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
-    , "hasOwnProperty() 2 - js": "http://msdn.microsoft.com/en-us/library/ie/328kyd6z(v=vs.94).aspx"
-    , "info() - console. - js": "https://developer.mozilla.org/en-US/docs/Web/API/console.info"
-    , "init() - config. - grunt": "http://gruntjs.com/api/grunt.config#grunt.config.init"
-    , "initConfig() - grunt.": "http://gruntjs.com/api/grunt#grunt.initconfig"
-    , "isDir() - grunt.file": "http://gruntjs.com/api/grunt.file#grunt.file.isdir"
-    , "JAXBContent - java": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/JAXBContext.html"
-    , "JAXBElement<T> - java": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/JAXBElement.html"
-    , "join() - Array. - js": "http://www.w3schools.com/jsref/jsref_join.asp"
-    , "join() - path. - node": "http://nodejs.org/api/path.html#path_path_join_path1_path2"
-    , "lastModified - js": "http://www.w3schools.com/jsref/prop_doc_lastmodified.asp"
-    , "length - String. - js": "http://www.w3schools.com/jsref/jsref_length_string.asp"
-    , "length() - String. - java":"http://docs.oracle.com/javase/6/docs/api/java/lang/String.html#length()"
-    , "length() - StringBuffer.- java":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#length()"
-    , "lineTo() - js": "http://www.w3schools.com/tags/canvas_lineto.asp"
-    , "loadNpmTasks() - grunt.": "http://gruntjs.com/api/grunt#grunt.loadnpmtasks"
-    , "loadNpmTasks() - grunt.task.": "http://gruntjs.com/api/grunt.task#grunt.task.loadnpmtasks"
-    , "max() - js": "http://www.w3schools.com/jsref/jsref_max.asp"
-    , "maxExclusive 1 - xsd": "http://www.java2s.com/Code/XML/XML-Schema/xsmaxExclusivedefinesamaximumvaluethatcanbereached.htm"
-    , "maxExclusive 2 - xsd": "http://www.safariflow.com/library/view/xml-in-a/0596007647/re103.html"
-    , "maxInclusive - xsd": "http://pic.dhe.ibm.com/infocenter/mpadoc/v7r0m0/index.jsp?topic=%2Fcom.volantis.mcs.eclipse.doc_6.3.0.ibm-9_0%2Fxdime2%2Fxs_mininclusive.html"
-    , "maxOccurs= - xs": "http://msdn.microsoft.com/en-us/library/ms759115(v=vs.85).aspx"
-    , "meta - html": "http://www.w3schools.com/tags/tag_meta.asp"
-    , "min= - html": "http://www.w3schools.com/tags/att_input_min.asp"
-    , "min() - js": "http://www.w3schools.com/jsref/jsref_min.asp"
-    , "minInclusive - xsd": "http://pic.dhe.ibm.com/infocenter/mpadoc/v7r0m0/index.jsp?topic=%2Fcom.volantis.mcs.eclipse.doc_6.3.0.ibm-9_0%2Fxdime2%2Fxs_mininclusive.html"
-    , "minOccurs - xsd": "http://msdn.microsoft.com/en-us/library/ms754677(v=vs.85).aspx"
-    , "mkdir() - grunt.file": "http://gruntjs.com/api/grunt.file#grunt.file.mkdir"
-    , "mouseClicked() - processing": "https://www.processing.org/reference/mouseClicked_.html"
-    , "mouseX - processing": "https://www.processing.org/reference/mouseX.html"
-    , "mouseY - processing": "https://www.processing.org/reference/mouseY.html"
-    , "moveTo() - js": "http://www.w3schools.com/tags/canvas_moveto.asp"
-    , "NMTOKEN 1 - xsd": "http://www.datypic.com/sc/xsd/t-xsd_NMTOKEN.html"
-    , "NMTOKEN 2 - xsd": "http://stackoverflow.com/questions/5808976/what-is-the-usefulness-of-nmtoken-and-nmtokens-types"
-    , "noStroke() - processing": "https://www.processing.org/reference/noStroke_.html"
-    , "nonNegativeInteger - xsd": "http://www.datypic.com/sc/xsd/t-xsd_nonNegativeInteger.html"
-    , "onclick= - html": "http://www.w3schools.com/jsref/event_onclick.asp"
-    , "onsubmit= - html": "http://www.w3schools.com/tags/ev_onsubmit.asp"
-    , "option() - grunt.": "http://gruntjs.com/api/grunt#grunt.option"
-    , "parse() - JSON. - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse"
-    , "pattern - xsd": "http://www.datypic.com/books/defxmlschema/chapter09.html"
-    , "port - location. - js": "http://www.w3schools.com/jsref/prop_loc_port.asp"
-    , "positiveInteger - xsd": "http://www.datypic.com/sc/xsd/t-xsd_positiveInteger.html"
-    , "pow() - js": "http://www.w3schools.com/jsref/jsref_pow.asp"
-    , "println() - java": "http://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println()"
-    , "prompt() - js": "http://www.w3schools.com/jsref/met_win_prompt.asp"
-    , "protocol - location. - js": "http://www.w3schools.com/jsref/prop_loc_protocol.asp"
-    , "put() - java": "http://www.coderanch.com/t/401152/java/java/put-method"
-    , "rand() - php": "http://www.w3schools.com/php/func_math_rand.asp"
-    , "random() - js": "http://www.w3schools.com/jsref/jsref_random.asp"
-    , "read() - grunt.file": "http://gruntjs.com/api/grunt.file#grunt.file.read"
-    , "readFileSync() - node": "http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options"
-    , "readJson() - grunt": "http://gruntjs.com/api/grunt.file#grunt.file.readjson"
-    , "readObject() - java": "http://docs.oracle.com/javase/7/docs/api/java/io/ObjectInputStream.html#readObject()"
-    , "ref= - xsd": "http://stackoverflow.com/questions/1448888/what-does-the-ref-attribute-on-an-element-in-an-xsd-do"
-    , "registerTask() - grunt.task.": "http://gruntjs.com/api/grunt.task#grunt.task.registertask"
-    , "relative(from, to) - path. - node": "http://nodejs.org/api/path.html#path_path_relative_from_to"
-    , "replace() 1 - String. - js": "http://www.w3schools.com/jsref/jsref_replace.asp"
-    , "replace() 2 - String. - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace"
-    , "request 1 - github": "https://github.com/mikeal/request"
-    , "request 2 - github":"https://npmjs.org/package/request"
-    , "require() - npm": "https://npmjs.org/package/require"
-    , "restriction - xsd": "http://www.w3schools.com/schema/schema_facets.asp"
-    , "round() - js": "http://www.w3schools.com/jsref/jsref_round.asp"
-    , "run() - grunt.task.": "http://gruntjs.com/api/grunt.task#grunt.task.run"
-    , "schema - xsd": "http://www.w3schools.com/schema/schema_schema.asp"
-    , "sequence - xml": "http://www.w3schools.com/schema/el_sequence.asp"
-    , "size() - processing": "https://www.processing.org/reference/size_.html"
-    , "sort() - js": "http://www.w3schools.com/jsref/jsref_sort.asp"
-    , "spawn() - grunt.util.": "http://gruntjs.com/api/grunt.util#grunt.util.spawn"
-    , "split() - js": "http://www.w3schools.com/jsref/jsref_split.asp"
-    , "sqrt() - js": "http://www.w3schools.com/jsref/jsref_sqrt.asp"
-    , "src - js": "http://www.w3schools.com/jsref/prop_frame_src.asp"
-    , "Stats - fs. - Node": "http://nodejs.org/api/fs.html#fs_class_fs_stats"
-    , "statSync(path) - fs. - Node": "http://nodejs.org/api/fs.html#fs_fs_statsync_path"
-    , "string - xsd": "http://www.datypic.com/sc/xsd/t-xsd_string.html"
-    , "stringBuffer - java":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html"
-    , "stringify() 1 - JSON. - js": "http://msdn.microsoft.com/en-us/library/ie/cc836459(v=vs.94).aspx"
-    , "stringify() 2 - JSON. - js": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
-    , "stroke() - js": "http://www.w3schools.com/tags/canvas_stroke.asp"
-    , "strokeText() - js": "http://www.w3schools.com/tags/canvas_stroketext.asp"
-    , "substr() - js": "http://www.w3schools.com/jsref/jsref_substr.asp"
-    , "substring() - String. - java":"http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#substring(int)"
-    , "substring() - js": "http://www.w3schools.com/jsref/jsref_substring.asp"
-    , "switch() - js": "http://www.w3schools.com/js/js_switch.asp"  
-    , "toLocaleString() - js": "http://www.w3schools.com/jsref/jsref_tolocalestring.asp"
-    , "toLowerCase() - js": "http://www.w3schools.com/jsref/jsref_tolowercase.asp"
-    , "toUTCString() 1 - js": "http://www.w3schools.com/jsref/jsref_toutcstring.asp"
-    , "toUTCString() 2 - js": "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_toutcstring"
-    , "trim() - js - jsf": "http://jsfiddle.net/KCza9/"
-    , "util - Node.js": "http://stackoverflow.com/questions/17368565/what-does-the-util-module-in-node-js-do"
-    , "while() - js": "http://www.w3schools.com/js/js_loop_while.asp"
-    , "write() - grunt.file.": "http://gruntjs.com/api/grunt.file#grunt.file.write"
-    , "write() - js": "http://www.w3schools.com/jsref/met_doc_write.asp"
-    , "writeFile() - fs. - Node": "http://nodejs.org/api/fs.html#fs_fs_writefile_filename_data_options_callback"
-    , "writeln - grunt.verbose.": "http://gruntjs.com/api/grunt.log#grunt.log.write-grunt.verbose.write"
-    , "writeln() - js": "http://www.w3schools.com/jsref/met_doc_writeln.asp"
-    , "xmlns - html": "http://www.w3schools.com/tags/att_html_xmlns.asp"
-    , "xmlns:tns": "http://stackoverflow.com/questions/17295588/xmlntns-and-targetnamespace"
-    , "XmlAccessorType - @annot": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlAccessorType.html"
-    , "XmlElement - @annot": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlElements.html"
-    , "XMLHttpRequest - js": "https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest"
-    , "XmlRootElement - @annot": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlRootElement.html"
-    , "XmlType - @annot": "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlType.html"
-    , "xs: vs xsd:": "http://stackoverflow.com/questions/1193563/difference-between-xs-and-xsd-in-xml-schema-file"
-    , "xsd indicators": "http://www.w3schools.com/schema/schema_complex_indicators.asp"
-
-
-  }; // end object
-
-    //----------------------------------------------------------------------------
-
-
-
   
-  //----------------------------------------------------------------------------
-// this function helps make sort() case-insensitive
+//   //----------------------------------------------------------------------------
+// // this function helps make sort() case-insensitive
 
-function insensitive(s1, s2) {
-  var s1lower = s1.toLowerCase();
-  var s2lower = s2.toLowerCase();
+// function insensitive(s1, s2) {
+//   var s1lower = s1.toLowerCase();
+//   var s2lower = s2.toLowerCase();
 
-  return s1lower > s2lower? 1 : (s1lower < s2lower? -1 : 0);
+//   return s1lower > s2lower? 1 : (s1lower < s2lower? -1 : 0);
 
+// }
+// //----------------------------------------------------------------------------
+
+
+
+
+
+// //----------------------------------------------------------------------------
+// // function to print out a js object
+
+// function printObj(obj){
+
+//   var keys = [];  // declare variable to put array keys in
+//   var currentKey,nextKey, f;
+//   var bag = "";
+//   var startingLetter = "";
+
+//   for (var k in obj){  // for every key in json object 
+//     if (obj.hasOwnProperty(k)){ // if key has a property 
+//       keys.push(k);   // put key (and its property) into the -keys- array
+//     }
+//   } // end for()
+
+//   keys.sort(insensitive); // sort the -keys- array regardless of case
+
+
+
+
+
+//   for (f = 0; f < keys.length; f++) {  // for each of the elements of the -keys- array
+
+//     //------------
+//     if (!keys[f - 1]) {
+//       bag = "<hr>" + keys[f].charAt(0).toUpperCase() + "<br>";
+//     }
+//     //----------------
+
+//     startingLetter = "";     // empty the main letter variable
+
+//     // assign the current key and the next jey
+//     currentKey = keys[f]; //console.log('currentKey: '+ currentKey);
+//     if (keys[f + 1]) {   // if nextKey exists
+//       nextKey = keys[f + 1]; //console.log('nextKey: ' + nextKey);
+//     }
+//     else {
+
+//       nextKey = ' ';
+//     }
+
+//     if( currentKey.toLowerCase().charAt(0)  != nextKey.toLowerCase().charAt(0) ){
+//     //console.log('in if()');
+//     //console.log(currentKey.charAt(0).toLowerCase() + " vs " + nextKey.charAt(0).toLowerCase());
+//     startingLetter += "<hr>" + nextKey.toUpperCase().charAt(0) + "<br>";
+//     //console.log('startingLetter: '+startingLetter);
+//   }
+
+
+
+//   bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey + '</a><br>';
+
+//   bag += startingLetter; // add the letter to the bag
+
+//   } // end for()
+//       return bag; // if you use 'document.write()' the document will have only the contents of the object on white background
+// }; // end printObj()
+
+// //=========================================================================================
+//  //window.onload = printObj(funnyObj);
+//  function func (){
+//   var element = document.getElementById('display_pane');
+//   element.innerHTML = printObj(object);
+//  }
+
+//  window.onload = func;
+
+
+var acies = [
+    {   name: "action=",
+        of: "html",
+        url: "http://www.w3schools.com/tags/att_form_action.asp"
+    },
+    {   name: "add()",
+        of: "Java",
+        on: "Container",
+        url: "http://docs.oracle.com/javase/7/docs/api/java/awt/Container.html#add(java.awt.Component)"
+    }, 
+    {   name: "addColorStop()",
+        of: "html",
+        url: "http://www.w3schools.com/tags/canvas_addcolorstop.asp"
+    },
+    { name: "addObject()",
+      on: "ModelAndView",
+      url: "http://docs.spring.io/spring/docs/2.5.x/api/org/springframework/web/servlet/ModelAndView.html#addObject(java.lang.Object)"
+    },    
+    { name: "alert()",
+      of: "JavaScript",
+      on: "Window",
+      url: "http://www.w3schools.com/jsref/met_win_alert.asp"
+    },    
+    { name: "all",
+      of: "xs",
+      url: "http://www.w3schools.com/schema/el_all.asp"
+    },    
+    { name: "annotation",
+      on: "javax.xml.bind",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/package-summary.html"
+    },    
+    { name: "append()",
+      on: "StringBuffer",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#append(boolean)"
+    },    
+    { name: "appendChild()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_node_appendchild.asp"
+    },    
+    { name: "arc()",
+      of: "html",
+      url: "http://www.w3schools.com/tags/canvas_arc.asp"
+    },    
+    { name: "attribute 1",
+      of: "xsd",
+      url: "http://www.w3schools.com/schema/schema_simple_attributes.asp"
+    },    
+    { name: "attribute 2",
+      of: "xsd",
+      url: "http://msdn.microsoft.com/en-us/library/ms256143(v=vs.110).aspx"
+    },    
+    { name: "back()",
+      of: "JavaScript",
+      on: "History",
+      url: "http://www.w3schools.com/jsref/met_his_back.asp"
+    },    
+    { name: "background()",
+      of: "processing",
+      url: "https://www.processing.org/reference/background_.html"
+    },    
+    { name: "basename()",
+      of: "JavaScript",
+      on: "OS.Path",
+      url: "https://developer.mozilla.org/en-US/docs/JavaScript_OS.File/OS.Path#OS.Path.basename"
+    },    
+    { name: "basename()",
+      on: "path",
+      of: "Node.js",
+      url: "http://nodejs.org/api/path.html#path_path_basename_p_ext"
+    },    
+    { name: "beginPath()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_beginpath.asp"
+    },    
+    { name: "beginShape()",
+      of: "processing",
+      url: "http://processing.org/reference/beginShape_.html"
+    },    
+    { name: "bgColor=",
+      of: "html",
+      url: "http://www.w3schools.com/tags/att_body_bgcolor.asp"
+    },    
+    { name: "ceil()",
+      of: "JavaScript", 
+      url: "http://www.w3schools.com/jsref/jsref_ceil.asp"
+    },    
+    { name: "charset=",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/prop_anchor_charset.asp"
+    },    
+    { name: "choice",
+      of: "xs",
+      url: "http://www.w3schools.com/schema/el_choice.asp"
+    },
+    { name: "close()",
+      of: "Java",
+      on: "Statement",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html#close()"
+    },    
+    { name: "complexType",
+      of: "xml",
+      url: "http://www.w3schools.com/schema/el_complextype.asp"
+    },    
+    { name: "concat()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_concat_array.asp"
+    },    
+    { name: "config",
+      of: "npm",
+      url: "https://npmjs.org/doc/config.html"
+    },    
+    { name: "confirm()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_win_confirm.asp"
+    },    
+    { name: "copy()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.copy"
+    },    
+    { name: "create()",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
+    },    
+    { name: "createLinearGradient()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_createlineargradient.asp"
+    },    
+    { name: "createRadialGradient()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_createradialgradient.asp"  
+    },    
+    { name: "createStatement()",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/sql/Connection.html#createStatement()"
+    },    
+    { name: "cwd()",
+      of: "process.",
+      of: "Node.js",
+      url: "http://nodejs.org/api/process.html#process_process_cwd"
+    },    
+    { name: "delete()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.delete"
+    },    
+    { name: "dirname(p)",
+      on: "path",
+      of: "Node.js",
+      url: "http://nodejs.org/api/path.html#path_path_dirname_p"
+    },    
+    { name: "drawImage()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_drawimage.asp"
+    },    
+    { name: "DriverManager",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/sql/DriverManager.html"
+    },    
+    { name: "element 1",
+      of: "xsd",
+      url: "http://www.w3schools.com/schema/schema_complex.asp"
+    },    
+    { name: "element 2",
+      of: "xsd",
+      url: "http://msdn.microsoft.com/en-us/library/ms256118(v=vs.110).aspx"
+    },    
+    { name: "elementFormDefault",
+      of: "XML",
+      url: "http://stackoverflow.com/questions/1463138/what-does-elementformdefault-do-for-xml-when-is-it-used"
+    },    
+    { name: "enum types", 
+      of: "JavaSE",
+      url: "http://docs.oracle.com/javase/tutorial/java/javaOO/enum.html"
+    },    
+    { name: "env",
+      on: "process",
+      of: "Node.js",
+      url: "http://nodejs.org/api/process.html#process_process_env"
+    },    
+    { name: "equals()",
+      on: "Object",
+      of: "Java",
+      url: "https://today.java.net/pub/a/today/2006/07/27/defining-object-identity.html#objectequals-implements-identity"
+    },    
+    { name: "err",
+      of: "Java",
+      on: "System",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/lang/System.html#err"
+    },    
+    { name: "escapeString()",
+      of: "PHP",
+      url: "http://php.net/manual/en/sqlite3.escapestring.php"
+    },    
+    { name: "eval()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_eval.asp"
+    },    
+    { name: "executeUpdate()",
+      on: "Statement",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html#executeUpdate(java.lang.String)"
+    },    
+    { name: "exists()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.exists"
+    },    
+    { name: "exists()",
+      of: "Java",
+      on: "File",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/io/File.html#exists()"
+    },    
+    { name: "exists(path, callback)",
+      of: "fs.",
+      url: "http://nodejs.org/api/fs.html#fs_fs_exists_path_callback"
+    },    
+    { name: "existsSync(path)",
+      of: "fs.",
+      url: "http://nodejs.org/api/fs.html#fs_fs_existssync_path"
+    },    
+    { name: "expand()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.expand"
+    },    
+    { name: "fail",
+      of: "grunt.",
+      url: "http://gruntjs.com/api/grunt.fail#grunt.fatal"
+    },    
+    { name: "fill()",
+      of: "processing",
+      url: "https://www.processing.org/reference/fill_.html"
+    },    
+    { name: "fillRect()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_fillrect.asp"
+    },    
+    { name: "fillStyle",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_fillstyle.asp"
+    },    
+    { name: "fillText()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_filltext.asp"
+    },    
+    { name: "floor()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_floor.asp"
+    },    
+    { name: "font=",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_font.asp"
+    },    
+    { name: "for...in",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in"
+    },    
+    { name: "forEach()",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+    },    
+    { name: "forName()",
+      on: "Class&lt;T&gt;",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html#forName(java.lang.String)"
+    },    
+    { name: "fs",
+      of: "Node.js",
+      url: "http://nodejs.org/api/fs.html#fs_file_system"
+    },    
+    { name: "function",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/js/js_functions.asp"
+    },    
+    { name: "get()",
+      on: "habitat",
+      of: "Node.js",
+      url: "https://www.npmjs.org/package/habitat"
+    },    
+    { name: "get()",
+      on: "HashMap",
+      of: "Java",
+      url: "http://msdn.microsoft.com/en-us/library/aa986846(v=vs.80).aspx"
+    },    
+    { name: "getConnection()",
+      of: "Java",
+      on: "DriverManager",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/sql/DriverManager.html#getConnection(java.lang.String)"
+    },    
+    { name: "getDay()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_getday.asp"
+    },    
+    { name: "getElementById()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_doc_getelementbyid.asp"
+    },    
+    { name: "getenv()",
+      of: "PHP",
+      url: "http://www.php.net/manual/en/function.getenv.php"
+    },    
+    { name: "getFullYear()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_getfullyear.asp"
+    },    
+    { name: "getFullYear()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_getfullyear"
+    },    
+    { name: "getProperty()",
+      on: "Properties",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/util/Properties.html#getProperty(java.lang.String)"
+    },    
+    { name: "getTemplate()",
+      of: "env.",
+      of: "nunjucks",
+      url: "http://nunjucks.jlongster.com/api#Loading-a-template"
+    },    
+    { name: "getTime() 1",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_gettime.asp"
+    },    
+    { name: "getTime() 2",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_gettime"
+    },    
+    { name: "go()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_his_go.asp"
+    },    
+    { name: "habitat",
+      of: "Node.js",
+      url: "https://www.npmjs.org/package/habitat"
+    },    
+    { name: "hasOwnProperty() 1",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
+    },    
+    { name: "hasOwnProperty() 2",
+      of: "JavaScript",
+      url: "http://msdn.microsoft.com/en-us/library/ie/328kyd6z(v=vs.94).aspx"
+    },    
+    { name: "info()",
+      on: "console",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/API/console.info"
+    },    
+    { name: "init()",
+      on: "config",
+      of: "Grunt",
+      url: "http://gruntjs.com/api/grunt.config#grunt.config.init"
+    },    
+    { name: "initConfig()",
+      on: "grunt",
+      url: "http://gruntjs.com/api/grunt#grunt.initconfig"
+    },    
+    { name: "isDataSet()",
+      of: "xsd",
+      url: "http://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlschemas.isdataset(v=vs.110).aspx"
+    },    
+    { name: "isDir()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.isdir"
+    },    
+    { name: "JAXBContent",
+      of: "Java",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/JAXBContext.html"
+    },    
+    { name: "JAXBElement<T>",
+      of: "Java",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/JAXBElement.html"
+    },    
+    { name: "join()",
+      on: "Array",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_join.asp"
+    },    
+    { name: "join()",
+      of: "path.",
+      of: "Node.js",
+      url: "http://nodejs.org/api/path.html#path_path_join_path1_path2"
+    },    
+    { name: "lastChild",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/dom/prop_node_lastchild.asp"
+    },    
+    { name: "lastModified",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/prop_doc_lastmodified.asp"
+    },    
+    { name: "length",
+      on: "String",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_length_string.asp"
+    },    
+    { name: "length()",
+      on: "String",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/6/docs/api/java/lang/String.html#length()"
+    },    
+    { name: "length()",
+      on: "StringBuffer",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#length()"
+    },    
+    { name: "lineTo()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_lineto.asp"
+    },    
+    { name: "loadNpmTasks()",
+      of: "grunt.",
+      url: "http://gruntjs.com/api/grunt#grunt.loadnpmtasks"
+    },    
+    { name: "loadNpmTasks()",
+      of: "grunt.task.",
+      url: "http://gruntjs.com/api/grunt.task#grunt.task.loadnpmtasks"
+    },    
+    { name: "max()",
+      of: "JavaScript",
+      on: "Math",
+      url: "http://www.w3schools.com/jsref/jsref_max.asp"
+    },    
+    { name: "maxExclusive 1",
+      of: "xsd",
+      url: "http://www.java2s.com/Code/XML/XML-Schema/xsmaxExclusivedefinesamaximumvaluethatcanbereached.htm"
+    },    
+    { name: "maxExclusive 2",
+      of: "xsd",
+      url: "http://www.safariflow.com/library/view/xml-in-a/0596007647/re103.html"
+    },    
+    { name: "maxInclusive",
+      of: "xsd",
+      url: "http://pic.dhe.ibm.com/infocenter/mpadoc/v7r0m0/index.jsp?topic=%2Fcom.volantis.mcs.eclipse.doc_6.3.0.ibm-9_0%2Fxdime2%2Fxs_mininclusive.html"
+    },    
+    { name: "maxOccurs=",
+      of: "xs",
+      url: "http://msdn.microsoft.com/en-us/library/ms759115(v=vs.85).aspx"
+    },    
+    { name: "meta",
+      of: "html",
+      url: "http://www.w3schools.com/tags/tag_meta.asp"
+    },    
+    { name: "method",
+      of: "RequestMapping",
+      url: "http://docs.spring.io/spring/docs/2.5.x/api/org/springframework/web/bind/annotation/RequestMapping.html#method()"
+    },    
+    { name: "min=",
+      of: "html",
+      url: "http://www.w3schools.com/tags/att_input_min.asp"
+    },    
+    { name: "min()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_min.asp"
+    },    
+    { name: "minInclusive",
+      of: "xsd",
+      url: "http://pic.dhe.ibm.com/infocenter/mpadoc/v7r0m0/index.jsp?topic=%2Fcom.volantis.mcs.eclipse.doc_6.3.0.ibm-9_0%2Fxdime2%2Fxs_mininclusive.html"
+    },    
+    { name: "minOccurs",
+      of: "xsd",
+      url: "http://msdn.microsoft.com/en-us/library/ms754677(v=vs.85).aspx"
+    },    
+    { name: "mkdir()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.mkdir"
+    },    
+    { name: "mouseClicked()",
+      of: "processing",
+      url: "https://www.processing.org/reference/mouseClicked_.html"
+    },    
+    { name: "mouseX",
+      of: "processing",
+      url: "https://www.processing.org/reference/mouseX.html"
+    },    
+    { name: "mouseY",
+      of: "processing",
+      url: "https://www.processing.org/reference/mouseY.html"
+    },    
+    { name: "moveTo()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_moveto.asp"
+    },    
+    { name: "NMTOKEN 1",
+      of: "xsd",
+      url: "http://www.datypic.com/sc/xsd/t-xsd_NMTOKEN.html"
+    },    
+    { name: "NMTOKEN 2",
+      of: "xsd",
+      url: "http://stackoverflow.com/questions/5808976/what-is-the-usefulness-of-nmtoken-and-nmtokens-types"
+    },    
+    { name: "nodeType",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/prop_node_nodetype.asp"
+    },    
+    { name: "noStroke()",
+      of: "processing",
+      url: "https://www.processing.org/reference/noStroke_.html"
+    },    
+    { name: "nonNegativeInteger",
+      of: "xsd",
+      url: "http://www.datypic.com/sc/xsd/t-xsd_nonNegativeInteger.html"
+    },    
+    { name: "onclick=",
+      of: "html",
+      url: "http://www.w3schools.com/jsref/event_onclick.asp"
+    },    
+    { name: "onsubmit=",
+      of: "html",
+      url: "http://www.w3schools.com/tags/ev_onsubmit.asp"
+    },    
+    { name: "option()",
+      of: "grunt.",
+      url: "http://gruntjs.com/api/grunt#grunt.option"
+    },    
+    { name: "parse()",
+      on: "JSON",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse"
+    },    
+    { name: "pattern",
+      of: "xsd",
+      url: "http://www.datypic.com/books/defxmlschema/chapter09.html"
+    },    
+    { name: "port",
+      on: "location",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/prop_loc_port.asp"
+    },    
+    { name: "positiveInteger",
+      of: "xsd",
+      url: "http://www.datypic.com/sc/xsd/t-xsd_positiveInteger.html"
+    },    
+    { name: "pow()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_pow.asp"
+    },    
+    { name: "println()",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println()"
+    },    
+    { name: "prompt()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_win_prompt.asp"
+    },    
+    { name: "protocol",
+      on: "location",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/prop_loc_protocol.asp"
+    },    
+    { name: "put()",
+      on: "HashMap&lt;K,V&gt;",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html#put(K,%20V)"
+    },    
+    { name: "put()",
+      of: "Java",
+      url: "http://www.coderanch.com/t/401152/java/java/put-method"
+    },    
+    { name: "rand()",
+      of: "PHP",
+      url: "http://www.w3schools.com/php/func_math_rand.asp"
+    },    
+    { name: "random()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_random.asp"
+    },    
+    { name: "read()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.read"
+    },    
+    { name: "readFileSync()",
+      of: "Node.js",
+      url: "http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options"
+    },    
+    { name: "readJson()",
+      of: "Grunt",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.readjson"
+    },    
+    { name: "readObject()",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/io/ObjectInputStream.html#readObject()"
+    },    
+    { name: "ref=",
+      of: "xsd",
+      url: "http://stackoverflow.com/questions/1448888/what-does-the-ref-attribute-on-an-element-in-an-xsd-do"
+    },    
+    { name: "registerTask()",
+      of: "grunt.task.",
+      url: "http://gruntjs.com/api/grunt.task#grunt.task.registertask"
+    },    
+    { name: "relative(from, to)",
+      on: "path",
+      of: "Node.js",
+      url: "http://nodejs.org/api/path.html#path_path_relative_from_to"
+    },    
+    { name: "replace() 1",
+      on: "String",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_replace.asp"
+    },    
+    { name: "replace() 2",
+      on: "String",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace"
+    },    
+    { name: "request",
+      of: "Git",
+      url: "https://github.com/mikeal/request"
+    },    
+    { name: "request",
+      of: "Git",
+      url: "https://npmjs.org/package/request"
+    },    
+    { name: "RequestMapping",
+      of: "annotation",
+      url: "http://docs.spring.io/spring/docs/2.5.x/api/org/springframework/web/bind/annotation/RequestMapping.html"
+    },    
+    { name: "require()",
+      of: "npm",
+      url: "https://npmjs.org/package/require"
+    },    
+    { name: "restriction",
+      of: "xsd",
+      url: "http://www.w3schools.com/schema/schema_facets.asp"
+    },    
+    { name: "round()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_round.asp"
+    },    
+    { name: "run()",
+      of: "grunt.task.",
+      url: "http://gruntjs.com/api/grunt.task#grunt.task.run"
+    },    
+    { name: "schema",
+      of: "xsd",
+      url: "http://www.w3schools.com/schema/schema_schema.asp"
+    },    
+    { name: "sequence",
+      of: "xs",
+      url: "http://www.w3schools.com/schema/el_sequence.asp"
+    },    
+    { name: "size()",
+      of: "processing",
+      url: "https://www.processing.org/reference/size_.html"
+    },    
+    { name: "sort()",
+      of: "JavaScript",
+      on: "Array",
+      url: "http://www.w3schools.com/jsref/jsref_sort.asp"
+    },    
+    { name: "spawn()",
+      of: "grunt.util.",
+      url: "http://gruntjs.com/api/grunt.util#grunt.util.spawn"
+    },    
+    { name: "split()",
+      of: "JavaScript",
+      on: "String",
+      url: "http://www.w3schools.com/jsref/jsref_split.asp"
+    },    
+    { name: "sqrt()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_sqrt.asp"
+    },    
+    { name: "src",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/prop_frame_src.asp"
+    },    
+    { name: "Stats",
+      on: "fs",
+      of: "Node.js",
+      url: "http://nodejs.org/api/fs.html#fs_class_fs_stats"
+    },    
+    { name: "statSync(path)",
+      on: "fs",
+      of: "Node.js",
+      url: "http://nodejs.org/api/fs.html#fs_fs_statsync_path"
+    },    
+    { name: "string",
+      of: "xsd",
+      url: "http://www.datypic.com/sc/xsd/t-xsd_string.html"
+    },    
+    { name: "stringBuffer",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html"
+    },    
+    { name: "stringify() 1",
+      on: "JSON",
+      of: "JavaScript",
+      url: "http://msdn.microsoft.com/en-us/library/ie/cc836459(v=vs.94).aspx"
+    },    
+    { name: "stringify() 2",
+      on: "JSON",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+    },    
+    { name: "stroke()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_stroke.asp"
+    },    
+    { name: "strokeText()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/tags/canvas_stroketext.asp"
+    },    
+    { name: "substr()",
+      of: "JavaScript",
+      on: "String",
+      url: "http://www.w3schools.com/jsref/jsref_substr.asp"
+    },    
+    { name: "substring()",
+      on: "StringBuffer",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/6/docs/api/java/lang/StringBuffer.html#substring(int)"
+    },    
+    { name: "substring()",
+      of: "JavaScript",
+      on: "String",
+      url: "http://www.w3schools.com/jsref/jsref_substring.asp"
+    },    
+    { name: "switch()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/js/js_switch.asp"  
+    },    
+    { name: "toLocaleString()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_tolocalestring.asp"
+    },    
+    { name: "toLowerCase()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_tolowercase.asp"
+    },    
+    { name: "toString",
+      on: "Object",
+      of: "JavaSE",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#toString()"
+    },    
+    { name: "toUTCString() 1",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/jsref_toutcstring.asp"
+    },    
+    { name: "toUTCString() 2",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_toutcstring"
+    },    
+    { name: "trim()",
+      on: "js",
+      of: "jsf",
+      url: "http://jsfiddle.net/KCza9/"
+    },    
+    { name: "util",
+      of: "Node.js",
+      url: "http://stackoverflow.com/questions/17368565/what-does-the-util-module-in-node-js-do"
+    },    
+    { name: "value",
+      of: "RequestMapping",
+      url: "http://docs.spring.io/spring/docs/2.5.x/api/org/springframework/web/bind/annotation/RequestMapping.html#value()"
+    },    
+    { name: "while()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/js/js_loop_while.asp"
+    },    
+    { name: "write()",
+      on: "grunt.file",
+      url: "http://gruntjs.com/api/grunt.file#grunt.file.write"
+    },    
+    { name: "write()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_doc_write.asp"
+    },    
+    { name: "writeFile()",
+      on: "fs.",
+      of: "Node.js",
+      url: "http://nodejs.org/api/fs.html#fs_fs_writefile_filename_data_options_callback"
+    },    
+    { name: "writeln()",
+      on: "grunt.verbose",
+      url: "http://gruntjs.com/api/grunt.log#grunt.log.write-grunt.verbose.write"
+    },    
+    { name: "writeln()",
+      of: "JavaScript",
+      url: "http://www.w3schools.com/jsref/met_doc_writeln.asp"
+    },    
+    { name: "xmlns",
+      of: "html",
+      url: "http://www.w3schools.com/tags/att_html_xmlns.asp"
+    },    
+    { name: "xmlns:tns",
+      url: "http://stackoverflow.com/questions/17295588/xmlntns-and-targetnamespace"
+    },    
+    { name: "XmlAccessorType",
+      of: "@annot",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlAccessorType.html"
+    },    
+    { name: "XmlElement",
+      of: "@annot",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlElements.html"
+    },    
+    { name: "XMLHttpRequest",
+      of: "JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest"
+    },    
+    { name: "XmlRootElement",
+      of: "@annot",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlRootElement.html"
+    },    
+    { name: "XmlType",
+      of: "@annot",
+      url: "http://docs.oracle.com/javaee/5/api/javax/xml/bind/annotation/XmlType.html"
+    },    
+    { name: "xs: vs xsd:",
+      url: "http://stackoverflow.com/questions/1193563/difference-between-xs-and-xsd-in-xml-schema-file"
+    },    
+    { name: "xsd indicators",
+      url: "http://www.w3schools.com/schema/schema_complex_indicators.asp"
+    }
+
+];
+
+function printArray(acies){
+    var summa = acies.length;
+    var bag ="Words in my vocabulary: <b>"+summa+"</b><br>";
+    for(x in acies){
+        bag += '<a href="' + acies[x].url + '" target="_blank">';
+        bag += '<span class="entry">' + acies[x].name + '</span></a> ';
+        bag += '<span class="gray">';
+
+        if(acies[x].hasOwnProperty('of')){
+            bag += ' <span class="of">'+ acies[x].of + '</span>';
+        }
+        if(acies[x].hasOwnProperty('on')){
+            bag += ' ' + acies[x].on + '.~';
+        }
+        bag += '</span><br>';
+        //bag += '<button formaction="' + acies[x].url +'" type="button">go</button><br>';
+    }
+    return bag;
 }
-//----------------------------------------------------------------------------
 
 
-
-
-
-//----------------------------------------------------------------------------
-// function to print out a js object
-
-function printObj(obj){
-
-  var keys = [];  // declare variable to put array keys in
-  var currentKey,nextKey, f;
-  var bag = "";
-  var startingLetter = "";
-
-  for (var k in obj){  // for every key in json object 
-    if (obj.hasOwnProperty(k)){ // if key has a property 
-      keys.push(k);   // put key (and its property) into the -keys- array
-    }
-  } // end for()
-
-  keys.sort(insensitive); // sort the -keys- array regardless of case
-
-
-
-
-
-  for (f = 0; f < keys.length; f++) {  // for each of the elements of the -keys- array
-
-    //------------
-    if (!keys[f - 1]) {
-      bag = "<hr>" + keys[f].charAt(0).toUpperCase() + "<br>";
-    }
-    //----------------
-
-    startingLetter = "";     // empty the main letter variable
-
-    // assign the current key and the next jey
-    currentKey = keys[f]; //console.log('currentKey: '+ currentKey);
-    if (keys[f + 1]) {   // if nextKey exists
-      nextKey = keys[f + 1]; //console.log('nextKey: ' + nextKey);
-    }
-    else {
-
-      nextKey = ' ';
-    }
-
-    if( currentKey.toLowerCase().charAt(0)  != nextKey.toLowerCase().charAt(0) ){
-    //console.log('in if()');
-    //console.log(currentKey.charAt(0).toLowerCase() + " vs " + nextKey.charAt(0).toLowerCase());
-    startingLetter += "<hr>" + nextKey.toUpperCase().charAt(0) + "<br>";
-    //console.log('startingLetter: '+startingLetter);
-  }
-
-
-
-  bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey + '</a><br>';
-
-  bag += startingLetter; // add the letter to the bag
-
-  } // end for()
-      return bag; // if you use 'document.write()' the document will have only the contents of the object on white background
-}; // end printObj()
-
-//=========================================================================================
- //window.onload = printObj(funnyObj);
  function func (){
   var element = document.getElementById('display_pane');
-  element.innerHTML = printObj(object);
+  element.innerHTML = printArray(acies);
  }
 
  window.onload = func;
-

@@ -11,6 +11,18 @@ padding:5px 10px;
     text-decoration: blink;
     background-color: yellow;
 }
+.entry{
+    font-family: Consolas;
+    font-size: medium;
+    font-weight: bold;
+}
+.gray{
+    color: gray;
+}
+.of{
+    font-family: serif;
+    font-style: italic;
+}
 .red{
     height: 10px solid;
     color: red;
@@ -44,9 +56,9 @@ padding:5px 10px;
     font-family: "Consolas" monospace;
     font-size: small;
     
-    -moz-column-count:4; /* Firefox */
-    -webkit-column-count:4; /* Safari and Chrome */
-    column-count:4;
+    -moz-column-count:3; /* Firefox */
+    -webkit-column-count:3; /* Safari and Chrome */
+    column-count:3;
     -moz-column-gap:4px; /* Firefox */
     -webkit-column-gap:4px; /* Safari and Chrome */
     column-gap:4px;
