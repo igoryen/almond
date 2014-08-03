@@ -618,7 +618,12 @@ var acies = [
     { name: "pow()",
       of: "JavaScript",
       url: "http://www.w3schools.com/jsref/jsref_pow.asp"
-    },    
+    },   
+    { name: "println()",
+      on: "System.out",
+      of: "Java",
+      url: "http://docs.oracle.com/javase/7/docs/api/java/lang/System.html#out" 
+    }, 
     { name: "println()",
       of: "Java",
       url: "http://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println()"
