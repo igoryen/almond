@@ -19,9 +19,7 @@ views
 FILES:
 
 all_links.js (the file with all my links)
-
 package.json (with all the dependencies)
-
 server.js (the main program)
 
 ------------------------
