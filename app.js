@@ -1,10 +1,10 @@
 //======= VARIABLES ========================================================
 var aux = require("./middleware");
-//console.log('the type is: ' + typeof aux.printButtons); // success!
+// 1
 
-var express = require('express');  // use this web application framework for node. assign: module 'express' to $express
-var nunjucks = require( "nunjucks" ); // a templating system
-var tmpl = new nunjucks.Template('Привет, {{ aaa }}!'); // create a template used in the terminal
+var express = require('express');  //2
+var nunjucks = require( "nunjucks" ); // 3
+var tmpl = new nunjucks.Template('Привет, {{ aaa }}!'); // 4
 console.log(tmpl.render({ aaa: "igoryen" })); // "Привет, igoryen!"
 
 /*
@@ -14,21 +14,23 @@ nunjucksEnv.addFilter("instantiate", function(input) {
 });
 */
 
-var path = require('path'); // The -path- module is required for handling and transforming file paths.
+var path = require('path'); // 5
 //var i18n = require( "i18n-abide" );
-var i18n = require( "webmaker-i18n" );
-var routes  = require( "./routes" );
-var app = express();
-var env = require('./config/environment'); // take all the environment variables supplied from ./config/environment.js  and assign them to -env
+var i18n = require( "webmaker-i18n" ); // 6
+var routes  = require( "./routes" ); // 7
+var app = express(); // 9
+var env = require('./config/environment'); // 10
 
-var nunjucksEnv   = new nunjucks.Environment( new nunjucks.FileSystemLoader( path.join( __dirname, 'views' ))); // create the environment for the templating system
+var nunjucksEnv = new nunjucks.Environment( 
+  new nunjucks.FileSystemLoader( path.join( __dirname, 'views' ))
+); // 11
 
 var tmpl_test = nunjucksEnv.getTemplate('test.html'); // doesn't work
 //console.log(tmpl2.render({ bbb: "Igor" })); // works
 tmpl_test.render({ bbb: "Igor" }); // doesn't work. Misplaced?
 
-var cwd_name = process.cwd(); // take process.cwd [current working dir] and assign ... to $dirname
-var logger  = require('./lib/logger');
+var cwd_name = process.cwd(); // 12
+var logger  = require('./lib/logger'); // 13
 
 //--------------------------------------------------
 // create a server and assign it to variable -app- 
@@ -63,42 +65,27 @@ app.configure( function() {
   app.use(express.logger('dev'));//?
   app.use( express.compress() ); //?
 
-  //----------------------------------------------------------------
-  //   This results in:
-  //   /Users/igoryen/igoryen_personal/Learn/avocado/public.
-  //   If a specific directory is not specified
-  //   (where?... )
-  //   then express will use the dir called 'public'. 
-  //   what will be served is only the HTML file in public
-
-  app.use( express.static( path.join( __dirname  + "/public") ) ); 
-  //-----------------------------------------------------------------
-
-
-  //-------------------------------------------
-  // Setup locales with i18n
+  app.use( express.static( path.join( __dirname  + "/public") ) ); // 14
+  
+  // 15
 
   //app.use( i18n.abide({
     app.use( i18n.middleware({
       supported_languages: [
         'en-US'
       ],
-      default_lang: "en_US", // PROBLEM (2012-08)! if I switch to a dash, links in the english version stop working.
+      default_lang: "en_US", // 16
       translation_type: "key-value-json",
       //translation_directory: "locale",
       translation_directory: path.resolve( __dirname, "locale"),
       locale_on_url: true
   }));
-  //-------------------------------------------
 
   app.use( express.bodyParser() );
   app.use( app.router );
 
-  //---------------------------------------------------------------
-  //  1. pass -dirname- to express.static()
-  //  2. pass the return value to app.use 
+  // 17  
   app.use( express.static(cwd_name));  
-  //---------------------------------------------------------------
 
 });
 //=== EXPRESS CONFIGURATION end ===================
@@ -109,8 +96,8 @@ app.configure( function() {
 
 
 //--------------------------------------------------------------------
-    //if (process.argv[2] && process.argv[2].match(/^[0-9]+$/)) // 5
-      //port = parseInt(process.argv[2]); // 6
+    //if (process.argv[2] && process.argv[2].match(/^[0-9]+$/))
+      //port = parseInt(process.argv[2]); // 18
 //----------------------------------------------------
 
 
@@ -218,19 +205,16 @@ app.get('/int222video', routes.pages("int222video"));
 
 
 app.listen( env.get('PORT'), function() { 
-  logger.info("env.get('PORT') is " + env.get('PORT') + ", cwd_name (where files are) is " + cwd_name);
-  logger.info("______The currently executing script resides in __dirname '" +__dirname + '"'); //11
+  logger.info("env.get('PORT') is " 
+    + env.get('PORT') 
+    + ", cwd_name (where files are) is " 
+    + cwd_name);
+  logger.info("______The currently executing script resides in __dirname '" 
+    +__dirname 
+    + '"');
 });
 //========= APP.GET() et al ================================================
-
-
-// 5) if it's true that ...
-// 6)  then re-assign 'port', take ..., parse it into an int, and re-assign it to $port
    
 // 8) nameless function: prints (in terminal) port number and dir_name. 
 //     - port number will be 8005
 //     - dir_name will be the absolute path to the dir where s.js is located.
-
-// 10) 
-// 11) 
-

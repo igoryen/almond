@@ -1,0 +1,63 @@
+1. console.log('the type is: ' + typeof aux.printButtons); // success!
+2. use this WAF for node. assign: module 'express' to express
+3. a templating system
+4. create a template used in the terminal
+5. The -path- module is required for handling and transforming file paths.
+6. the module used for localization
+7. the routes folder I made
+8. instantiate an app
+10. take all the environment variables supplied from ./config/environment.js  and assign them to -env
+11. create the environment for the templating system. -views- is the folder I made
+12. take process.cwd [current working dir] and assign ... to $dirname
+13. purpose?
+14. This results in: /Users/igoryen/igoryen_personal/Learn/avocado/public. 
+  If a specific directory is not specified (where?... )
+  then express will use the dir called 'public'. 
+  what will be served is only the HTML file in the 'public' folder
+15. Setup locales with i18n
+16. PROBLEM (2012-08)! if I switch to a dash, links in the english version stop working.
+17. 1) pass -dirname- to express.static(). 2) pass the return value to app.use 
+18. then re-assign 'port', take ..., parse it into an int, and re-assign it to $port
+19. source of the 'habitat' module: package.json/dependencies
+20. Load config (i.e. fill the 'habitat' variable with all the environment variables) from the ".env" file
+21. create a new -env- from the filled -habitat-
+22. console.log('env 1 .......... '+ env);
+23. console.log('PORT 2 ..........' + env.get('PORT'));
+24. export -env-
+
+25. create an object
+26. this function helps make sort() case-insensitive
+27. function to print out a js object
+28. declare variable to put array keys in
+29. for every key in json object 
+30. if key has a property 
+31. put key (and its property) into the -keys- array
+32. sort the -keys- array regardless of case
+33. for each of the elements of the -keys- array
+34. empty the main letter variable
+35. assign the current key and the next jey
+36. if you use 'document.write()' the document will have only the contents of the object on white background
+37. console.log('currentKey: '+ currentKey);
+38. if nextKey exists
+39. console.log('nextKey: ' + nextKey);
+40. console.log('in if()');
+41. console.log(currentKey.charAt(0).toLowerCase() + " vs " + nextKey.charAt(0).toLowerCase());
+42. console.log('startingLetter: '+startingLetter);
+43. add the letter to the bag
+44. array for ready strings
+45. a bin
+46. look through all the -alpha-, at its every element, and process each element as follows:
+47. document.write("after removing all ABC\'s: " + alpha[j]);
+48. remove all ABC
+49. remove all this (<a href=)
+50. remove all this (target="_blank")
+51. remove all this (</a>) and all the following to line-end
+52. alpha[j] = alpha[j].replace(/<!--[A-Z]-->/, '');
+53. remove all 1 and > spaces
+54. document.write("a -> "+alpha[j] + "<br>");
+55. if element is 'not truthy' (is empty) OR the search for 'http' returned 'none' (-1)
+56. discard the element (-charlie- is the bin)
+57. else, put the element into -bravo-
+58. document.write("removed empty elements: " + (alpha.length - bravo.length) + "<br/>");
+59. print out the ready array
+60. document.write("<li>" + bravo[k] + "</li>");

@@ -1,4 +1,4 @@
-var object = {  // 1
+var object = {  // 25
     "CEC (Can.Exp.Class)": "http://www.cic.gc.ca/english/immigrate/cec/index.asp"
   , "Citizenship apply": "http://www.cic.gc.ca/english/citizenship/become.asp"
   , "Dependent Child": "http://www.cic.gc.ca/english/helpcentre/glossary.asp#dependent_child"
@@ -6,57 +6,56 @@ var object = {  // 1
   , "PR requirements": "http://www.cic.gc.ca/english/helpcentre/answer.asp?q=355&t=5"
 };
 
-// 2
+// 26
 function insensitive(s1, s2) {
   var s1lower = s1.toLowerCase();
   var s2lower = s2.toLowerCase();
   return s1lower > s2lower? 1 : (s1lower < s2lower? -1 : 0);
 }
 
-// 10
+// 27
 function printObj(obj){
-  var keys = [];  // 15
+  var keys = [];  // 28
   var currentKey,nextKey, f;
   var bag = "";
   var startingLetter = "";
 
-  for (var k in obj){  // 20
-    if (obj.hasOwnProperty(k)){ // 25
-      keys.push(k);   // 30
+  for (var k in obj){  // 29
+    if (obj.hasOwnProperty(k)){ // 30
+      keys.push(k);   // 31
     }
   }
 
-  keys.sort(insensitive); // 35
+  keys.sort(insensitive); // 32
 
-  for (f = 0; f < keys.length; f++) {  // 40
+  for (f = 0; f < keys.length; f++) {  // 33
 
     if (!keys[f - 1]) {
       bag = "<hr>" + keys[f].charAt(0).toUpperCase() + "<br>";
     }
 
-    startingLetter = ""; // 45
+    startingLetter = ""; // 34
 
-    // 50
-    currentKey = keys[f]; //console.log('currentKey: '+ currentKey);
-    if (keys[f + 1]) {   // if nextKey exists
-      nextKey = keys[f + 1]; //console.log('nextKey: ' + nextKey);
+    // 35
+    currentKey = keys[f]; // 37
+    if (keys[f + 1]) {   // 38
+      nextKey = keys[f + 1]; // 39
     }
     else {
       nextKey = ' ';
     }
 
     if( currentKey.toLowerCase().charAt(0)  != nextKey.toLowerCase().charAt(0) ){
-    //console.log('in if()');
-    //console.log(currentKey.charAt(0).toLowerCase() + " vs " + nextKey.charAt(0).toLowerCase());
+    // 40, 41
     startingLetter += "<hr>" + nextKey.toUpperCase().charAt(0) + "<br>";
-    //console.log('startingLetter: '+startingLetter);
+    // 42
   }
 
   bag += '<a href="'+ obj[currentKey] + '" target="_blank">'+ currentKey + '</a><br>';
-  bag += startingLetter; // add the letter to the bag
+  bag += startingLetter; // 43
 
   } // for()
-    return bag; // 60
+    return bag; // 36
 }; // printObj()
 
 //window.onload = printObj(funnyObj);
@@ -66,18 +65,3 @@ function func (){
 }
 
  window.onload = func;
-
-/*
-1. create an object
-2. this function helps make sort() case-insensitive
-10. function to print out a js object
-15. declare variable to put array keys in
-20. for every key in json object 
-25. if key has a property 
-30. put key (and its property) into the -keys- array
-35. sort the -keys- array regardless of case
-40. for each of the elements of the -keys- array
-45. empty the main letter variable
-50. assign the current key and the next jey
-60. if you use 'document.write()' the document will have only the contents of the object on white background
-*/

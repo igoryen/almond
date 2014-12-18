@@ -5,3 +5,4 @@ projects/013/node_modules
 *.ogg
 *.mp4
 *.ogv
+/nbproject/private/
